@@ -64,7 +64,7 @@ function updateEditorInfo(person, editorInfo, role) {
       sideNameId: "sideSectionEditorName",
       sideProfileImageId: "editorInChiefProfileIcon",
       sideInstitutionName: "chiefUnivName",
-      sideCountryName:"chiefCountry"
+      sideCountryName: "chiefCountry",
     },
     "Deputy Editor": {
       mainNameId: "mainSectionDeputyName",
@@ -72,7 +72,7 @@ function updateEditorInfo(person, editorInfo, role) {
       sideNameId: "sideSectionDeputyName",
       sideProfileImageId: "deputyEditorProfileIcon",
       sideInstitutionName: "deputyUnivName",
-      sideCountryName:"deputyCountry"
+      sideCountryName: "deputyCountry",
     },
   };
 
@@ -103,8 +103,8 @@ function updateEditorInfo(person, editorInfo, role) {
   setText(cfg.mainNameId, name || "—");
   setText(cfg.sideNameId, name || "—");
   setImage(editorInfo, name, cfg);
-  setText(cfg.sideInstitutionName, person['Institution Name']);
-  setText(cfg.sideCountryName, person['Country'])
+  setText(cfg.sideInstitutionName, person["Institution Name"]);
+  setText(cfg.sideCountryName, person["Country"]);
 
   const sideNameEl = document.getElementById(cfg.sideNameId);
   const sideAffEl = document.getElementById(cfg.sideAffId);
@@ -128,9 +128,10 @@ function updateEditorInfo(person, editorInfo, role) {
   }
 }
 
-function setImage(editorInfo, name, cfg){
+function setImage(editorInfo, name, cfg) {
   const BASE_URL = "https://pubs.acs.org";
-  document.getElementById(cfg.sideProfileImageId).src= BASE_URL+ editorInfo[name].imgUrl;
+  document.getElementById(cfg.sideProfileImageId).src =
+    BASE_URL + editorInfo[name].imgUrl;
 }
 
 function adjustVisibility(hasEditorInChief, hasDeputyEditor) {
@@ -234,24 +235,37 @@ async function renderJournalForCoden(code, indexes) {
   setText("detailSectionDaysToFirstPeerReview", metrics?.SubToFDwPR ?? "—");
   setText("daysToAccept", metrics?.SubToAccept ?? "—");
   setRelatedJournalOptions(relatedJournals, code);
+  document.querySelectorAll('.providedYear').forEach(i => {
+    i.textContent = metricsIndex.journal_metrics.year;
+  });
+  setIndexedAndAbstractedData(info);
 
   await loadMastheadAndRenderEditors(code, editorInfo);
 }
 
-function setRelatedJournalOptions(relatedJournals, code){
-      const select = document.getElementById('relatedJournals');
-      relatedJournals.coden.forEach(item => {
-        if(item === code){
-          return;
-        }
-        const option = document.createElement('option');
-        option.value = item;  // Set the value
-        option.textContent = item; // Set the display text
-        option.style.background = '#081B33';
-        select.appendChild(option); // Add to select
-      });
+function setIndexedAndAbstractedData(info) {
+  const indexedList = document.getElementById("indexedList");
+  indexedList.innerHTML = "";
+  info.indexAbstract.forEach((abstract) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = abstract;
+    indexedList.appendChild(listItem);
+  });
+}
 
-
+function setRelatedJournalOptions(relatedJournals, code) {
+  const select = document.getElementById("relatedJournals");
+  relatedJournals.journ_name.forEach((item) => {
+    if (item.includes(code)) {
+      return;
+    }
+    const option = document.createElement("option");
+    option.value = item;
+    option.textContent = item;
+    option.style.background = "#ffffff";
+    option.style.color = "#333333";
+    select.appendChild(option);
+  });
 }
 
 function fetchImages(editorInfo) {

@@ -50,7 +50,7 @@
                             <span class="mainSectionValues" id="mainSectionCiteScore"></span>
                         </p>
                         <p class="line">
-                            <a href="#" class="simple-link">View All 2024 Journal Metrics</a>
+                            <a href="#" class="simple-link">View All <span class="providedYear"></span> Journal Metrics</a>
                         </p>
                     </section>
 
@@ -63,8 +63,6 @@
                         <div class="relatedJournalsParent">
                             <select aria-label="Journal selection" name="relatedJournals" id="relatedJournals"
                                 class="relatedJournals">
-                                <option style="background: #081B33;" selected disabled value="">Related Journals
-                                </option>
                             </select>
                         </div>
                     </div>
@@ -119,21 +117,21 @@
                             <div class="metric-label">Days from Accept to ASAP*</div>
                         </div>
                     </div>
-                    <div class="metrics-note">Data as of 2024 · <br><span class="muted">*Median days</span></div>
+                    <div class="metrics-note">Data as of <span class="providedYear"></span> · <br><span class="muted">*Median days</span></div>
                 </section>
 
                 <div class="content-grid">
                     <section class="main">
                         <div class="dataCard aim-scope">
-                            <h3>Aims &amp; Scope</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                            <h3 class="aimsAndScope">Aims &amp; Scope</h3>
+                            <p class="aimsAndScopeInfo">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry. Lorem Ipsum has been the industry's standard dummy text
                                 ever since the 1500s, when an unknown printer took a galley of type
                                 and scrambled it to make a type specimen book.
                             </p>
 
-                            <h4>Examples of topics that are in-scope:</h4>
-                            <ul>
+                            <h4 class="includedTopics">Examples of topics that are in-scope:</h4>
+                            <ul class="includedTopicsContainer">
                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</li>
                                 <li>It is a long established fact that a reader will be distracted by the readable
@@ -144,8 +142,8 @@
                                     content of a page when looking at its layout.</li>
                             </ul>
 
-                            <h4>Examples of topics that are NOT in-scope:</h4>
-                            <ul>
+                            <h4 class="notIncludedTopics">Examples of topics that are NOT in-scope:</h4>
+                            <ul class="notIncludedTopicsContainer">
                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</li>
                                 <li>It is a long established fact that a reader will be distracted by the readable
@@ -157,8 +155,8 @@
                             </ul>
 
                         </div>
+                        <button class="infoForAuthors">Information for Authors</button>
                     </section>
-
 
                     <aside class="sidebar">
                         <div class="sideCard editor-card">
@@ -198,13 +196,7 @@
                             <div class="indexed">
                                 <h5 class="indexedHeader">Indexed/Abstracted</h5>
                                 <ul class="indexList" id="indexedList">
-                                    <li>PubMed</li>
-                                    <li>Web of Science SCIE</li>
-                                    <li>Scopus</li>
-                                    <li>CAS</li>
-                                    <li>Proquest</li>
-                                    <li>EBSCOHost</li>
-                                    <li>Protico</li>
+
                                 </ul>
                             </div>
                         </div>
@@ -212,15 +204,9 @@
 
                 </div>
 
-                <button class="infoForAuthors">Information for Authors</button>
             </main>
-
         </section>
     </main>
-
-
-
-
     <script src="./script.js"></script>
 </body>
 

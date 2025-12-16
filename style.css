@@ -133,17 +133,18 @@ p {
     justify-content: center;
 }
 
-.outline-btn:hover, .relatedJournals:hover {
+.outline-btn:hover,
+.relatedJournals:hover {
     border-radius: var(--rounded-sm, 2px);
     background: rgba(255, 250, 232, 0.20);
     background: color(display-p3 1 0.9804 0.9176 / 0.20);
 }
 
-.aim-scope{
+.aim-scope {
     padding-right: 10px;
 }
 
-.editorName{
+.editorName {
     color: var(--link-color);
     text-decoration: underline;
     font-weight: 600;
@@ -168,6 +169,9 @@ p {
     background-color: transparent;
     padding: 8px 10px;
     border: none;
+    /* appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none; */
 }
 
 .relatedElement option {
@@ -254,37 +258,76 @@ p {
     color: var(--link-color);
 }
 
-.masthead{
+.masthead {
     margin-top: 40px;
 }
 
-.masthead h5{
+.masthead h5 {
     font-size: 20px;
     font-weight: 600;
 }
 
-.currentIssuePub{
+.currentIssuePub {
     margin-top: 8px;
     font-size: var(--font-size-16);
     font-weight: 400;
     display: block;
 }
 
-.indexed{
+.indexed {
     margin-top: 40px;
 }
 
-.indexedHeader{
+.indexedHeader {
     font-size: 20px;
     font-weight: 600;
     color: #333333;
 }
 
-.indexList{
+.indexList {
     margin-top: 16px;
 }
 
-.infoForAuthors{
+.aimsAndScope {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.aimsAndScopeInfo {
+    display: block;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.includedTopics, .notIncludedTopics {
+    display: block;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+.includedTopicsContainer, .notIncludedTopicsContainer{
+    padding-left: 24px;
+    margin-top: 20px;
+    color: #333333;
+}
+
+.includedTopicsContainer li, .notIncludedTopicsContainer li{
+    list-style-type:disc;
+    margin-top: 10px;
+    color: #333333;
+}
+
+.includedTopicsContainer li::marker, .notIncludedTopicsContainer li::marker {
+  font-size: 14px;
+}
+
+.infoForAuthors {
     background-color: #ffffff;
     color: #0039A6;
     border: 1px solid #0039A6;
@@ -292,15 +335,16 @@ p {
     padding: 10px;
     font-weight: 500;
     font-size: var(--font-size-16);
+    margin-top: 10px;
 }
 
-.indexList li{
-        font-size: var(--font-size-16);
+.indexList li {
+    font-size: var(--font-size-16);
     font-weight: 400;
     margin-top: 5px;
 }
 
-.printAndWebEdition{
+.printAndWebEdition {
     font-size: 16px;
     font-weight: 400;
     color: #333333;
@@ -308,7 +352,7 @@ p {
     margin-top: 8px;
 }
 
-.viewEditorsInSideBar{
+.viewEditorsInSideBar {
     font-size: var(--font-size-16);
     font-weight: 500;
     display: block;
@@ -375,12 +419,15 @@ p {
     align-items: center;
 }
 
-.personDetails{
+.personDetails {
     display: grid;
     row-gap: 4px;
 }
 
-.chefUnivName, .chiefCountry, .deputyUnivName, .deputyCountry{
+.chefUnivName,
+.chiefCountry,
+.deputyUnivName,
+.deputyCountry {
     font-size: var(--font-size-16);
     font-weight: 500;
     color: #333333;
