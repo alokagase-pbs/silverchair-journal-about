@@ -1,0 +1,115 @@
+{
+	"relatedJournals": [
+			{
+			"coden": ["jafcau", "afsthl", "aastgj", "ansadg"],
+			"journ_name": [
+				"Journal of Agricultural and Food Chemistry | jafcau",
+				"ACS Food Science & Technology | afsthl",
+				"ACS Agricultural Science & Technology | aastgj",
+                "ACS Nutrition Science | ansadg"
+			]
+		},
+		{
+			"coden": ["jpcafh", "jpcbfk", "jpccck", "jpchax", "jpclcd"],
+			"journ_name": [
+				"Journal of Physical Chemistry A | jpcafh",
+				"Journal of Physical Chemistry B | jpcbfk",
+				"Journal of Physical Chemistry C | jpccck",
+				"Journal of Physical Chemistry Letters | jpclcd",
+				"Journal of Physical Chemistry | jpchax"
+			]
+		},
+		{
+			"coden":["esthag", "estlcu", "aewcaa", "aeecco", "aeacd5"],
+			"journ_name": [
+				"Environmental Science & Technology | esthag",
+				"Environmental Science & Technology Letters | estlcu",
+				"ACS ES&T Engineering | aeecco",
+				"ACS ES&T Water | aewcaa",
+                "ACS ES&T Air | aeacd5"
+			]
+		},
+		{
+			"coden": ["aamick", "aaemcq", "aanmf6", "aabmcb", "aapmcd", "aaembp", "aaemdr", "aaoma6"],
+			"journ_name": [
+				"ACS Applied Bio Materials | aabmcb",
+				"ACS Applied Energy Materials | aaemcq",
+				"ACS Applied Electronic Materials | aaembp",
+				"ACS Applied Engineering Materials | aaemdr",
+				"ACS Applied Nano Materials | aanmf6",
+				"ACS Applied Optical Materials | aaoma6",
+				"ACS Applied Polymer Materials | aapmcd",
+				"ACS Applied Materials & Interfaces | aamick"
+			]
+		},
+		{
+			"coden": ["cmatex", "amlcef"],
+			"journ_name": [
+				"Chemistry of Materials |cmatex",
+				"ACS Materials Letters | amlcef"
+			]
+		},
+		{
+			"coden": ["amlccd", "bomaf6", "mamobx"],
+			"journ_name": [
+				"ACS Macro Letters | amlccd",
+				"Biomacromolecules | bomaf6",
+				"Macromolecules | mamobx"
+			]
+		},
+		{
+			"coden": ["amclct", "jmcmar"],
+			"journ_name": [
+				"Journal of Medicinal Chemistry | jmcmar",
+				"ACS Medicinal Chemistry Letters | amclct"
+			]
+		},
+		{
+			"coden": ["orgnd7", "aoiab5"],
+			"journ_name": [
+				"The Journal of Organic Chemistry | joceah",
+				"Organic Letters | orlef7",
+				"Inorganic Chemistry | inocaj",
+				"ACS Organic & Inorganic Au | aoiab5",
+				"Organometallics | orgnd7"
+			]
+		},
+		{
+			"coden": ["orlef7"],
+			"journ_name": [
+				"ACS Organic & Inorganic Au | aoiab5",
+				"The Journal of Organic Chemistry | joceah"
+			]
+		},
+		{
+			"coden": ["joceah"],
+			"journ_name": [
+				"ACS Organic & Inorganic Au | aoiab5",
+				"Organic Letters | orlef7",
+				"Organometallics | orgnd7"
+			]
+		},
+		{
+			"coden": ["inocaj"],
+			"journ_name": [
+				"Organometallics | orgnd7",
+				"ACS Organic & Inorganic Au | aoiab5"
+			]
+		},
+		{
+			"coden": ["ascecg", "asrmcd"],
+			"journ_name": [
+				"ACS Sustainable Chemistry & Engineering | ascecg",
+				"ACS Sustainable Resource Management | asrmcd"
+			]
+		},
+		{
+			"coden": ["anmafm", "ancac3"],
+			"journ_name": [
+				"ACS Nano Medicine | anmafm",
+				"ACS Nano | ancac3"
+			]
+		}
+	]
+}
+

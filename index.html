@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACS Agricultural Science & Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="fonts.googleapis.com" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section id="journal" class="page">
+            <div class="headerTitleSection" id="headerTitleSection">
+                <p class="journal-title" id="journal-title"></p>
+            </div>
+
+            <section class="main-wrapper" id="main-wrapper">
+                <div class="left-box">
+                    <section class="blurbSection">
+                        <p class="blurbDesc" id="blurbDesc"></p>
+                    </section>
+
+                    <section class="editorsSection">
+                        <p class="line">
+                            <span id="mainSectionHeader">Editor-in-Chief:</span>
+                            <span id="mainSectionEditorName"></span>
+                        </p>
+                        <p class="line">
+                            <span id="mainSectionHeader">Deputy Editor:</span>
+                            <span id="mainSectionDeputyName"></span>
+                        </p>
+                        <p class="line">
+                            <a href="#" class="simple-link" id="viewEditorsMainSection">View Editors & Editorial
+                                Board</a>
+                        </p>
+                    </section>
+
+                    <section class="metaDataScores">
+                        <p class="line scoreContainer">
+                            <strong id="mainSectionHeader">2 Year Impact Factor:</strong>
+                            <span class="mainSectionValues" id="mainSectionImpactFactor"></span> &nbsp;&nbsp;&nbsp;
+                            <strong id="mainSectionHeader">Citations:</strong>
+                            <span class="mainSectionValues" id="mainSectionCitationScore"></span> &nbsp;&nbsp;&nbsp;
+                            <strong id="mainSectionHeader">CiteScore:</strong>
+                            <span class="mainSectionValues" id="mainSectionCiteScore"></span>
+                        </p>
+                        <p class="line">
+                            <a href="#" class="simple-link">View All 2024 Journal Metrics</a>
+                        </p>
+                    </section>
+
+                    <div class="btn-row">
+                        <button class="yellow-btn">Submit Manuscript</button>
+                        <button class="outline-btn">
+                            <img src="./assets/LeadingIcon.svg" alt="">
+                            Get Alerts
+                        </button>
+                        <div class="relatedJournalsParent">
+                            <select aria-label="Journal selection" name="relatedJournals" id="relatedJournals"
+                                class="relatedJournals">
+                                <option style="background: #081B33;" selected disabled value="">Related Journals
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <h1>Placeholder for Right Side Section</h1>
+                </div>
+            </section>
+
+            <main class="footerSection" id="footerSection">
+                <header class="page-header">
+                    <h1 class="aboutJournal">About the Journal</h1>
+                </header>
+
+                <div class="metrics-header">
+                    <h4 class="journalMetricsSubHead">Journal Metrics</h4>
+                    <a href="#" class="link viewAllLink">View Metrics for all Journals</a>
+                </div>
+
+                <section class="metrics">
+                    <div class="metrics-grid">
+                        <div class="metric">
+                            <div class="metric-value" id="detailSectionCitationScore"></div>
+                            <div class="metric-label">Citations 2023</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="detailSectionTwoYearImpactFactor"></div>
+                            <div class="metric-label">2-Year Impact Factor</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="detailSectionFiveYearImpactFactor"></div>
+                            <div class="metric-label">5-Year Impact Factor</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="detailSectionTotalCitations"></div>
+                            <div class="metric-label">Total Citations</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="detailSectionCiteScore"></div>
+                            <div class="metric-label">CiteScore</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="detailSectionDaysToFirstPeerReview"></div>
+                            <div class="metric-label">Days to First Peer Review Decision*</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="daysToAccept"></div>
+                            <div class="metric-label">Days to Accept*</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="daysFromAcceptToASAP"></div>
+                            <div class="metric-label">Days from Accept to ASAP*</div>
+                        </div>
+                    </div>
+                    <div class="metrics-note">Data as of 2024 · <br><span class="muted">*Median days</span></div>
+                </section>
+
+                <div class="content-grid">
+                    <section class="main">
+                        <div class="dataCard aim-scope">
+                            <h3>Aims &amp; Scope</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text
+                                ever since the 1500s, when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book.
+                            </p>
+
+                            <h4>Examples of topics that are in-scope:</h4>
+                            <ul>
+                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</li>
+                                <li>It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout.</li>
+                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</li>
+                                <li>It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout.</li>
+                            </ul>
+
+                            <h4>Examples of topics that are NOT in-scope:</h4>
+                            <ul>
+                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</li>
+                                <li>It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout.</li>
+                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</li>
+                                <li>It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout.</li>
+                            </ul>
+
+                        </div>
+                    </section>
+
+
+                    <aside class="sidebar">
+                        <div class="sideCard editor-card">
+                            <div class="personContainer">
+                                <h3>Editor-in-Chief</h3>
+                                <div class="person">
+                                    <img id="editorInChiefProfileIcon" alt="img1"
+                                     />
+                                    <div class="personDetails">
+                                        <a id="sideSectionEditorName" href="#" class="link editorName"></a>
+                                        <h4 class="chefUnivName" id="chiefUnivName"></h4>
+                                        <h4 class="chiefCountry" id="chiefCountry"></h4>
+                                    </div>
+                                </div>
+
+                                <h3>Deputy Editor</h3>
+                                <div class="person">
+                                    <img id="deputyEditorProfileIcon"
+                                        alt="img2" />
+                                    <div class="personDetails">
+                                        <a id="sideSectionDeputyName" href="#" class="link editorName"></a>
+                                        <h4 class="deputyUnivName" id="deputyUnivName"></h4>
+                                        <h4 class="deputyCountry" id="deputyCountry"></h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="link viewEditorsInSideBar">View Editors & Editorial Board</a>
+
+                            <div class="masthead">
+                                <h5>Masthead Information</h5>
+                                <p class="printAndWebEdition">
+                                    Print Edition ISSN: 0021-9568<br />Web Edition ISSN: 1520-5134
+                                </p>
+                            </div>
+
+                            <a href="#" class="link currentIssuePub">Current Issue Publication Information</a>
+
+                            <div class="indexed">
+                                <h5 class="indexedHeader">Indexed/Abstracted</h5>
+                                <ul class="indexList" id="indexedList">
+                                    <li>PubMed</li>
+                                    <li>Web of Science SCIE</li>
+                                    <li>Scopus</li>
+                                    <li>CAS</li>
+                                    <li>Proquest</li>
+                                    <li>EBSCOHost</li>
+                                    <li>Protico</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+                <button class="infoForAuthors">Information for Authors</button>
+            </main>
+
+        </section>
+    </main>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="top-title" id="top-title">
+        ACS Agricultural Science & Technology
+    </div>
+
+    <section class="main-wrapper" id="main-wrapper">
+
+        <div class="left-box">
+
+            <p class="desc">
+                <i>ACS Agricultural Science & Technology</i> reports high quality research across
+                agricultural science, technology, and engineering.
+            </p>
+
+            <p class="line"><strong>Editor-in-Chief:</strong> J. Ilja Siepmann, Ph.D.</p>
+            <p class="line"><strong>Deputy Editor:</strong> Sébastien Perrier</p>
+
+            <a href="#" class="simple-link">View Editors & Editorial Board</a>
+
+            <p class="line"><strong>2 Year Impact Factor:</strong> 2.0 &nbsp;&nbsp;&nbsp;
+                <strong>Citations:</strong> 23,141 &nbsp;&nbsp;&nbsp;
+                <strong>CiteScore:</strong> 5.2
+            </p>
+
+            <a href="#" class="simple-link">View All 2024 Journal Metrics</a>
+
+            <div class="btn-row">
+                <button class="yellow-btn">Submit Manuscript</button>
+                <button class="outline-btn"><i class="fa-regular fa-bell">&nbsp;</i>Get Alerts</button>
+                <a class="related" href="#"></i>Related Journals</a>
+            </div>
+
+        </div>
+        <div class="right-box">
+            <h1>Hello</h1>
+        </div>
+
+    </section>
+
+    <section class="aboutJorurnal" id="aboutJournal"></section> -->
