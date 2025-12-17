@@ -102,6 +102,7 @@ function updateEditorInfo(person, editorInfo, role) {
 
   setText(cfg.mainNameId, name || "—");
   setText(cfg.sideNameId, name || "—");
+  setWebsiteLink(cfg.sideNameId, person);
   setImage(editorInfo, name, cfg);
   setText(cfg.sideInstitutionName, person["Institution Name"]);
   setText(cfg.sideCountryName, person["Country"]);
@@ -125,6 +126,14 @@ function updateEditorInfo(person, editorInfo, role) {
   }
   if (sideContainerEl) {
     sideContainerEl.hidden = false;
+  }
+}
+
+function setWebsiteLink(id, person){
+  const el = document.getElementById(id);
+  if(el instanceof HTMLAnchorElement && person.Website){
+    el.href = person.Website;
+    el.target = '_blank';
   }
 }
 
@@ -210,7 +219,7 @@ async function renderJournalForCoden(code, indexes) {
   const codenData = await fetchJSON(`${JSON_DIR}/${code}.json`);
 
   setText("journal-title", metrics?.title ?? "—");
-  setText("blurbDesc", info?.blurb ?? "—");
+  setBlurbValue(metrics, info);
 
   const editorInfo = getEditorInfo(info);
   const fallbackEIC =
@@ -235,12 +244,22 @@ async function renderJournalForCoden(code, indexes) {
   setText("detailSectionDaysToFirstPeerReview", metrics?.SubToFDwPR ?? "—");
   setText("daysToAccept", metrics?.SubToAccept ?? "—");
   setRelatedJournalOptions(relatedJournals, code);
-  document.querySelectorAll('.providedYear').forEach(i => {
+  document.querySelectorAll(".providedYear").forEach((i) => {
     i.textContent = metricsIndex.journal_metrics.year;
   });
   setIndexedAndAbstractedData(info);
 
   await loadMastheadAndRenderEditors(code, editorInfo);
+}
+
+function setBlurbValue(metrics, info) {
+  let tailValue = info.blurb.slice(metrics.title.length);
+  let emElement = document.createElement("em");
+  emElement.textContent = info.title;
+  let el = document.getElementById("blurbDesc");
+  el.textContent = "";
+  const tailNode = document.createTextNode(tailValue);
+  el.append(emElement, tailNode);
 }
 
 function setIndexedAndAbstractedData(info) {
@@ -259,9 +278,12 @@ function setRelatedJournalOptions(relatedJournals, code) {
     if (item.includes(code)) {
       return;
     }
+    let optionValue = item.split("|")[0].toString().trim();
+    let coden = item.split("|")[1].toString().trim();
     const option = document.createElement("option");
-    option.value = item;
-    option.textContent = item;
+    option.value = optionValue;
+    option.dataset.coden = coden;
+    option.textContent = optionValue;
     option.style.background = "#ffffff";
     option.style.color = "#333333";
     select.appendChild(option);
@@ -322,6 +344,18 @@ async function render(routeName) {
 
   console.warn(`Unknown route/coden: "${routeName}"`);
   showOnly("home");
+}
+
+function openInNewTab(event, url) {
+  event.preventDefault();
+  window.open(url + route, "_blank");
+}
+
+function redirectToCoden(event) {
+  let coden = event.target.options[event.target.selectedIndex].dataset.coden;
+  if (coden) {
+    window.location.href = "/" + coden;
+  }
 }
 
 render(route);

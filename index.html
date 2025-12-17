@@ -35,7 +35,7 @@
                             <span id="mainSectionDeputyName"></span>
                         </p>
                         <p class="line">
-                            <a href="#" class="simple-link" id="viewEditorsMainSection">View Editors & Editorial
+                            <a href="/coden/editors" class="simple-link" id="viewEditorsMainSection">View Editors & Editorial
                                 Board</a>
                         </p>
                     </section>
@@ -50,26 +50,32 @@
                             <span class="mainSectionValues" id="mainSectionCiteScore"></span>
                         </p>
                         <p class="line">
-                            <a href="#" class="simple-link">View All <span class="providedYear"></span> Journal Metrics</a>
+                            <a href="/journal-metrics" class="simple-link">View All <span class="providedYear"></span> Journal
+                                Metrics</a>
                         </p>
                     </section>
 
                     <div class="btn-row">
-                        <button class="yellow-btn">Submit Manuscript</button>
-                        <button class="outline-btn">
-                            <img src="./assets/LeadingIcon.svg" alt="">
-                            Get Alerts
-                        </button>
+                        <a class="submitWrapper" href="https://publish.acs.org/" target="_blank" rel="noopener">
+                            <button class="yellow-btn">Submit Manuscript</button>
+                        </a>
+                        <a rel="noopener" class="alertsWrapper" href=" https://preferences.acs.org/" target="_blank">
+                            <button class="outline-btn">
+                                <img src="./assets/LeadingIcon.svg" alt="">
+                                Get Alerts
+                            </button>
+                        </a>
                         <div class="relatedJournalsParent">
-                            <select aria-label="Journal selection" name="relatedJournals" id="relatedJournals"
+                            <select onchange=redirectToCoden(event) aria-label="Journal selection" name="relatedJournals" id="relatedJournals"
                                 class="relatedJournals">
+                                <option disabled selected>Related Journals</option>
                             </select>
                         </div>
                     </div>
                 </div>
-                <div class="right-box">
-                    <h1>Placeholder for Right Side Section</h1>
-                </div>
+                 <div class="right-box">
+                    <!-- <h1>Placeholder for Right Side Section</h1> -->
+                </div> 
             </section>
 
             <main class="footerSection" id="footerSection">
@@ -79,7 +85,7 @@
 
                 <div class="metrics-header">
                     <h4 class="journalMetricsSubHead">Journal Metrics</h4>
-                    <a href="#" class="link viewAllLink">View Metrics for all Journals</a>
+                    <a href="/journal-metrics" class="link viewAllLink mobileRespDimensions">View Metrics for all Journals</a>
                 </div>
 
                 <section class="metrics">
@@ -117,7 +123,8 @@
                             <div class="metric-label">Days from Accept to ASAP*</div>
                         </div>
                     </div>
-                    <div class="metrics-note">Data as of <span class="providedYear"></span> · <br><span class="muted">*Median days</span></div>
+                    <div class="metrics-note">Data as of <span class="providedYear"></span> · <br><span
+                            class="muted">*Median days</span></div>
                 </section>
 
                 <div class="content-grid">
@@ -153,9 +160,14 @@
                                 <li>It is a long established fact that a reader will be distracted by the readable
                                     content of a page when looking at its layout.</li>
                             </ul>
-
                         </div>
-                        <button class="infoForAuthors">Information for Authors</button>
+
+                        <a href="https://researcher-resources.acs.org/publish/author_guidelines?coden="
+                            onclick="openInNewTab(event, this.href)">
+                            <button class="infoForAuthors">
+                                Information for Authors
+                            </button>
+                        </a>
                     </section>
 
                     <aside class="sidebar">
@@ -182,7 +194,7 @@
                                 </div>
                             </div>
 
-                            <a href="#" class="link viewEditorsInSideBar">View Editors & Editorial Board</a>
+                            <a href="/coden/editors" class="link viewEditorsInSideBar">View Editors & Editorial Board</a>
 
                             <div class="masthead">
                                 <h5>Masthead Information</h5>
@@ -191,13 +203,11 @@
                                 </p>
                             </div>
 
-                            <a href="#" class="link currentIssuePub">Current Issue Publication Information</a>
+                            <a href="/toc/coden/current#Mastheads" class="link currentIssuePub">Current Issue Publication Information</a>
 
                             <div class="indexed">
                                 <h5 class="indexedHeader">Indexed/Abstracted</h5>
-                                <ul class="indexList" id="indexedList">
-
-                                </ul>
+                                <ul class="indexList" id="indexedList"></ul>
                             </div>
                         </div>
                     </aside>

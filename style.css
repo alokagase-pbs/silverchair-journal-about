@@ -17,6 +17,8 @@
     --font-color: #464748;
     --link-color: #3361B8;
     --rounded-sm: 4px;
+    --color-primary-blue-500: #003AAD;
+    --color-primary-blue-50: #E5EBF7;
 }
 
 html {
@@ -29,7 +31,7 @@ p {
 
 /* TOP TITLE */
 .headerTitleSection {
-    padding: 1rem 4rem 1rem 4rem;
+    padding: 1rem 4rem 1rem 2rem;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -46,7 +48,7 @@ p {
     background: var(--main-section-bg-color);
     color: #fff;
     margin: 0 auto;
-    padding: 1.5rem 1.5rem 1.5rem 4rem;
+    padding: 1.5rem 1.5rem 1.5rem 2rem;
     display: grid;
     justify-content: space-between;
     align-items: flex-start;
@@ -55,7 +57,6 @@ p {
 
 /* LEFT BOX */
 .left-box {
-    width: 752px;
     display: flex;
     flex-direction: column;
     gap: var(--font-size-24);
@@ -91,11 +92,11 @@ p {
 }
 
 .btn-row {
-    width: 502px;
-    height: 36px;
-    display: flex;
+    display: grid;
     gap: 16px;
     align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 45%;
 }
 
 .yellow-btn {
@@ -108,7 +109,8 @@ p {
     font-weight: 600;
     white-space: nowrap;
     color: #333333;
-    transition: background-color 300ms ease-out
+    transition: background-color 300ms ease-out;
+    width: 100%;
 }
 
 .yellow-btn:hover {
@@ -121,6 +123,7 @@ p {
     background: transparent;
     border: 2px solid #f8c94d;
     color: #f8c94d;
+    width: 100%;
     padding: 8px 18px;
     border-radius: 4px;
     cursor: pointer;
@@ -156,7 +159,7 @@ p {
 }
 
 .relatedJournalsParent {
-    margin-left: 10px;
+    margin-left: 0;
     cursor: pointer;
 }
 
@@ -183,7 +186,7 @@ p {
 }
 
 .footerSection {
-    padding: 1.5rem 1.5rem 0 4rem;
+    padding: 1.5rem 1.5rem 0 2rem;
     background-color: #ffffff;
 }
 
@@ -208,38 +211,6 @@ p {
     color: var(--link-color) !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .page-header h1 {
     font-size: 22px;
     font-weight: 700;
@@ -247,9 +218,10 @@ p {
 }
 
 .metrics-header {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     margin-top: 12px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .link {
@@ -303,7 +275,8 @@ p {
     color: #333333;
 }
 
-.includedTopics, .notIncludedTopics {
+.includedTopics,
+.notIncludedTopics {
     display: block;
     margin-top: 20px;
     font-weight: 400;
@@ -311,32 +284,44 @@ p {
     color: #333333;
 }
 
-.includedTopicsContainer, .notIncludedTopicsContainer{
+.includedTopicsContainer,
+.notIncludedTopicsContainer {
     padding-left: 24px;
     margin-top: 20px;
     color: #333333;
 }
 
-.includedTopicsContainer li, .notIncludedTopicsContainer li{
-    list-style-type:disc;
+.includedTopicsContainer li,
+.notIncludedTopicsContainer li {
+    list-style-type: disc;
     margin-top: 10px;
     color: #333333;
 }
 
-.includedTopicsContainer li::marker, .notIncludedTopicsContainer li::marker {
-  font-size: 14px;
+.includedTopicsContainer li::marker,
+.notIncludedTopicsContainer li::marker {
+    font-size: 14px;
 }
 
 .infoForAuthors {
     background-color: #ffffff;
     color: #0039A6;
-    border: 1px solid #0039A6;
+    border: 1.5px solid #0039A6;
     border-radius: 4px;
     padding: 10px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: var(--font-size-16);
     margin-top: 10px;
+    transition: background-color 300ms ease-out;
+    cursor: pointer;
 }
+
+
+.infoForAuthors:hover {
+    background: var(--color-primary-blue-50);
+    background: var(--color-primary-blue-50, color(display-p3 0.902 0.9216 0.9647));
+}
+
 
 .indexList li {
     font-size: var(--font-size-16);
@@ -480,49 +465,13 @@ h5 {
     padding-left: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* RESPONSIVE */
-@media (max-width: 900px) {
-
-    .left-box,
-    .right-box {
-        width: 100%;
-        margin-bottom: 30px;
-    }
+.mobileRespDimensions{
+    text-align: end;
 }
+
+
+
+
 
 @media (max-width: 1280px) {
 
@@ -531,9 +480,120 @@ h5 {
     }
 }
 
+@media (min-width: 551px) and (max-width: 767px) {
+    .headerTitleSection {
+        padding: 1rem 4rem 1rem 2rem;
+    }
 
-@media (max-width: 600px) {
+    .main-wrapper {
+        grid-template-columns: 60% 40%;
+        padding: 1.5rem 1rem 1.5rem 2rem;
+    }
+
+    .relatedJournalsParent {
+        margin-left: 0;
+        grid-column: span 10;
+    }
+
+    .btn-row {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 4px;
+        max-width: 100%;
+    }
+
+    /* .submitWrapper{
+        width: max-content;
+    } */
+
+    .alertsWrapper {
+        margin-left: 10px;
+    }
+
+    .relatedJournals {
+        text-align: start;
+    }
+
+    .footerSection {
+        padding: 1.5rem 1rem 0 2rem;
+    }
+
+    .metrics-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .mobileRespDimensions {
+        text-align: end;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .indexed {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 550px) {
+    .headerTitleSection {
+        padding: 1rem 4rem 1rem 2rem;
+    }
+
     .main-wrapper {
         grid-template-columns: 1fr;
+        padding: 1rem 1.5rem 1.5rem 2rem;
+    }
+
+    .relatedJournalsParent {
+        margin-left: 0;
+        margin-top: 6px;
+        text-align: center;
+    }
+
+    .relatedJournals {
+        width: 100%;
+        text-align: center;
+    }
+
+    .metrics-header {
+        justify-content: flex-start;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .mobileRespDimensions {
+        margin-top: 10px;
+        text-align: start;
+    }
+
+    .footerSection {
+        padding: 1.5rem 1.5rem 0 2rem;
+    }
+
+    .metrics-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .btn-row {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
+    .alertsWrapper {
+        margin-left: 0;
+        margin-top: 6px;
+    }
+
+    .indexed {
+        margin-bottom: 15px;
+    }
+
+    .right-box {
+        margin-top: 10px;
     }
 }
