@@ -163,20 +163,6 @@ p {
     cursor: pointer;
 }
 
-.relatedJournals {
-    color: #f8c94d;
-    font-size: 16px;
-    text-decoration: none;
-    margin-left: auto;
-    white-space: nowrap;
-    background-color: transparent;
-    padding: 8px 10px;
-    border: none;
-    /* appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none; */
-}
-
 .relatedElement option {
     background-color: #081B33;
 }
@@ -465,7 +451,7 @@ h5 {
     padding-left: 20px;
 }
 
-.mobileRespDimensions{
+.mobileRespDimensions {
     text-align: end;
 }
 
@@ -502,16 +488,12 @@ h5 {
         max-width: 100%;
     }
 
-    /* .submitWrapper{
-        width: max-content;
-    } */
-
     .alertsWrapper {
         margin-left: 10px;
     }
 
     .relatedJournals {
-        text-align: start;
+        text-align: left !important;
     }
 
     .footerSection {
@@ -596,4 +578,67 @@ h5 {
     .right-box {
         margin-top: 10px;
     }
+}
+
+
+.custom-select {
+    position: relative;
+    width: 100%;
+}
+
+.relatedJournals {
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    color: #f8c94d;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: auto;
+    white-space: nowrap;
+    background-color: transparent;
+    padding: 8px 10px;
+    border: none;
+}
+
+.relatedJournalsDropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 35vh;
+    overflow-y: scroll;
+    border-radius: 8px;
+}
+
+.relatedJournalsDropdown li {
+    color: black;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.relatedJournalsDropdown li a {
+    color: #333333;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.relatedJournalsDropdown li:hover {
+    background-color: #e7e7e7;
+}
+
+.custom-select.active .relatedJournalsDropdown {
+    display: block;
+}
+
+.arrow {
+    margin-left: 10px;
 }

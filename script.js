@@ -273,20 +273,22 @@ function setIndexedAndAbstractedData(info) {
 }
 
 function setRelatedJournalOptions(relatedJournals, code) {
-  const select = document.getElementById("relatedJournals");
+  const select = document.getElementById("relatedJournalsDropdown");
   relatedJournals.journ_name.forEach((item) => {
     if (item.includes(code)) {
       return;
     }
     let optionValue = item.split("|")[0].toString().trim();
     let coden = item.split("|")[1].toString().trim();
-    const option = document.createElement("option");
-    option.value = optionValue;
-    option.dataset.coden = coden;
-    option.textContent = optionValue;
-    option.style.background = "#ffffff";
-    option.style.color = "#333333";
-    select.appendChild(option);
+    const listElement = document.createElement("li");
+    const anchorElement = document.createElement('a');
+    listElement.role = 'option';
+    anchorElement.dataset.value = optionValue;
+    anchorElement.dataset.coden = coden;
+    anchorElement.textContent = optionValue
+    anchorElement.href = '/'+coden;
+    listElement.append(anchorElement);
+    select.appendChild(listElement);
   });
 }
 
@@ -359,3 +361,32 @@ function redirectToCoden(event) {
 }
 
 render(route);
+
+document.addEventListener('DOMContentLoaded', () => {
+  const customSelects = document.querySelectorAll('.custom-select');
+
+  customSelects.forEach(selectWrapper => {
+    const selectBtn = selectWrapper.querySelector('.relatedJournals');
+
+    // Toggle dropdown visibility on button click
+    selectBtn.addEventListener('click', () => {
+      selectWrapper.classList.toggle('active');
+      const expanded = selectBtn.getAttribute('aria-expanded') === 'true' || false;
+      selectBtn.setAttribute('aria-expanded', !expanded);
+    });
+
+
+    window.addEventListener('click', (e) => {
+      if (!selectWrapper.contains(e.target)) {
+        selectWrapper.classList.remove('active');
+        selectBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+});
+
+function relatedJournalValueUpdate(event){
+  const button = document.querySelector('.relatedJournals');
+  button.textContent = event.target.textContent;
+  button.setAttribute('aria-expanded', 'false');
+}

@@ -35,7 +35,8 @@
                             <span id="mainSectionDeputyName"></span>
                         </p>
                         <p class="line">
-                            <a href="/coden/editors" class="simple-link" id="viewEditorsMainSection">View Editors & Editorial
+                            <a href="/coden/editors" class="simple-link" id="viewEditorsMainSection">View Editors &
+                                Editorial
                                 Board</a>
                         </p>
                     </section>
@@ -50,7 +51,8 @@
                             <span class="mainSectionValues" id="mainSectionCiteScore"></span>
                         </p>
                         <p class="line">
-                            <a href="/journal-metrics" class="simple-link">View All <span class="providedYear"></span> Journal
+                            <a href="/journal-metrics" class="simple-link">View All <span class="providedYear"></span>
+                                Journal
                                 Metrics</a>
                         </p>
                     </section>
@@ -66,16 +68,29 @@
                             </button>
                         </a>
                         <div class="relatedJournalsParent">
-                            <select onchange=redirectToCoden(event) aria-label="Journal selection" name="relatedJournals" id="relatedJournals"
-                                class="relatedJournals">
+                            <!-- <select onchange=redirectToCoden(event) aria-label="Journal selection"
+                                name="relatedJournals" id="relatedJournals" class="relatedJournals">
                                 <option disabled selected>Related Journals</option>
-                            </select>
+                            </select> -->
+
+                            <div class="custom-select" id="customSelect">
+                                <button name="relatedJournals" id="relatedJournals" class="relatedJournals" aria-haspopup="listbox" aria-expanded="false"
+                                    aria-labelledby="selectLabel">
+                                    <span class="relatedJournalsSelectedValue">Related Journals</span>
+                                    <span class="arrow">▼</span>
+                                </button>
+
+                                <!-- The hidden list of options -->
+                                <ul onclick="relatedJournalValueUpdate(event)" id="relatedJournalsDropdown" class="relatedJournalsDropdown" role="listbox">
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                 <div class="right-box">
+                <div class="right-box">
                     <!-- <h1>Placeholder for Right Side Section</h1> -->
-                </div> 
+                </div>
             </section>
 
             <main class="footerSection" id="footerSection">
@@ -85,7 +100,8 @@
 
                 <div class="metrics-header">
                     <h4 class="journalMetricsSubHead">Journal Metrics</h4>
-                    <a href="/journal-metrics" class="link viewAllLink mobileRespDimensions">View Metrics for all Journals</a>
+                    <a href="/journal-metrics" class="link viewAllLink mobileRespDimensions">View Metrics for all
+                        Journals</a>
                 </div>
 
                 <section class="metrics">
@@ -194,7 +210,8 @@
                                 </div>
                             </div>
 
-                            <a href="/coden/editors" class="link viewEditorsInSideBar">View Editors & Editorial Board</a>
+                            <a href="/coden/editors" class="link viewEditorsInSideBar">View Editors & Editorial
+                                Board</a>
 
                             <div class="masthead">
                                 <h5>Masthead Information</h5>
@@ -203,7 +220,8 @@
                                 </p>
                             </div>
 
-                            <a href="/toc/coden/current#Mastheads" class="link currentIssuePub">Current Issue Publication Information</a>
+                            <a href="/toc/coden/current#Mastheads" class="link currentIssuePub">Current Issue
+                                Publication Information</a>
 
                             <div class="indexed">
                                 <h5 class="indexedHeader">Indexed/Abstracted</h5>
