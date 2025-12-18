@@ -44,22 +44,33 @@ p {
 }
 
 /* MAIN BLUE SECTION */
+
 .main-wrapper {
-    background: var(--main-section-bg-color);
-    color: #fff;
-    margin: 0 auto;
-    padding: 1.5rem 1.5rem 1.5rem 2rem;
-    display: grid;
-    justify-content: space-between;
-    align-items: flex-start;
-    grid-template-columns: 3fr 1fr;
+  background: var(--main-section-bg-color);
+  color: #fff;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+
+  display: grid;
+  /* Use minmax(0, …) to allow content to shrink and avoid overflow */
+  grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
+  /* Use grid gap for spacing between columns/rows */
+  gap: 1rem;
+
+  /* Align items at the start; avoid justify-content for track distribution */
+  align-items: flex-start;
+  /* Remove justify-content: space-between; for grids — it may cause odd spacing */
+  /* justify-content: space-between; <-- remove */
 }
 
 /* LEFT BOX */
 .left-box {
-    display: flex;
-    flex-direction: column;
-    gap: var(--font-size-24);
+  display: flex;
+  flex-direction: column;
+  /* FIX: remove stray comment closure; ensure the variable is defined */
+  gap: var(--font-size-24);
+  /* Prevent intrinsic width from forcing overflow */
+  min-width: 0;
 }
 
 .blurbDesc {
@@ -95,14 +106,15 @@ p {
     display: grid;
     gap: 16px;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     max-width: 45%;
+    width: 100%;
 }
 
 .yellow-btn {
     background: #FDC82F;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 0.2rem;
     font-size: var(--font-size-16);
     cursor: pointer;
@@ -110,7 +122,23 @@ p {
     white-space: nowrap;
     color: #333333;
     transition: background-color 300ms ease-out;
-    width: 100%;
+    height: 40px;
+}
+
+.outline-btn {
+    background: transparent;
+    border: 2px solid #f8c94d;
+    color: #f8c94d;
+    padding: 8px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-left: 10px;
 }
 
 .yellow-btn:hover {
@@ -119,22 +147,6 @@ p {
     background: color(display-p3 1 0.6941 0.0824);
 }
 
-.outline-btn {
-    background: transparent;
-    border: 2px solid #f8c94d;
-    color: #f8c94d;
-    width: 100%;
-    padding: 8px 18px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 15px;
-    white-space: nowrap;
-    display: flex;
-    /* Activates Flexbox layout for the button */
-    align-items: center;
-    /* Vertically centers items along the cross axis */
-    justify-content: center;
-}
 
 .outline-btn:hover,
 .relatedJournals:hover {
@@ -456,9 +468,6 @@ h5 {
 }
 
 
-
-
-
 @media (max-width: 1280px) {
 
     .metrics-grid {
@@ -562,8 +571,17 @@ h5 {
     }
 
     .btn-row {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
         max-width: 100%;
+    }
+
+    .yellow-btn{
+        width: 100%;
+    }
+
+    .outline-btn{
+        width: 100%;
+        margin-left: 0;
     }
 
     .alertsWrapper {
@@ -584,6 +602,7 @@ h5 {
 .custom-select {
     position: relative;
     width: 100%;
+    height: 40px;
 }
 
 .relatedJournals {
@@ -598,6 +617,7 @@ h5 {
     background-color: transparent;
     padding: 8px 10px;
     border: none;
+    height: 40px;
 }
 
 .relatedJournalsDropdown {
@@ -640,5 +660,9 @@ h5 {
 }
 
 .arrow {
-    margin-left: 10px;
+    margin-left: 4px;
+}
+
+.arrow_img{
+    color: white;
 }

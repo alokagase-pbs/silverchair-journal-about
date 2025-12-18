@@ -1,4 +1,4 @@
-let route = "aabmcb"; // change as needed
+let route = "aamick"; // change as needed
 
 const JSON_DIR = "./json";
 const INFO_FILE = `${JSON_DIR}/journal-info.json`;
@@ -129,11 +129,11 @@ function updateEditorInfo(person, editorInfo, role) {
   }
 }
 
-function setWebsiteLink(id, person){
+function setWebsiteLink(id, person) {
   const el = document.getElementById(id);
-  if(el instanceof HTMLAnchorElement && person.Website){
+  if (el instanceof HTMLAnchorElement && person.Website) {
     el.href = person.Website;
-    el.target = '_blank';
+    el.target = "_blank";
   }
 }
 
@@ -216,7 +216,7 @@ async function renderJournalForCoden(code, indexes) {
   const info = getJournalInfo(infoIndex, code);
   const metrics = getJournalMetrics(metricsIndex, code);
 
-  const codenData = await fetchJSON(`${JSON_DIR}/${code}.json`);
+  //const codenData = await fetchJSON(`${JSON_DIR}/${code}.json`);
 
   setText("journal-title", metrics?.title ?? "—");
   setBlurbValue(metrics, info);
@@ -281,12 +281,12 @@ function setRelatedJournalOptions(relatedJournals, code) {
     let optionValue = item.split("|")[0].toString().trim();
     let coden = item.split("|")[1].toString().trim();
     const listElement = document.createElement("li");
-    const anchorElement = document.createElement('a');
-    listElement.role = 'option';
+    const anchorElement = document.createElement("a");
+    listElement.role = "option";
     anchorElement.dataset.value = optionValue;
     anchorElement.dataset.coden = coden;
-    anchorElement.textContent = optionValue
-    anchorElement.href = '/'+coden;
+    anchorElement.textContent = optionValue;
+    anchorElement.href = "/" + coden;
     listElement.append(anchorElement);
     select.appendChild(listElement);
   });
@@ -362,31 +362,38 @@ function redirectToCoden(event) {
 
 render(route);
 
-document.addEventListener('DOMContentLoaded', () => {
-  const customSelects = document.querySelectorAll('.custom-select');
+document.addEventListener("DOMContentLoaded", () => {
+  const customSelects = document.querySelectorAll(".custom-select");
 
-  customSelects.forEach(selectWrapper => {
-    const selectBtn = selectWrapper.querySelector('.relatedJournals');
+  customSelects.forEach((selectWrapper) => {
+    const selectBtn = selectWrapper.querySelector(".relatedJournals");
+      let arrowEl = document.getElementById("arrow_img");
 
     // Toggle dropdown visibility on button click
-    selectBtn.addEventListener('click', () => {
-      selectWrapper.classList.toggle('active');
-      const expanded = selectBtn.getAttribute('aria-expanded') === 'true' || false;
-      selectBtn.setAttribute('aria-expanded', !expanded);
+    selectBtn.addEventListener("click", () => {
+      selectWrapper.classList.toggle("active");
+      if (selectWrapper.classList.contains("active")) {
+        arrowEl.src = "./assets/UpArrow.svg";
+      } else {
+        arrowEl.src = "./assets/DownArrow.svg";
+      }
+      const expanded =
+        selectBtn.getAttribute("aria-expanded") === "true" || false;
+      selectBtn.setAttribute("aria-expanded", !expanded);
     });
 
-
-    window.addEventListener('click', (e) => {
+    window.addEventListener("click", (e) => {
       if (!selectWrapper.contains(e.target)) {
-        selectWrapper.classList.remove('active');
-        selectBtn.setAttribute('aria-expanded', 'false');
+        selectWrapper.classList.remove("active");
+        arrowEl.src = "./assets/DownArrow.svg";
+        selectBtn.setAttribute("aria-expanded", "false");
       }
     });
   });
 });
 
-function relatedJournalValueUpdate(event){
-  const button = document.querySelector('.relatedJournals');
+function relatedJournalValueUpdate(event) {
+  const button = document.querySelector(".relatedJournals");
   button.textContent = event.target.textContent;
-  button.setAttribute('aria-expanded', 'false');
+  button.setAttribute("aria-expanded", "false");
 }

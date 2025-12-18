@@ -68,19 +68,16 @@
                             </button>
                         </a>
                         <div class="relatedJournalsParent">
-                            <!-- <select onchange=redirectToCoden(event) aria-label="Journal selection"
-                                name="relatedJournals" id="relatedJournals" class="relatedJournals">
-                                <option disabled selected>Related Journals</option>
-                            </select> -->
 
                             <div class="custom-select" id="customSelect">
                                 <button name="relatedJournals" id="relatedJournals" class="relatedJournals" aria-haspopup="listbox" aria-expanded="false"
                                     aria-labelledby="selectLabel">
                                     <span class="relatedJournalsSelectedValue">Related Journals</span>
-                                    <span class="arrow">▼</span>
+                                    <span id="arrow" class="arrow">
+                                        <img id="arrow_img" src="./assets/DownArrow.svg" alt="Arrow Image">
+                                    </span>
                                 </button>
 
-                                <!-- The hidden list of options -->
                                 <ul onclick="relatedJournalValueUpdate(event)" id="relatedJournalsDropdown" class="relatedJournalsDropdown" role="listbox">
                                 </ul>
                             </div>
