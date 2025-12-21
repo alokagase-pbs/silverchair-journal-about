@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <main>
+    <main id="main">
         <section id="journal" class="page">
             <div class="headerTitleSection" id="headerTitleSection">
                 <p class="journal-title" id="journal-title"></p>
@@ -35,7 +35,7 @@
                             <span id="mainSectionDeputyName"></span>
                         </p>
                         <p class="line">
-                            <a href="/coden/editors" class="simple-link" id="viewEditorsMainSection">View Editors &
+                            <a class="simple-link" id="viewEditorsMainSection">View Editors &
                                 Editorial
                                 Board</a>
                         </p>
@@ -67,26 +67,28 @@
                                 Get Alerts
                             </button>
                         </a>
-                        <div class="relatedJournalsParent">
-
+                        <div id="relatedJournalsParent" class="relatedJournalsParent">
                             <div class="custom-select" id="customSelect">
-                                <button name="relatedJournals" id="relatedJournals" class="relatedJournals" aria-haspopup="listbox" aria-expanded="false"
-                                    aria-labelledby="selectLabel">
+                                <button name="relatedJournals" id="relatedJournals" class="relatedJournals"
+                                    aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selectLabel">
                                     <span class="relatedJournalsSelectedValue">Related Journals</span>
                                     <span id="arrow" class="arrow">
                                         <img id="arrow_img" src="./assets/DownArrow.svg" alt="Arrow Image">
                                     </span>
                                 </button>
 
-                                <ul onclick="relatedJournalValueUpdate(event)" id="relatedJournalsDropdown" class="relatedJournalsDropdown" role="listbox">
+                                <ul onclick="relatedJournalValueUpdate(event)" id="relatedJournalsDropdown"
+                                    class="relatedJournalsDropdown" role="listbox">
                                 </ul>
                             </div>
-
                         </div>
                     </div>
                 </div>
                 <div class="right-box">
-                    <!-- <h1>Placeholder for Right Side Section</h1> -->
+                    <section id="silverchair-widget-latest-issue-info">
+                        <h2>Silverchair Widget</h2>
+                        <p>Goes here</p>
+                    </section>
                 </div>
             </section>
 
@@ -125,7 +127,7 @@
                         </div>
                         <div class="metric">
                             <div class="metric-value" id="detailSectionDaysToFirstPeerReview"></div>
-                            <div class="metric-label">Days to First Peer Review Decision*</div>
+                            <div class="metric-label daysToFirstPeerReview">Days to First Peer Review Decision*</div>
                         </div>
                         <div class="metric">
                             <div class="metric-value" id="daysToAccept"></div>
@@ -175,7 +177,7 @@
                             </ul>
                         </div>
 
-                        <a href="https://researcher-resources.acs.org/publish/author_guidelines?coden="
+                        <a class="infoForAuthorsContainer" href="https://researcher-resources.acs.org/publish/author_guidelines?coden="
                             onclick="openInNewTab(event, this.href)">
                             <button class="infoForAuthors">
                                 Information for Authors
@@ -186,28 +188,31 @@
                     <aside class="sidebar">
                         <div class="sideCard editor-card">
                             <div class="personContainer">
-                                <h3>Editor-in-Chief</h3>
-                                <div class="person">
-                                    <img id="editorInChiefProfileIcon" alt="img1" />
-                                    <div class="personDetails">
-                                        <a id="sideSectionEditorName" href="#" class="link editorName"></a>
-                                        <h4 class="chefUnivName" id="chiefUnivName"></h4>
-                                        <h4 class="chiefCountry" id="chiefCountry"></h4>
+                                <div id="sideSectionEditorInChiefContainer">
+                                    <h3>Editor-in-Chief</h3>
+                                    <div class="person">
+                                        <img id="editorInChiefProfileIcon"/>
+                                        <div class="personDetails">
+                                            <a id="sideSectionEditorName" href="#" class="link editorName"></a>
+                                            <h4 class="chefUnivName" id="chiefUnivName"></h4>
+                                            <h4 class="chiefCountry" id="chiefCountry"></h4>
+                                        </div>
                                     </div>
                                 </div>
-
-                                <h3>Deputy Editor</h3>
-                                <div class="person">
-                                    <img id="deputyEditorProfileIcon" alt="img2" />
-                                    <div class="personDetails">
-                                        <a id="sideSectionDeputyName" href="#" class="link editorName"></a>
-                                        <h4 class="deputyUnivName" id="deputyUnivName"></h4>
-                                        <h4 class="deputyCountry" id="deputyCountry"></h4>
+                                <div id="sideSectionDeputyEditorContainer">
+                                    <h3>Deputy Editor</h3>
+                                    <div class="person">
+                                        <img id="deputyEditorProfileIcon" />
+                                        <div class="personDetails">
+                                            <a id="sideSectionDeputyName" href="#" class="link editorName"></a>
+                                            <h4 class="deputyUnivName" id="deputyUnivName"></h4>
+                                            <h4 class="deputyCountry" id="deputyCountry"></h4>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <a href="/coden/editors" class="link viewEditorsInSideBar">View Editors & Editorial
+                            <a id="viewEditorsInSideBar" class="link viewEditorsInSideBar">View Editors & Editorial
                                 Board</a>
 
                             <div class="masthead">
@@ -217,7 +222,7 @@
                                 </p>
                             </div>
 
-                            <a href="/toc/coden/current#Mastheads" class="link currentIssuePub">Current Issue
+                            <a id="currentIssuePub" class="link currentIssuePub">Current Issue
                                 Publication Information</a>
 
                             <div class="indexed">

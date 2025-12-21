@@ -106,9 +106,8 @@ p {
     display: grid;
     gap: 16px;
     align-items: center;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    max-width: 45%;
-    width: 100%;
+    grid-template-columns:minmax(160px, 1fr) minmax(120px, 0.7fr) minmax(155px, 1fr);
+    max-width: 55%;
 }
 
 .yellow-btn {
@@ -138,7 +137,6 @@ p {
     align-items: center;
     justify-content: center;
     height: 40px;
-    margin-left: 10px;
 }
 
 .yellow-btn:hover {
@@ -153,6 +151,11 @@ p {
     border-radius: var(--rounded-sm, 2px);
     background: rgba(255, 250, 232, 0.20);
     background: color(display-p3 1 0.9804 0.9176 / 0.20);
+}
+
+.alertsWrapper{
+    display: inline-block;
+    max-width: max-content;
 }
 
 .aim-scope {
@@ -301,6 +304,11 @@ p {
     font-size: 14px;
 }
 
+.infoForAuthorsContainer{
+    margin: 10px 0;
+    display: inline-block;
+}
+
 .infoForAuthors {
     background-color: #ffffff;
     color: #0039A6;
@@ -309,7 +317,6 @@ p {
     padding: 10px;
     font-weight: 600;
     font-size: var(--font-size-16);
-    margin-top: 10px;
     transition: background-color 300ms ease-out;
     cursor: pointer;
 }
@@ -587,6 +594,7 @@ h5 {
     .alertsWrapper {
         margin-left: 0;
         margin-top: 6px;
+        max-width: 100%;
     }
 
     .indexed {
@@ -665,4 +673,13 @@ h5 {
 
 .arrow_img{
     color: white;
+}
+
+.daysToFirstPeerReview{
+    display: inline-block;
+    max-width: 90%;
+}
+
+.submitWrapper{
+    min-width: max-content;
 }

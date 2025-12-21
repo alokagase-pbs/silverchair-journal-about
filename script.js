@@ -1,12 +1,34 @@
-let route = "aamick"; // change as needed
+let route = "psabav"; // change as needed
 
+const CORS_PROXY = "https://corsproxy.io/?url=";
+const BASE_URL = "https://pubs.acs.org/pb-assets/json/";
 const JSON_DIR = "./json";
-const INFO_FILE = `${JSON_DIR}/journal-info.json`;
+const INFO_FILE = `${JSON_DIR}/journal-info.json`; //CORS_PROXY+BASE_URL+'journal-info.json';
 const METRICS_FILE = `${JSON_DIR}/journal_metrics.json`;
 const RELATED_JOURNALS = `${JSON_DIR}/relatedJournals.json`;
-
 const MASTHEAD_BASE =
   "https://raw.githubusercontent.com/DSCO-Support/JournalMastheads/refs/heads/main/mastheads";
+
+function updateEditorsHref() {
+  const el = document.getElementById("viewEditorsMainSection");
+  const el1 = document.getElementById("viewEditorsInSideBar");
+  const el2 = document.getElementById("currentIssuePub");
+  if (!el) return;
+
+  const updatedRoute = String(route || "").replace(/^\/+|\/+$/g, "");
+  if (!updatedRoute) return;
+
+  if (el) {
+    el.setAttribute("href", `/${updatedRoute}/editors`);
+  }
+  if (el1) {
+    el1.setAttribute("href", `/${updatedRoute}/editors`);
+  }
+  if (el2) {
+    el2.setAttribute("href", `/toc/${updatedRoute}/current#Mastheads`);
+  }
+}
+updateEditorsHref();
 
 // --- Fetch helper ---
 async function fetchJSON(url) {
@@ -86,46 +108,15 @@ function updateEditorInfo(person, editorInfo, role) {
     person?.name ||
     "";
 
-  const infoOverride =
-    (editorInfo &&
-      editorInfo[role] &&
-      (editorInfo[role].image || editorInfo[role].photo)) ||
-    (editorInfo && (editorInfo.image || editorInfo.photo)) ||
-    null;
-
-  const mastheadImage =
-    person?.["Portrait"] || person?.["Photo"] || person?.["Image"] || null;
-
-  const imgSrc = infoOverride || mastheadImage || null;
-
-  const affHTML = buildAffiliation(person);
-
-  setText(cfg.mainNameId, name || "—");
-  setText(cfg.sideNameId, name || "—");
-  setWebsiteLink(cfg.sideNameId, person);
-  setImage(editorInfo, name, cfg);
-  setText(cfg.sideInstitutionName, person["Institution Name"]);
-  setText(cfg.sideCountryName, person["Country"]);
-
-  const sideNameEl = document.getElementById(cfg.sideNameId);
-  const sideAffEl = document.getElementById(cfg.sideAffId);
-  const sideImgEl = document.getElementById(cfg.sideImageId);
-  const sideContainerEl = document.getElementById(cfg.sideContainerId);
-
-  if (sideNameEl) sideNameEl.textContent = name || "—";
-  if (sideAffEl) sideAffEl.innerHTML = affHTML || "";
-  if (sideImgEl) {
-    if (imgSrc) {
-      sideImgEl.src = imgSrc;
-      sideImgEl.alt = `${role} photo`;
-      sideImgEl.removeAttribute("hidden");
-    } else {
-      sideImgEl.setAttribute("hidden", "hidden");
-      sideImgEl.removeAttribute("src");
-    }
+  if (name) {
+    setText(cfg.mainNameId, name || "—");
+    setText(cfg.sideNameId, name || "—");
+    setImage(editorInfo, name, cfg);
   }
-  if (sideContainerEl) {
-    sideContainerEl.hidden = false;
+  if (person) {
+    setWebsiteLink(cfg.sideNameId, person);
+    setText(cfg.sideInstitutionName, person["Institution Name"]);
+    setText(cfg.sideCountryName, person["Country"]);
   }
 }
 
@@ -139,30 +130,46 @@ function setWebsiteLink(id, person) {
 
 function setImage(editorInfo, name, cfg) {
   const BASE_URL = "https://pubs.acs.org";
-  document.getElementById(cfg.sideProfileImageId).src =
-    BASE_URL + editorInfo[name].imgUrl;
+  const imageEl = document.getElementById(cfg.sideProfileImageId);
+  imageEl.src = BASE_URL + editorInfo[name].imgUrl;
+  if (!editorInfo[name].imgUrl) {
+    imageEl.onerror = null;
+    imageEl.src =
+      "https://pubs.acs.org/pb-assets/ux3/journal-about/avatar-1704309094807.svg";
+  }
 }
 
 function adjustVisibility(hasEditorInChief, hasDeputyEditor) {
   const mainEICName = document.getElementById("mainSectionEditorName");
   const mainDEName = document.getElementById("mainSectionDeputyName");
+  const sideEICName = document.getElementById("sideSectionEditorName");
+  const sideDEName = document.getElementById("sideSectionDeputyName");
+
   if (mainEICName?.parentElement) {
     mainEICName.parentElement.style.display = hasEditorInChief ? "" : "none";
   }
   if (mainDEName?.parentElement) {
     mainDEName.parentElement.style.display = hasDeputyEditor ? "" : "none";
   }
-
-  const eicContainer = document.getElementById("editor-in-chief");
-  const deContainer = document.getElementById("deputy-editor");
-  if (eicContainer) eicContainer.hidden = !hasEditorInChief;
-  if (deContainer) deContainer.hidden = !hasDeputyEditor;
-
-  const editorCard = document.getElementById("editor-card");
-  if (editorCard) {
-    editorCard.style.display =
-      hasEditorInChief || hasDeputyEditor ? "" : "none";
+  if (sideEICName?.closest("#sideSectionEditorInChiefContainer")) {
+    sideEICName.closest("#sideSectionEditorInChiefContainer").style.display =
+      hasEditorInChief ? "" : "none";
   }
+  if (sideDEName?.closest("#sideSectionDeputyEditorContainer")) {
+    sideDEName.closest("#sideSectionDeputyEditorContainer").style.display =
+      hasDeputyEditor ? "" : "none";
+  }
+
+  // const eicContainer = document.getElementById("editor-in-chief");
+  // const deContainer = document.getElementById("deputy-editor");
+  // if (eicContainer) eicContainer.hidden = !hasEditorInChief;
+  // if (deContainer) deContainer.hidden = !hasDeputyEditor;
+
+  // const editorCard = document.getElementById("editor-card");
+  // if (editorCard) {
+  //   editorCard.style.display =
+  //     hasEditorInChief || hasDeputyEditor ? "" : "none";
+  // }
 }
 
 async function loadMastheadAndRenderEditors(code, editorInfo) {
@@ -233,17 +240,50 @@ async function renderJournalForCoden(code, indexes) {
   setText("mainSectionDeputyName", fallbackDeputy || "");
 
   setText("mainSectionImpactFactor", metrics?.impact2yr ?? "—");
-  setText("mainSectionCitationScore", metrics?.citations ?? "—");
-  setText("mainSectionCiteScore", metrics?.citescore ?? "—");
-  setText("detailSectionCitationScore", metrics?.citations ?? "—");
-  setText("detailSectionTwoYearImpactFactor", metrics?.impact2yr ?? "—");
-  setText("detailSectionFiveYearImpactFactor", metrics?.impact5yr ?? "—");
-  setText("detailSectionCiteScore", metrics?.citescore ?? "—");
-  setText("daysFromAcceptToASAP", metrics?.AcceptToASAP ?? "—");
-  setText("detailSectionTotalCitations", metrics?.citations ?? "—");
-  setText("detailSectionDaysToFirstPeerReview", metrics?.SubToFDwPR ?? "—");
-  setText("daysToAccept", metrics?.SubToAccept ?? "—");
-  setRelatedJournalOptions(relatedJournals, code);
+  setText(
+    "mainSectionCitationScore",
+    formatNumber(metrics?.citations) ? formatNumber(metrics?.citations) : "NaN"
+  );
+  setText(
+    "mainSectionCiteScore",
+    metrics?.citescore ? metrics?.citescore : "NaN"
+  );
+  setText(
+    "detailSectionCitationScore",
+    formatNumber(metrics?.citations) ?? "NaN"
+  );
+  setText(
+    "detailSectionTwoYearImpactFactor",
+    metrics?.impact2yr ? metrics?.impact2yr : "NaN"
+  );
+  setText(
+    "detailSectionFiveYearImpactFactor",
+    metrics?.impact5yr ? metrics?.impact5yr : "NaN"
+  );
+  setText(
+    "detailSectionCiteScore",
+    metrics?.citescore ? metrics?.citescore : "NaN"
+  );
+  setText(
+    "daysFromAcceptToASAP",
+    metrics?.AcceptToASAP ? metrics?.AcceptToASAP : "NaN"
+  );
+  setText(
+    "detailSectionTotalCitations",
+    formatNumber(metrics?.citations) ?? "NaN"
+  );
+  setText(
+    "detailSectionDaysToFirstPeerReview",
+    metrics?.SubToFDwPR ? metrics?.SubToFDwPR : "NaN"
+  );
+  setText("daysToAccept", metrics?.SubToAccept ? metrics?.SubToAccept : "NaN");
+
+  if (relatedJournals) {
+    setRelatedJournalOptions(relatedJournals, code);
+  } else {
+    document.getElementById("relatedJournalsParent").style.display = "none";
+  }
+
   document.querySelectorAll(".providedYear").forEach((i) => {
     i.textContent = metricsIndex.journal_metrics.year;
   });
@@ -345,7 +385,7 @@ async function render(routeName) {
   }
 
   console.warn(`Unknown route/coden: "${routeName}"`);
-  showOnly("home");
+  document.getElementById('main').innerHTML = '<h1>404 Not Found</h1>';
 }
 
 function openInNewTab(event, url) {
@@ -367,7 +407,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   customSelects.forEach((selectWrapper) => {
     const selectBtn = selectWrapper.querySelector(".relatedJournals");
-      let arrowEl = document.getElementById("arrow_img");
+    let arrowEl = document.getElementById("arrow_img");
 
     // Toggle dropdown visibility on button click
     selectBtn.addEventListener("click", () => {
@@ -396,4 +436,9 @@ function relatedJournalValueUpdate(event) {
   const button = document.querySelector(".relatedJournals");
   button.textContent = event.target.textContent;
   button.setAttribute("aria-expanded", "false");
+}
+
+function formatNumber(number) {
+  const formattedNumber = parseInt(number).toLocaleString("en-US");
+  return formattedNumber;
 }
