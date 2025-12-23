@@ -1,4 +1,4 @@
-let route = "psabav"; // change as needed
+let route = "aambcb"; // change as needed
 
 const CORS_PROXY = "https://corsproxy.io/?url=";
 const BASE_URL = "https://pubs.acs.org/pb-assets/json/";
@@ -383,9 +383,8 @@ async function render(routeName) {
     }
     return;
   }
-
-  console.warn(`Unknown route/coden: "${routeName}"`);
-  document.getElementById('main').innerHTML = '<h1>404 Not Found</h1>';
+    console.warn(`Unknown route/coden: "${routeName}"`);
+    document.getElementById("main").innerHTML = "<h1>404 Not Found</h1>";
 }
 
 function openInNewTab(event, url) {
