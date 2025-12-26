@@ -20,76 +20,78 @@
             </div>
 
             <section class="main-wrapper" id="main-wrapper">
-                <div class="left-box">
-                    <section class="blurbSection">
-                        <p class="blurbDesc" id="blurbDesc"></p>
-                    </section>
+                    <div class="left-box">
+                        <section class="blurbSection">
+                            <p class="blurbDesc" id="blurbDesc"></p>
+                        </section>
 
-                    <section class="editorsSection">
-                        <p class="line">
-                            <span id="mainSectionHeader">Editor-in-Chief:</span>
-                            <span id="mainSectionEditorName"></span>
-                        </p>
-                        <p class="line">
-                            <span id="mainSectionHeader">Deputy Editor:</span>
-                            <span id="mainSectionDeputyName"></span>
-                        </p>
-                        <p class="line">
-                            <a class="simple-link" id="viewEditorsMainSection">View Editors &
-                                Editorial
-                                Board</a>
-                        </p>
-                    </section>
+                        <section class="editorsSection">
+                            <p class="line">
+                                <span id="mainSectionHeader">Editor-in-Chief:</span>
+                                <span id="mainSectionEditorName"></span>
+                            </p>
+                            <p class="line">
+                                <span id="mainSectionHeader">Deputy Editor:</span>
+                                <span id="mainSectionDeputyName"></span>
+                            </p>
+                            <p class="line">
+                                <a class="simple-link" id="viewEditorsMainSection">View Editors &
+                                    Editorial
+                                    Board</a>
+                            </p>
+                        </section>
 
-                    <section class="metaDataScores">
-                        <p class="line scoreContainer">
-                            <strong id="mainSectionHeader">2 Year Impact Factor:</strong>
-                            <span class="mainSectionValues" id="mainSectionImpactFactor"></span> &nbsp;&nbsp;&nbsp;
-                            <strong id="mainSectionHeader">Citations:</strong>
-                            <span class="mainSectionValues" id="mainSectionCitationScore"></span> &nbsp;&nbsp;&nbsp;
-                            <strong id="mainSectionHeader">CiteScore:</strong>
-                            <span class="mainSectionValues" id="mainSectionCiteScore"></span>
-                        </p>
-                        <p class="line">
-                            <a href="/journal-metrics" class="simple-link">View All <span class="providedYear"></span>
-                                Journal
-                                Metrics</a>
-                        </p>
-                    </section>
+                        <section class="metaDataScores">
+                            <p class="line scoreContainer">
+                                <strong id="mainSectionHeader">2 Year Impact Factor:</strong>
+                                <span class="mainSectionValues" id="mainSectionImpactFactor"></span> &nbsp;&nbsp;&nbsp;
+                                <strong id="mainSectionHeader">Citations:</strong>
+                                <span class="mainSectionValues" id="mainSectionCitationScore"></span> &nbsp;&nbsp;&nbsp;
+                                <strong id="mainSectionHeader">CiteScore:</strong>
+                                <span class="mainSectionValues" id="mainSectionCiteScore"></span>
+                            </p>
+                            <p class="line">
+                                <a href="/journal-metrics" class="simple-link">View All <span
+                                        class="providedYear"></span>
+                                    Journal
+                                    Metrics</a>
+                            </p>
+                        </section>
 
-                    <div class="btn-row">
-                        <a class="submitWrapper" href="https://publish.acs.org/" target="_blank" rel="noopener">
-                            <button class="yellow-btn">Submit Manuscript</button>
-                        </a>
-                        <a rel="noopener" class="alertsWrapper" href=" https://preferences.acs.org/" target="_blank">
-                            <button class="outline-btn">
-                                <img src="./assets/LeadingIcon.svg" alt="">
-                                Get Alerts
-                            </button>
-                        </a>
-                        <div id="relatedJournalsParent" class="relatedJournalsParent">
-                            <div class="custom-select" id="customSelect">
-                                <button name="relatedJournals" id="relatedJournals" class="relatedJournals"
-                                    aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selectLabel">
-                                    <span class="relatedJournalsSelectedValue">Related Journals</span>
-                                    <span id="arrow" class="arrow">
-                                        <img id="arrow_img" src="./assets/DownArrow.svg" alt="Arrow Image">
-                                    </span>
+                        <div class="btn-row">
+                            <a class="submitWrapper" href="https://publish.acs.org/" target="_blank" rel="noopener">
+                                <button class="yellow-btn">Submit Manuscript</button>
+                            </a>
+                            <a rel="noopener" class="alertsWrapper" href=" https://preferences.acs.org/"
+                                target="_blank">
+                                <button class="outline-btn">
+                                    <icon class="icon-alert-bell"></icon>
+                                    Get Alerts
                                 </button>
+                            </a>
+                            <div id="relatedJournalsParent" class="relatedJournalsParent">
+                                <div class="custom-select" id="customSelect">
+                                    <button name="relatedJournals" id="relatedJournals" class="relatedJournals"
+                                        aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selectLabel">
+                                        <span class="relatedJournalsSelectedValue">Related Journals</span>
+                                        <span id="arrow" class="arrow">
+                                            <img id="arrow_img" src="./assets/DownArrow.svg" alt="Arrow Image">
+                                        </span>
+                                    </button>
 
-                                <ul onclick="relatedJournalValueUpdate(event)" id="relatedJournalsDropdown"
-                                    class="relatedJournalsDropdown" role="listbox">
-                                </ul>
+                                    <ul onclick="relatedJournalValueUpdate(event)" id="relatedJournalsDropdown"
+                                        class="relatedJournalsDropdown" role="listbox">
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="right-box">
-                    <section id="silverchair-widget-latest-issue-info">
-                        <h2>Silverchair Widget</h2>
-                        <p>Goes here</p>
-                    </section>
-                </div>
+                    <div class="right-box">
+                        <section id="silverchair-widget-latest-issue-info">
+                            <h2>Silverchair Widget</h2>
+                            <p>Goes here</p>
+                        </section>
+                    </div>
             </section>
 
             <main class="footerSection" id="footerSection">
@@ -177,7 +179,8 @@
                             </ul>
                         </div>
 
-                        <a class="infoForAuthorsContainer" href="https://researcher-resources.acs.org/publish/author_guidelines?coden="
+                        <a class="infoForAuthorsContainer"
+                            href="https://researcher-resources.acs.org/publish/author_guidelines?coden="
                             onclick="openInNewTab(event, this.href)">
                             <button class="infoForAuthors">
                                 Information for Authors
@@ -191,7 +194,7 @@
                                 <div id="sideSectionEditorInChiefContainer">
                                     <h3>Editor-in-Chief</h3>
                                     <div class="person">
-                                        <img id="editorInChiefProfileIcon"/>
+                                        <img id="editorInChiefProfileIcon" />
                                         <div class="personDetails">
                                             <a id="sideSectionEditorName" href="#" class="link editorName"></a>
                                             <h4 class="chefUnivName" id="chiefUnivName"></h4>
@@ -218,7 +221,8 @@
                             <div class="masthead">
                                 <h5>Masthead Information</h5>
                                 <p class="printAndWebEdition">
-                                    Print Edition ISSN: 0021-9568<br />Web Edition ISSN: 1520-5134
+                                    Print Edition ISSN: <span id="printEditionISSN"></span> <br />Web Edition ISSN:
+                                    <span id="webEditionISSN"></span>
                                 </p>
                             </div>
 

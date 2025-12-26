@@ -1,4 +1,4 @@
-let route = "aambcb"; // change as needed
+let route = "aabmcb"; // change as needed
 
 const CORS_PROXY = "https://corsproxy.io/?url=";
 const BASE_URL = "https://pubs.acs.org/pb-assets/json/";
@@ -277,6 +277,8 @@ async function renderJournalForCoden(code, indexes) {
     metrics?.SubToFDwPR ? metrics?.SubToFDwPR : "NaN"
   );
   setText("daysToAccept", metrics?.SubToAccept ? metrics?.SubToAccept : "NaN");
+  setText("printEditionISSN", info?.issn ? info.issn : "");
+  setText("webEditionISSN", info?.eissn ? info?.eissn : "");
 
   if (relatedJournals) {
     setRelatedJournalOptions(relatedJournals, code);
