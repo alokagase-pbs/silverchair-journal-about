@@ -81,15 +81,15 @@ function buildAffiliation(person) {
 function updateEditorInfo(person, editorInfo, role) {
   const map = {
     "Editor-in-Chief": {
-      mainNameId: "mainSectionEditorName",
+      mainNameId: "sc-editors__eic-value",
       sideContainerId: "editor-in-chief",
       sideNameId: "sideSectionEditorName",
-      sideProfileImageId: "editorInChiefProfileIcon",
+      sideProfileImageId: "sc-editor__avatar__editorInChiefProfileIcon",
       sideInstitutionName: "chiefUnivName",
       sideCountryName: "chiefCountry",
     },
     "Deputy Editor": {
-      mainNameId: "mainSectionDeputyName",
+      mainNameId: "sc-editors__de-value",
       sideContainerId: "deputy-editor",
       sideNameId: "sideSectionDeputyName",
       sideProfileImageId: "deputyEditorProfileIcon",
@@ -140,8 +140,8 @@ function setImage(editorInfo, name, cfg) {
 }
 
 function adjustVisibility(hasEditorInChief, hasDeputyEditor) {
-  const mainEICName = document.getElementById("mainSectionEditorName");
-  const mainDEName = document.getElementById("mainSectionDeputyName");
+  const mainEICName = document.getElementById("sc-editors__eic-value");
+  const mainDEName = document.getElementById("sc-editors__de-value");
   const sideEICName = document.getElementById("sideSectionEditorName");
   const sideDEName = document.getElementById("sideSectionDeputyName");
 
@@ -151,25 +151,14 @@ function adjustVisibility(hasEditorInChief, hasDeputyEditor) {
   if (mainDEName?.parentElement) {
     mainDEName.parentElement.style.display = hasDeputyEditor ? "" : "none";
   }
-  if (sideEICName?.closest("#sideSectionEditorInChiefContainer")) {
-    sideEICName.closest("#sideSectionEditorInChiefContainer").style.display =
+  if (sideEICName?.closest("#sc-editor-foot__editorInChief-container")) {
+    sideEICName.closest("#sc-editor-foot__editorInChief-container").style.display =
       hasEditorInChief ? "" : "none";
   }
   if (sideDEName?.closest("#sideSectionDeputyEditorContainer")) {
     sideDEName.closest("#sideSectionDeputyEditorContainer").style.display =
       hasDeputyEditor ? "" : "none";
   }
-
-  // const eicContainer = document.getElementById("editor-in-chief");
-  // const deContainer = document.getElementById("deputy-editor");
-  // if (eicContainer) eicContainer.hidden = !hasEditorInChief;
-  // if (deContainer) deContainer.hidden = !hasDeputyEditor;
-
-  // const editorCard = document.getElementById("editor-card");
-  // if (editorCard) {
-  //   editorCard.style.display =
-  //     hasEditorInChief || hasDeputyEditor ? "" : "none";
-  // }
 }
 
 async function loadMastheadAndRenderEditors(code, editorInfo) {
@@ -225,7 +214,7 @@ async function renderJournalForCoden(code, indexes) {
 
   //const codenData = await fetchJSON(`${JSON_DIR}/${code}.json`);
 
-  setText("journal-title", metrics?.title ?? "—");
+  setText("sc-header__title", metrics?.title ?? "—");
   setBlurbValue(metrics, info);
 
   const editorInfo = getEditorInfo(info);
@@ -236,57 +225,58 @@ async function renderJournalForCoden(code, indexes) {
     editorInfo?.["Deputy Editor"]?.toString?.() ??
     (typeof editorInfo?.deputy === "string" ? editorInfo.deputy : "");
 
-  setText("mainSectionEditorName", fallbackEIC || "");
-  setText("mainSectionDeputyName", fallbackDeputy || "");
+  setText("sc-editors__eic-value", fallbackEIC || "");
+  setText("sc-editors__de-value", fallbackDeputy || "");
 
-  setText("mainSectionImpactFactor", metrics?.impact2yr ?? "—");
+  setText("sc-metrics__impact-value", metrics?.impact2yr ?? "—");
   setText(
-    "mainSectionCitationScore",
+    "sc-metrics__cites-value",
     formatNumber(metrics?.citations) ? formatNumber(metrics?.citations) : "NaN"
   );
   setText(
-    "mainSectionCiteScore",
+    "sc-metrics__citescore-value",
     metrics?.citescore ? metrics?.citescore : "NaN"
   );
   setText(
-    "detailSectionCitationScore",
+    "sc-metrics__value--cites",
     formatNumber(metrics?.citations) ?? "NaN"
   );
   setText(
-    "detailSectionTwoYearImpactFactor",
+    "sc-metrics__value--two-if",
     metrics?.impact2yr ? metrics?.impact2yr : "NaN"
   );
   setText(
-    "detailSectionFiveYearImpactFactor",
+    "sc-metrics__value--five-if",
     metrics?.impact5yr ? metrics?.impact5yr : "NaN"
   );
   setText(
-    "detailSectionCiteScore",
+    "sc-metrics__value--citescore",
     metrics?.citescore ? metrics?.citescore : "NaN"
   );
   setText(
-    "daysFromAcceptToASAP",
+    "sc-metrics__value--days-asap",
     metrics?.AcceptToASAP ? metrics?.AcceptToASAP : "NaN"
   );
   setText(
-    "detailSectionTotalCitations",
+    "sc-metrics__value--total-cites",
     formatNumber(metrics?.citations) ?? "NaN"
   );
   setText(
-    "detailSectionDaysToFirstPeerReview",
+    "sc-metrics__value--days-first",
     metrics?.SubToFDwPR ? metrics?.SubToFDwPR : "NaN"
   );
-  setText("daysToAccept", metrics?.SubToAccept ? metrics?.SubToAccept : "NaN");
+  setText("sc-metrics__value--days-accept", metrics?.SubToAccept ? metrics?.SubToAccept : "NaN");
   setText("printEditionISSN", info?.issn ? info.issn : "");
   setText("webEditionISSN", info?.eissn ? info?.eissn : "");
 
   if (relatedJournals) {
     setRelatedJournalOptions(relatedJournals, code);
   } else {
-    document.getElementById("relatedJournalsParent").style.display = "none";
+    document.getElementById("sc-reljournals").style.display = "none";
   }
 
-  document.querySelectorAll(".providedYear").forEach((i) => {
+  //document.querySelectorAll(".providedYear")
+  document.querySelectorAll(".sc-metrics__year").forEach((i) => {
     i.textContent = metricsIndex.journal_metrics.year;
   });
   setIndexedAndAbstractedData(info);
@@ -298,7 +288,7 @@ function setBlurbValue(metrics, info) {
   let tailValue = info.blurb.slice(metrics.title.length);
   let emElement = document.createElement("em");
   emElement.textContent = info.title;
-  let el = document.getElementById("blurbDesc");
+  let el = document.getElementById("sc-mdw__blurb-value");
   el.textContent = "";
   const tailNode = document.createTextNode(tailValue);
   el.append(emElement, tailNode);
@@ -315,7 +305,7 @@ function setIndexedAndAbstractedData(info) {
 }
 
 function setRelatedJournalOptions(relatedJournals, code) {
-  const select = document.getElementById("relatedJournalsDropdown");
+  const select = document.getElementById("sc-select__menu");
   relatedJournals.journ_name.forEach((item) => {
     if (item.includes(code)) {
       return;
@@ -404,10 +394,10 @@ function redirectToCoden(event) {
 render(route);
 
 document.addEventListener("DOMContentLoaded", () => {
-  const customSelects = document.querySelectorAll(".custom-select");
+  const customSelects = document.querySelectorAll(".sc-custom-select");
 
   customSelects.forEach((selectWrapper) => {
-    const selectBtn = selectWrapper.querySelector(".relatedJournals");
+    const selectBtn = selectWrapper.querySelector(".sc-related-journals");
     let arrowEl = document.getElementById("arrow_img");
 
     // Toggle dropdown visibility on button click
@@ -434,7 +424,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function relatedJournalValueUpdate(event) {
-  const button = document.querySelector(".relatedJournals");
+  const button = document.querySelector(".sc-related-journals");
   button.textContent = event.target.textContent;
   button.setAttribute("aria-expanded", "false");
 }

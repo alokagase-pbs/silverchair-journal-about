@@ -43,7 +43,7 @@ p {
 }
 
 /* TOP TITLE */
-.headerTitleSection {
+.sc-header__wrapper {
     padding: 1rem 8rem 1rem 8rem;
     display: flex;
     align-items: center;
@@ -51,12 +51,12 @@ p {
     background-color: #ffffff;
 }
 
-.journal-title {
+.sc-header__title {
     font-size: var(--font-size-24);
     font-weight: 600;
 }
 
-.main-wrapper {
+.sc-mdw {
     background: var(--main-section-bg-color);
     color: #fff;
     margin: 0 auto;
@@ -69,7 +69,7 @@ p {
 }
 
 /* LEFT BOX */
-.left-box {
+.sc-mdw__left {
     display: flex;
     flex-direction: column;
     gap: var(--font-size-24);
@@ -77,7 +77,7 @@ p {
     max-width: 75%;
 }
 
-.blurbDesc {
+.sc-mdw__blurb-value {
     font-size: var(--font-size-16);
     line-height: 1.5;
     display: inline-block;
@@ -88,17 +88,19 @@ p {
     text-decoration: underline;
 }
 
-.mainSectionValues {
+.sc-metrics__cites-value,
+.sc-metrics__impact-value,
+.sc-metrics__citescore-value {
     font-weight: var(--font-weight-400);
 }
 
-.line {
+.sc-editors__line {
     margin: 0;
     font-size: var(--font-size-16);
     line-height: 1.8rem;
 }
 
-.simple-link {
+.sc-editors__link {
     color: #fff;
     font-size: var(--font-size-16);
     text-decoration: underline;
@@ -106,7 +108,7 @@ p {
     padding: 0;
 }
 
-.btn-row {
+.sc-cta {
     display: grid;
     gap: 16px;
     align-items: center;
@@ -114,7 +116,7 @@ p {
     max-width: 55%;
 }
 
-.yellow-btn {
+.sc-cta__submit {
     background: #FDC82F;
     border: none;
     padding: 10px 10px;
@@ -126,9 +128,10 @@ p {
     color: #333333;
     transition: background-color 300ms ease-out;
     height: 40px;
+    text-decoration: none;
 }
 
-.outline-btn {
+.sc-cta__alerts {
     background: transparent;
     border: 2px solid #f8c94d;
     color: #f8c94d;
@@ -143,41 +146,42 @@ p {
     height: 40px;
 }
 
-.yellow-btn:hover {
+.sc-cta__submit:hover {
     border-radius: var(--rounded-sm, 2px);
     background: #FFAD00;
     background: color(display-p3 1 0.6941 0.0824);
 }
 
 
-.outline-btn:hover,
-.relatedJournals:hover {
+.sc-cta__alerts:hover,
+.sc-related-journals:hover {
     border-radius: var(--rounded-sm, 2px);
     background: rgba(255, 250, 232, 0.20);
     background: color(display-p3 1 0.9804 0.9176 / 0.20);
 }
 
-.alertsWrapper {
+.sc-cta__alert-wrap {
     display: inline-block;
     max-width: max-content;
+    text-decoration: none;
 }
 
-.aim-scope {
+.sc-aim {
     padding-right: 10px;
 }
 
-.editorName {
+.sc-foot-editorName {
     color: var(--link-color);
     text-decoration: underline;
     font-weight: 600;
     font-size: 16px;
 }
 
-.outline-btn img {
+.sc-cta__alerts img {
     margin-right: 5px;
 }
 
-.relatedJournalsParent {
+.sc-reljournals {
     margin-left: 0;
     cursor: pointer;
 }
@@ -186,92 +190,98 @@ p {
     background-color: #081B33;
 }
 
-#mainSectionHeader {
+.sc-editors__eic-label,
+.sc-editors__de-label,
+.sc-metrics__impact-label,
+.sc-metrics__cites-label,
+.sc-metrics__citescore-label
+{
     font-weight: var(--font-weight-600);
 }
 
-.footerSection {
+.sc-foot {
     padding: 1.5rem 8rem 0 8rem;
     background-color: #ffffff;
 }
 
-.aboutJournal {
+.sc-foot__title {
     font-weight: var(--font-weight-600);
     font-size: var(--font-size-24);
     color: var(--font-color);
 }
 
-.journalMetricsSubHead {
+.sc-metrics__title {
     font-size: 20px;
     font-weight: var(--font-weight-600);
     color: var(--font-color);
 }
 
-.metric {
+.sc-metrics__item {
     margin-top: var(--font-size-24);
     color: var(--font-color);
 }
 
-.viewAllLink {
+.sc-foot-view-all-link {
     color: var(--link-color) !important;
 }
 
-.page-header h1 {
+.sc-foot__header h1 {
     font-size: 22px;
     font-weight: 700;
     margin: 0 0 18px;
 }
 
-.metrics-header {
+.sc-metrics__header {
     display: grid;
     justify-content: space-between;
     margin-top: 12px;
     grid-template-columns: 1fr 1fr;
 }
 
-.link {
+.sc-foot-link {
     font-size: 13px;
     text-decoration: underline;
     color: var(--link-color);
 }
 
-.masthead {
+.sc-masthead {
     margin-top: 40px;
 }
 
-.masthead h5 {
+.sc-masthead h5 {
     font-size: 20px;
     font-weight: 600;
 }
 
-.currentIssuePub {
+.sc-side__current-link {
     margin-top: 8px;
     font-size: var(--font-size-16);
     font-weight: 400;
     display: block;
 }
 
-.indexed {
+.sc-foot-index {
     margin-top: 40px;
+    margin-bottom: 15px;
 }
 
-.indexedHeader {
+.sc-index__title {
     font-size: 20px;
     font-weight: 600;
     color: #333333;
 }
 
-.indexList {
+.sc-index__list {
     margin-top: 16px;
 }
 
-.aimsAndScope {
+.sc-aim__title {
     font-size: 20px;
     font-weight: 600;
     color: #333333;
 }
 
-.aimsAndScopeInfo {
+.sc-aim__desc {
     display: block;
     margin-top: 12px;
     font-weight: 400;
@@ -280,8 +290,8 @@ p {
     color: #333333;
 }
 
-.includedTopics,
-.notIncludedTopics {
+.sc-aim__included-title,
+.sc-aim__excluded-title {
     display: block;
     margin-top: 20px;
     font-weight: 400;
@@ -289,26 +299,26 @@ p {
     color: #333333;
 }
 
-.includedTopicsContainer,
-.notIncludedTopicsContainer {
+.sc-aim__included-list,
+.sc-aim__excluded-list {
     padding-left: 24px;
     margin-top: 20px;
     color: #333333;
 }
 
-.includedTopicsContainer li,
-.notIncludedTopicsContainer li {
+.sc-aim__included-list li,
+.sc-aim__excluded-list li {
     list-style-type: disc;
     margin-top: 10px;
     color: #333333;
 }
 
-.includedTopicsContainer li::marker,
-.notIncludedTopicsContainer li::marker {
+.sc-aim__included-list li::marker,
+.sc-aim__excluded-list li::marker {
     font-size: 14px;
 }
 
-.infoForAuthorsContainer {
+.sc-authors__link {
     margin: 10px 0;
     display: inline-block;
 }
@@ -332,13 +342,13 @@ p {
 }
 
 
-.indexList li {
+.sc-index__list li {
     font-size: var(--font-size-16);
     font-weight: 400;
     margin-top: 5px;
 }
 
-.printAndWebEdition {
+.sc-masthead__meta {
     font-size: 16px;
     font-weight: 400;
     color: #333333;
@@ -346,54 +356,54 @@ p {
     margin-top: 8px;
 }
 
-.viewEditorsInSideBar {
+.sc-side__editors-link {
     font-size: var(--font-size-16);
     font-weight: 500;
     display: block;
     margin-top: 24px;
 }
 
-.metrics-grid {
+.sc-metrics__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     column-gap: 4%;
 }
 
-.metric-value {
+.sc-metrics__value {
     font-size: 24px;
     font-weight: 700;
 }
 
-.metric-label {
+.sc-metrics__label {
     font-size: 13px;
     color: var(--font-color);
 }
 
-.metrics-note {
+.sc-metrics-note {
     margin-top: 10px;
     font-size: 12px;
     color: #5C5C5C;
 }
 
-.content-grid {
+.sc-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 28px;
     margin-top: 20px;
 }
 
-.sideCard h3 {
+.sc-side__card h3 {
     font-size: 20px;
     margin-top: 0;
 }
 
-.sideCard h4 {
+.sc-side__card h4 {
     font-size: 16px;
     font-weight: 400;
 }
 
 
-.sideCard ul {
+.sc-side__card ul {
     padding-left: 20px;
 }
 
@@ -406,28 +416,26 @@ p {
     text-decoration: none;
 }
 
-.person {
+.sc-editor__person {
     display: flex;
     column-gap: 16px;
     margin: 14px;
     align-items: center;
 }
 
-.personDetails {
+.sc-editor__details {
     display: grid;
     row-gap: 4px;
 }
 
-.chefUnivName,
-.chiefCountry,
-.deputyUnivName,
-.deputyCountry {
+.sc-editor__affil,
+.sc-editor__country {
     font-size: var(--font-size-16);
     font-weight: 500;
     color: #333333;
 }
 
-.person img {
+.sc-editor__person img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -454,12 +462,12 @@ aside {
     padding-left: 15px;
 }
 
-.sideCard h3 {
+.sc-side__card h3 {
     font-size: var(--fs-h3);
     margin-top: 0;
 }
 
-.sideCard h4 {
+.sc-side__card h4 {
     font-size: var(--fs-h4);
     font-weight: 400;
 }
@@ -470,154 +478,154 @@ h5 {
     margin-bottom: 0px;
 }
 
-.sideCard ul {
+.sc-side__card ul {
     padding-left: 20px;
 }
 
-.mobileRespDimensions {
+.sc-foot-mobile-dimension {
     text-align: end;
 }
 
 
 @media (max-width: 1280px) {
 
-    .metrics-grid {
+    .sc-metrics__grid {
         column-gap: 0%;
     }
 }
 
 @media (min-width: 551px) and (max-width: 767px) {
-    .headerTitleSection {
+    .sc-header__wrapper {
         padding: 1rem 4rem 1rem 2rem;
     }
 
-    .main-wrapper {
+    .sc-mdw {
         grid-template-columns: 60% 40%;
         padding: 1.5rem 1rem 1.5rem 2rem;
     }
 
-    .relatedJournalsParent {
+    .sc-reljournals {
         margin-left: 0;
         grid-column: span 10;
     }
 
-    .btn-row {
+    .sc-cta {
         grid-template-columns: 1fr 1fr;
         row-gap: 10px;
         column-gap: 4px;
         max-width: 100%;
     }
 
-    .alertsWrapper {
+    .sc-cta__alert-wrap {
         margin-left: 10px;
     }
 
-    .relatedJournals {
+    .sc-related-journals {
         text-align: left !important;
     }
 
-    .footerSection {
+    .sc-foot {
         padding: 1.5rem 1rem 0 2rem;
     }
 
-    .metrics-grid {
+    .sc-metrics__grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    .mobileRespDimensions {
+    .sc-foot-mobile-dimension {
         text-align: end;
     }
 
-    .content-grid {
+    .sc-content {
         grid-template-columns: 1fr;
     }
 
-    .indexed {
+    .sc-foot-index {
         margin-bottom: 15px;
     }
 }
 
 @media (max-width: 550px) {
-    .headerTitleSection {
+    .sc-header__wrapper {
         padding: 1rem 4rem 1rem 2rem;
     }
 
-    .main-wrapper {
+    .sc-mdw {
         grid-template-columns: 1fr;
         padding: 1rem 1.5rem 1.5rem 2rem;
     }
 
-    .relatedJournalsParent {
+    .sc-reljournals {
         margin-left: 0;
         margin-top: 6px;
         text-align: center;
     }
 
-    .relatedJournals {
+    .sc-related-journals {
         width: 100%;
         text-align: center;
     }
 
-    .metrics-header {
+    .sc-metrics__header {
         justify-content: flex-start;
         grid-template-columns: 1fr;
         align-items: center;
     }
 
-    .mobileRespDimensions {
+    .sc-foot-mobile-dimension {
         margin-top: 10px;
         text-align: start;
     }
 
-    .footerSection {
+    .sc-foot {
         padding: 1.5rem 1.5rem 0 2rem;
     }
 
-    .metrics-grid {
+    .sc-metrics__grid {
         grid-template-columns: 1fr 1fr;
     }
 
-    .content-grid {
+    .sc-content {
         grid-template-columns: 1fr;
     }
 
-    .btn-row {
+    .sc-cta {
         grid-template-columns: minmax(0, 1fr);
         max-width: 100%;
     }
 
-    .yellow-btn {
+    .sc-cta__submit {
         width: 100%;
     }
 
-    .outline-btn {
+    .sc-cta__alerts {
         width: 100%;
         margin-left: 0;
     }
 
-    .alertsWrapper {
+    .sc-cta__alert-wrap {
         margin-left: 0;
         margin-top: 6px;
         max-width: 100%;
     }
 
-    .indexed {
+    .sc-foot-index {
         margin-bottom: 15px;
     }
 
-    .right-box {
+    .sc-mdw__right {
         margin-top: 10px;
     }
 }
 
 
-.custom-select {
+.sc-custom-select {
     position: relative;
     width: 100%;
     height: 40px;
 }
 
-.relatedJournals {
+.sc-related-journals {
     cursor: pointer;
     width: 100%;
     text-align: center;
@@ -632,7 +640,7 @@ h5 {
     height: 40px;
 }
 
-.relatedJournalsDropdown {
+.sc-select__menu {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -647,7 +655,7 @@ h5 {
     border-radius: 8px;
 }
 
-.relatedJournalsDropdown li {
+.sc-select__menu li {
     color: black;
     padding: 12px 15px;
     text-decoration: none;
@@ -655,7 +663,7 @@ h5 {
     cursor: pointer;
 }
 
-.relatedJournalsDropdown li a {
+.sc-select__menu li a {
     color: #333333;
     text-decoration: none;
     width: 100%;
@@ -663,15 +671,15 @@ h5 {
     display: inline-block;
 }
 
-.relatedJournalsDropdown li:hover {
+.sc-select__menu li:hover {
     background-color: #e7e7e7;
 }
 
-.custom-select.active .relatedJournalsDropdown {
+.sc-custom-select.active .sc-select__menu {
     display: block;
 }
 
-.arrow {
+.sc-select__arrow {
     margin-left: 4px;
 }
 
@@ -679,11 +687,11 @@ h5 {
     color: white;
 }
 
-.daysToFirstPeerReview {
+#sc-metrics__label--days-first {
     display: inline-block;
     max-width: 90%;
 }
 
-.submitWrapper {
+.sc-cta__submit-wrap {
     min-width: max-content;
 }

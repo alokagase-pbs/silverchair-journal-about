@@ -13,149 +13,224 @@
 </head>
 
 <body>
-    <main id="main">
-        <section id="journal" class="page">
-            <div class="headerTitleSection" id="headerTitleSection">
-                <p class="journal-title" id="journal-title"></p>
+    <main>
+        <section id="custom-page-silverchair" class="custom-page-silverchair">
+            <div class="sc-header sc-header__wrapper" id="sc-header-wrapper" aria-labelledby="sc-header-title">
+                <h1 class="sc-header__title" id="sc-header__title" aria-live="polite"></h1>
             </div>
 
-            <section class="main-wrapper" id="main-wrapper">
-                    <div class="left-box">
-                        <section class="blurbSection">
-                            <p class="blurbDesc" id="blurbDesc"></p>
-                        </section>
+            <section class="sc-mdw" id="sc-mdw" aria-label="Article metadata">
+                <div class="sc-mdw__left" id="sc-mdw__left" aria-label="Metadata details">
+                    <section class="sc-mdw__blurb" id="sc-mdw__blurb" aria-label="Journal blurb">
+                        <p class="sc-mdw__blurb-value" id="sc-mdw__blurb-value" aria-live="polite"></p>
+                    </section>
+                    <section class="sc-editors" id="sc-editors" aria-label="Editorial board">
 
-                        <section class="editorsSection">
-                            <p class="line">
-                                <span id="mainSectionHeader">Editor-in-Chief:</span>
-                                <span id="mainSectionEditorName"></span>
-                            </p>
-                            <p class="line">
-                                <span id="mainSectionHeader">Deputy Editor:</span>
-                                <span id="mainSectionDeputyName"></span>
-                            </p>
-                            <p class="line">
-                                <a class="simple-link" id="viewEditorsMainSection">View Editors &
-                                    Editorial
-                                    Board</a>
-                            </p>
-                        </section>
-
-                        <section class="metaDataScores">
-                            <p class="line scoreContainer">
-                                <strong id="mainSectionHeader">2 Year Impact Factor:</strong>
-                                <span class="mainSectionValues" id="mainSectionImpactFactor"></span> &nbsp;&nbsp;&nbsp;
-                                <strong id="mainSectionHeader">Citations:</strong>
-                                <span class="mainSectionValues" id="mainSectionCitationScore"></span> &nbsp;&nbsp;&nbsp;
-                                <strong id="mainSectionHeader">CiteScore:</strong>
-                                <span class="mainSectionValues" id="mainSectionCiteScore"></span>
-                            </p>
-                            <p class="line">
-                                <a href="/journal-metrics" class="simple-link">View All <span
-                                        class="providedYear"></span>
-                                    Journal
-                                    Metrics</a>
-                            </p>
-                        </section>
-
-                        <div class="btn-row">
-                            <a class="submitWrapper" href="https://publish.acs.org/" target="_blank" rel="noopener">
-                                <button class="yellow-btn">Submit Manuscript</button>
+                        <p class="sc-editors__line">
+                            <span class="sc-editors__eic-label" id="sc-editors__eic-label">
+                                Editor-in-Chief:
+                            </span>
+                            <span class="sc-editors__eic-value" id="sc-editors__eic-value"
+                                aria-labelledby="sc-editors__eic-label" aria-live="polite">
+                            </span>
+                        </p>
+                        <p class="sc-editors__line">
+                            <span class="sc-editors__de-label" id="sc-editors__de-label">
+                                Deputy Editor:
+                            </span>
+                            <span class="sc-editors__de-value" id="sc-editors__de-value"
+                                aria-labelledby="sc-editors__de-label" aria-live="polite">
+                            </span>
+                        </p>
+                        <p class="sc-editors__line">
+                            <a class="sc-editors__link" id="sc-editors__link" tabindex="0"
+                                aria-label="View Editors & Editorial Board">
+                                View Editors &amp; Editorial Board
                             </a>
-                            <a rel="noopener" class="alertsWrapper" href=" https://preferences.acs.org/"
-                                target="_blank">
-                                <button class="outline-btn">
-                                    <icon class="icon-alert-bell"></icon>
-                                    Get Alerts
+                        </p>
+                    </section>
+
+                    <section class="sc-metrics" id="sc-metrics" aria-label="Journal metrics">
+                        <p class="sc-editors__line sc-metrics__line">
+                            <strong class="sc-metrics__impact-label" id="sc-metrics__impact-label">
+                                2 Year Impact Factor:
+                            </strong>
+
+
+                            <span class="sc-metrics__impact-value" id="sc-metrics__impact-value"
+                                aria-labelledby="sc-metrics__impact-label" aria-live="polite">
+                            </span>
+                            &nbsp;&nbsp;&nbsp;
+
+
+                            <strong class="sc-metrics__cites-label" id="sc-metrics__cites-label">
+                                Citations:
+                            </strong>
+                            <span class="sc-metrics__cites-value" id="sc-metrics__cites-value"
+                                aria-labelledby="sc-metrics__cites-label" aria-live="polite">
+                            </span>
+                            &nbsp;&nbsp;&nbsp;
+                            <strong class="sc-metrics__citescore-label" id="sc-metrics__citescore-label">
+                                CiteScore:
+                            </strong>
+                            <span class="sc-metrics__citescore-value" id="sc-metrics__citescore-value"
+                                aria-labelledby="sc-metrics__citescore-label" aria-live="polite">
+                            </span>
+                        </p>
+
+
+
+                        <p class="sc-metrics__line sc-editors__line">
+                            <a href="/journal-metrics" class="sc-editors__link">
+                                View All
+                                <span class="sc-metrics__year" aria-live="polite"></span>
+                                Journal Metrics
+                            </a>
+                        </p>
+                    </section>
+
+                    <div class="sc-cta" aria-label="Actions">
+                        <a class="sc-cta__submit-wrap" href="https://publish.acs.org/" target="_blank" rel="noopener">
+                            <button class="sc-cta__submit" type="button" aria-label="Submit manuscript">
+                                Submit Manuscript
+                            </button>
+                        </a>
+
+
+
+
+
+
+                        <a rel="noopener" class="sc-cta__alert-wrap" href="https://preferences.acs.org/"
+                            target="_blank">
+                            <button class="sc-cta__alerts" type="button" aria-label="Get alerts">
+                                <icon class="icon-alert-bell"></icon>
+                                Get Alerts
+                            </button>
+                        </a>
+
+
+
+                        <div id="sc-reljournals" class="sc-reljournals" aria-label="Related journals">
+                            <div class="sc-custom-select" id="sc-custom-select" aria-expanded="false"
+                                aria-haspopup="listbox" aria-controls="sc-select__menu"
+                                aria-label="Related journals dropdown">
+                                <button name="sc-related-journals" id="sc-related-journals"
+                                    class="sc-related-journals sc-select__toggle" aria-haspopup="listbox"
+                                    aria-expanded="false" aria-controls="sc-select__menu"
+                                    aria-label="Toggle related journals" aria-describedby="sc-select-value"
+                                    type="button">
+                                    <span class="sc-select__value" id="sc-select-value">
+                                        Related Journals
+                                    </span>
+                                    <span id="sc-select__arrow" class="sc-select__arrow" aria-hidden="true">
+                                        <img id="arrow_img" src="./assets/DownArrow.svg" alt="Arrow"
+                                            class="sc-select__arrow-img" />
+                                    </span>
                                 </button>
-                            </a>
-                            <div id="relatedJournalsParent" class="relatedJournalsParent">
-                                <div class="custom-select" id="customSelect">
-                                    <button name="relatedJournals" id="relatedJournals" class="relatedJournals"
-                                        aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selectLabel">
-                                        <span class="relatedJournalsSelectedValue">Related Journals</span>
-                                        <span id="arrow" class="arrow">
-                                            <img id="arrow_img" src="./assets/DownArrow.svg" alt="Arrow Image">
-                                        </span>
-                                    </button>
-
-                                    <ul onclick="relatedJournalValueUpdate(event)" id="relatedJournalsDropdown"
-                                        class="relatedJournalsDropdown" role="listbox">
-                                    </ul>
-                                </div>
+                                <ul onclick="relatedJournalValueUpdate(event)" id="sc-select__menu"
+                                    class="sc-select__menu" aria-label="Related journals" tabindex="-1">
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="right-box">
-                        <section id="silverchair-widget-latest-issue-info">
-                            <h2>Silverchair Widget</h2>
-                            <p>Goes here</p>
-                        </section>
-                    </div>
+                </div>
+                <div class="sc-mdw__right">
+                    <section id="silverchair-widget-latest-issue-info">
+                        <h2>Silverchair Widget</h2>
+                        <p>Goes here</p>
+                    </section>
+                </div>
             </section>
 
-            <main class="footerSection" id="footerSection">
-                <header class="page-header">
-                    <h1 class="aboutJournal">About the Journal</h1>
+            <main class="sc-foot" id="sc-foot" role="main" tabindex="-1" aria-labelledby="sc-foot__about-title">
+                <header class="sc-foot__header" aria-labelledby="sc-foot__about-title">
+                    <h1 class="sc-foot__title" id="sc-foot__title">About the Journal</h1>
                 </header>
 
-                <div class="metrics-header">
-                    <h4 class="journalMetricsSubHead">Journal Metrics</h4>
-                    <a href="/journal-metrics" class="link viewAllLink mobileRespDimensions">View Metrics for all
-                        Journals</a>
+                <div class="sc-metrics__header" aria-labelledby="sc-metrics__title">
+                    <h4 class="sc-metrics__title" id="sc-metrics__title">Journal Metrics</h4>
+                    <a href="/journal-metrics" class="sc-foot-link sc-foot-view-all-link sc-foot-mobile-dimension">View
+                        Metrics for all Journals</a>
                 </div>
 
-                <section class="metrics">
-                    <div class="metrics-grid">
-                        <div class="metric">
-                            <div class="metric-value" id="detailSectionCitationScore"></div>
-                            <div class="metric-label">Citations 2023</div>
+                <section class="sc-foot-metrics" id="sc-foot-metrics" aria-labelledby="sc-metrics__title">
+                    <div class="sc-metrics__grid">
+                        <div class="sc-metrics__item">
+                            <div class="sc-metrics__value sc-metrics__value--cites" id="sc-metrics__value--cites"
+                                aria-live="polite" aria-labelledby="sc-metrics__label--cites"></div>
+                            <div class="sc-metrics__label" id="sc-metrics__label--cites">Citations 2023</div>
                         </div>
-                        <div class="metric">
-                            <div class="metric-value" id="detailSectionTwoYearImpactFactor"></div>
-                            <div class="metric-label">2-Year Impact Factor</div>
+
+                        <div class="sc-metrics__item">
+                            <div class="sc-metrics__value sc-metrics__value--two-if" id="sc-metrics__value--two-if"
+                                aria-live="polite" aria-labelledby="sc-metrics__label--two-if"></div>
+                            <div class="sc-metrics__label" id="sc-metrics__label--two-if">2-Year Impact Factor</div>
                         </div>
-                        <div class="metric">
-                            <div class="metric-value" id="detailSectionFiveYearImpactFactor"></div>
-                            <div class="metric-label">5-Year Impact Factor</div>
+
+                        <div class="sc-metrics__item">
+                            <div class="sc-metrics__value sc-metrics__value--five-if" id="sc-metrics__value--five-if"
+                                aria-live="polite" aria-labelledby="sc-metrics__label--five-if"></div>
+                            <div class="sc-metrics__label" id="sc-metrics__label--five-if">5-Year Impact Factor</div>
                         </div>
-                        <div class="metric">
-                            <div class="metric-value" id="detailSectionTotalCitations"></div>
-                            <div class="metric-label">Total Citations</div>
+
+                        <div class="sc-metrics__item">
+                            <div class="sc-metrics__value sc-metrics__value--total-cites"
+                                id="sc-metrics__value--total-cites" aria-live="polite"
+                                aria-labelledby="sc-metrics__label--total-cites"></div>
+                            <div class="sc-metrics__label" id="sc-metrics__label--total-cites">Total Citations</div>
                         </div>
-                        <div class="metric">
-                            <div class="metric-value" id="detailSectionCiteScore"></div>
-                            <div class="metric-label">CiteScore</div>
+
+                        <div class="sc-metrics__item">
+                            <div class="sc-metrics__value sc-metrics__value--citescore"
+                                id="sc-metrics__value--citescore" aria-live="polite"
+                                aria-labelledby="sc-metrics__label--citescore"></div>
+                            <div class="sc-metrics__label" id="sc-metrics__label--citescore">CiteScore</div>
                         </div>
-                        <div class="metric">
-                            <div class="metric-value" id="detailSectionDaysToFirstPeerReview"></div>
-                            <div class="metric-label daysToFirstPeerReview">Days to First Peer Review Decision*</div>
+
+                        <div class="sc-metrics__item">
+                            <div class="sc-metrics__value sc-metrics__value--days-first"
+                                id="sc-metrics__value--days-first" aria-live="polite"
+                                aria-labelledby="sc-metrics__label--days-first"></div>
+                            <div class="sc-metrics__label" id="sc-metrics__label--days-first">Days to First Peer Review
+                                Decision*</div>
                         </div>
-                        <div class="metric">
-                            <div class="metric-value" id="daysToAccept"></div>
-                            <div class="metric-label">Days to Accept*</div>
+
+                        <div class="sc-metrics__item">
+                            <div class="sc-metrics__value sc-metrics__value--days-accept"
+                                id="sc-metrics__value--days-accept" aria-live="polite"
+                                aria-labelledby="sc-metrics__label--days-accept"></div>
+                            <div class="sc-metrics__label" id="sc-metrics__label--days-accept">Days to Accept*</div>
                         </div>
-                        <div class="metric">
-                            <div class="metric-value" id="daysFromAcceptToASAP"></div>
-                            <div class="metric-label">Days from Accept to ASAP*</div>
+
+                        <div class="sc-metrics__item">
+                            <div class="sc-metrics__value sc-metrics__value--days-asap"
+                                id="sc-metrics__value--days-asap" aria-live="polite"
+                                aria-labelledby="sc-metrics__label--days-asap"></div>
+                            <div class="sc-metrics__label" id="sc-metrics__label--days-asap">Days from Accept to ASAP*
+                            </div>
                         </div>
                     </div>
-                    <div class="metrics-note">Data as of <span class="providedYear"></span> · <br><span
-                            class="muted">*Median days</span></div>
+
+                    <div class="sc-metrics__note">
+                        Data as of <span class="sc-metrics__year" id="sc-metrics__year" aria-live="polite"></span> ·
+                        <br>
+                        <span class="sc-metrics__muted">*Median days</span>
+                    </div>
                 </section>
 
-                <div class="content-grid">
-                    <section class="main">
-                        <div class="dataCard aim-scope">
-                            <h3 class="aimsAndScope">Aims &amp; Scope</h3>
-                            <p class="aimsAndScopeInfo">Lorem Ipsum is simply dummy text of the printing and typesetting
+                <div class="sc-content">
+                    <section class="sc-content__main" aria-labelledby="sc-aim__title">
+                        <div class="sc-aim" aria-labelledby="sc-aim__title">
+                            <h3 class="sc-aim__title" id="sc-aim__title">Aims &amp; Scope</h3>
+                            <p class="sc-aim__desc">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry. Lorem Ipsum has been the industry's standard dummy text
                                 ever since the 1500s, when an unknown printer took a galley of type
                                 and scrambled it to make a type specimen book.
                             </p>
 
-                            <h4 class="includedTopics">Examples of topics that are in-scope:</h4>
-                            <ul class="includedTopicsContainer">
+                            <h4 class="sc-aim__included-title">Examples of topics that are in-scope:</h4>
+                            <ul class="sc-aim__included-list">
                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</li>
                                 <li>It is a long established fact that a reader will be distracted by the readable
@@ -166,8 +241,9 @@
                                     content of a page when looking at its layout.</li>
                             </ul>
 
-                            <h4 class="notIncludedTopics">Examples of topics that are NOT in-scope:</h4>
-                            <ul class="notIncludedTopicsContainer">
+                            <h4 class="sc-aim__excluded-title" id="sc-aim__excluded-title">Examples of topics that are
+                                NOT in-scope:</h4>
+                            <ul class="sc-aim__excluded-list" aria-labelledby="sc-aim__excluded-title">
                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</li>
                                 <li>It is a long established fact that a reader will be distracted by the readable
@@ -179,69 +255,79 @@
                             </ul>
                         </div>
 
-                        <a class="infoForAuthorsContainer"
-                            href="https://researcher-resources.acs.org/publish/author_guidelines?coden="
-                            onclick="openInNewTab(event, this.href)">
-                            <button class="infoForAuthors">
-                                Information for Authors
+                        <a class="sc-authors__link"
+                            href="https://researcher-resources.acs.org/publish/author_guideline editors-block-metadata__textlines?coden="
+                            aria-label="Information for Authors">
+                            Information for Authors
                             </button>
                         </a>
                     </section>
 
-                    <aside class="sidebar">
-                        <div class="sideCard editor-card">
-                            <div class="personContainer">
-                                <div id="sideSectionEditorInChiefContainer">
-                                    <h3>Editor-in-Chief</h3>
-                                    <div class="person">
-                                        <img id="editorInChiefProfileIcon" />
-                                        <div class="personDetails">
-                                            <a id="sideSectionEditorName" href="#" class="link editorName"></a>
-                                            <h4 class="chefUnivName" id="chiefUnivName"></h4>
-                                            <h4 class="chiefCountry" id="chiefCountry"></h4>
+                    <aside class="sc-side" aria-label="Editorial and publication information">
+                        <div class="sc-side__card" aria-label="Editorial profiles">
+                            <div class="sc-editor__people">
+                                <div id="sc-editor-foot__editorInChief-container" class="sc-editor__section"
+                                    aria-labelledby="sc-editor__eic-title">
+                                    <h3 id="sc-editor__eic-title" class="sc-editor__section-title">Editor-in-Chief</h3>
+                                    <div class="sc-editor__person">
+                                        <img id="sc-editor__avatar__editorInChiefProfileIcon" class="sc-editor__avatar"
+                                            aria-labelledby="sc-editor__editorInChief-name" alt="Profile" />
+                                        <div class="sc-editor__details">
+                                            <a id="sideSectionEditorName" href="#"
+                                                class="sc-foot-link sc-foot-editorName"></a>
+                                            <h4 class="sc-editor__affil" id="chiefUnivName"></h4>
+                                            <h4 class="sc-editor__country" id="chiefCountry"></h4>
                                         </div>
                                     </div>
                                 </div>
-                                <div id="sideSectionDeputyEditorContainer">
-                                    <h3>Deputy Editor</h3>
-                                    <div class="person">
-                                        <img id="deputyEditorProfileIcon" />
-                                        <div class="personDetails">
-                                            <a id="sideSectionDeputyName" href="#" class="link editorName"></a>
-                                            <h4 class="deputyUnivName" id="deputyUnivName"></h4>
-                                            <h4 class="deputyCountry" id="deputyCountry"></h4>
+
+                                <div id="sideSectionDeputyEditorContainer" class="sc-editor__section"
+                                    aria-labelledby="sc-editor__de-title">
+                                    <h3 id="sc-editor__de-title" class="sc-editor__section-title">Deputy Editor</h3>
+                                    <div class="sc-editor__person">
+                                        <img id="deputyEditorProfileIcon" class="sc-editor__avatar"
+                                            aria-labelledby="sideSectionDeputyName" alt="profile" />
+                                        <div class="sc-editor__details">
+                                            <a id="sideSectionDeputyName" href="#"
+                                                class="sc-foot-link sc-foot-editorName"></a>
+                                            <h4 class="sc-editor__affil" id="deputyUnivName"></h4>
+                                            <h4 class="sc-editor__country" id="deputyCountry"></h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <a id="viewEditorsInSideBar" class="link viewEditorsInSideBar">View Editors & Editorial
-                                Board</a>
+                            <a id="viewEditorsInSideBar" class="sc-foot-link sc-side__editors-link" tabindex="0"
+                                aria-label="View Editors and Editorial Board">
+                                View Editors &amp; Editorial Board
+                            </a>
 
-                            <div class="masthead">
-                                <h5>Masthead Information</h5>
-                                <p class="printAndWebEdition">
-                                    Print Edition ISSN: <span id="printEditionISSN"></span> <br />Web Edition ISSN:
-                                    <span id="webEditionISSN"></span>
+                            <div class="sc-masthead" aria-labelledby="sc-masthead__title">
+                                <h5 class="sc-masthead__title" id="sc-masthead__title">Masthead Information</h5>
+                                <p class="sc-masthead__meta">
+                                    Print Edition ISSN: <span id="printEditionISSN" class="sc-masthead__print-issn"
+                                        aria-live="polite"></span>
+                                    <br />
+                                    Web Edition ISSN: <span id="webEditionISSN" class="sc-masthead__web-issn"
+                                        aria-live="polite"></span>
                                 </p>
                             </div>
 
-                            <a id="currentIssuePub" class="link currentIssuePub">Current Issue
-                                Publication Information</a>
+                            <a id="currentIssuePub" class="sc-foot-link sc-side__current-link" tabindex="0"
+                                aria-label="Current Issue Publication Information">
+                                Current Issue Publication Information
+                            </a>
 
-                            <div class="indexed">
-                                <h5 class="indexedHeader">Indexed/Abstracted</h5>
-                                <ul class="indexList" id="indexedList"></ul>
+                            <div class="sc-foot-index" aria-labelledby="sc-index__title">
+                                <h5 class="sc-index__title" id="sc-index__title">Indexed/Abstracted</h5>
+                                <ul class="sc-index__list" id="indexedList" aria-labelledby="sc-index__title"></ul>
                             </div>
                         </div>
                     </aside>
-
                 </div>
-
             </main>
         </section>
     </main>
     <script src="./script.js"></script>
 </body>
-
 </html>
