@@ -58,7 +58,7 @@ p {
 }
 
 .sc-custom-wrapper-header{
-    min-width: 100%;
+     width: 100%;
 }
 
 .sc-custom-wrapper-mdw{
@@ -66,11 +66,6 @@ p {
     grid-template-columns: 60% 40%;
     gap: 1rem;
     align-items: flex-start;
-    min-width: 100%;
-}
-
-.sc-custom-wrapper-footer{
-    min-width: 100%;
 }
 
 .sc-mdw {
