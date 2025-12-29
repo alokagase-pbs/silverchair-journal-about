@@ -152,8 +152,9 @@ function adjustVisibility(hasEditorInChief, hasDeputyEditor) {
     mainDEName.parentElement.style.display = hasDeputyEditor ? "" : "none";
   }
   if (sideEICName?.closest("#sc-editor-foot__editorInChief-container")) {
-    sideEICName.closest("#sc-editor-foot__editorInChief-container").style.display =
-      hasEditorInChief ? "" : "none";
+    sideEICName.closest(
+      "#sc-editor-foot__editorInChief-container"
+    ).style.display = hasEditorInChief ? "" : "none";
   }
   if (sideDEName?.closest("#sideSectionDeputyEditorContainer")) {
     sideDEName.closest("#sideSectionDeputyEditorContainer").style.display =
@@ -265,7 +266,10 @@ async function renderJournalForCoden(code, indexes) {
     "sc-metrics__value--days-first",
     metrics?.SubToFDwPR ? metrics?.SubToFDwPR : "NaN"
   );
-  setText("sc-metrics__value--days-accept", metrics?.SubToAccept ? metrics?.SubToAccept : "NaN");
+  setText(
+    "sc-metrics__value--days-accept",
+    metrics?.SubToAccept ? metrics?.SubToAccept : "NaN"
+  );
   setText("printEditionISSN", info?.issn ? info.issn : "");
   setText("webEditionISSN", info?.eissn ? info?.eissn : "");
 
@@ -375,8 +379,8 @@ async function render(routeName) {
     }
     return;
   }
-    console.warn(`Unknown route/coden: "${routeName}"`);
-    document.getElementById("main").innerHTML = "<h1>404 Not Found</h1>";
+  console.warn(`Unknown route/coden: "${routeName}"`);
+  document.getElementById("main").innerHTML = "<h1>404 Not Found</h1>";
 }
 
 function openInNewTab(event, url) {
@@ -398,15 +402,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   customSelects.forEach((selectWrapper) => {
     const selectBtn = selectWrapper.querySelector(".sc-related-journals");
-    let arrowEl = document.getElementById("arrow_img");
-
+    let arrowEl = document.getElementById("sc-select__arrow-img");
     // Toggle dropdown visibility on button click
     selectBtn.addEventListener("click", () => {
       selectWrapper.classList.toggle("active");
       if (selectWrapper.classList.contains("active")) {
-        arrowEl.src = "./assets/UpArrow.svg";
+        //arrowEl.src = "./assets/UpArrow.svg";
+        arrowEl.classList.remove("icon-general_arrow-down");
+        arrowEl.classList.add(" icon-arrow-right");
       } else {
-        arrowEl.src = "./assets/DownArrow.svg";
+        //arrowEl.src = "./assets/DownArrow.svg";
+        arrowEl.classList.remove("icon-arrow-right");
+        arrowEl.classList.add(" icon-general_arrow-down");
       }
       const expanded =
         selectBtn.getAttribute("aria-expanded") === "true" || false;
@@ -416,7 +423,9 @@ document.addEventListener("DOMContentLoaded", () => {
     window.addEventListener("click", (e) => {
       if (!selectWrapper.contains(e.target)) {
         selectWrapper.classList.remove("active");
-        arrowEl.src = "./assets/DownArrow.svg";
+        arrowEl.classList.remove("icon-arrow-right");
+        arrowEl.classList.add(" icon-general_arrow-down");
+        //arrowEl.src = "./assets/DownArrow.svg";
         selectBtn.setAttribute("aria-expanded", "false");
       }
     });
