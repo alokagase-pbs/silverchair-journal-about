@@ -1,13 +1,48 @@
 let route = "aabmcb"; // change as needed
+let environment = 'local';
 
-const CORS_PROXY = "https://corsproxy.io/?url=";
-const BASE_URL = "https://pubs.acs.org/pb-assets/json/";
-const JSON_DIR = "./json";
-const INFO_FILE = `${JSON_DIR}/journal-info.json`; //CORS_PROXY+BASE_URL+'journal-info.json';
-const METRICS_FILE = `${JSON_DIR}/journal_metrics.json`;
-const RELATED_JOURNALS = `${JSON_DIR}/relatedJournals.json`;
+// // let environment = 'silverchair';
+
+// let subjectCode;
+// if (environment === 'local') {
+//     subjectCode = 'energy';
+// } else {
+//     subjectCode = getSubjectCodeFromUrl();
+// }
+
+// let subjectInfoJsonUrl;
+// let viCollectionsJsonUrl;
+// let heroImageBaseUrl;
+// let mailIconUrl;
+// let searchIconUrl;
+
+// if (environment === 'local') {
+//     subjectInfoJsonUrl = '../../json/silverchair/subject-info.json';
+//     viCollectionsJsonUrl = '../../json/current/vi_collection.json';
+//     heroImageBaseUrl = `../images/${subjectCode}`;
+//     mailIconUrl = '../icons/mail.svg';
+//     searchIconUrl = '../icons/search.svg';
+// } else {
+//     subjectInfoJsonUrl = '/DocumentLibrary/json/subject-info.json';
+//     viCollectionsJsonUrl =
+//         '/DocumentLibrary/json/vi_collection.json';
+//     heroImageBaseUrl = `/ImageLibrary/subject-pages/hero/${subjectCode}`;
+//     mailIconUrl = '/ImageLibrary/subject-pages/icons/mail.svg';
+//     searchIconUrl = '/ImageLibrary/subject-pages/icons/search.svg';
+// }
+
+let JSON_DIR;
+if (environment === "local") {
+  JSON_DIR = "./json";
+} else {
+  JSON_DIR = "/DocumentLibrary/json";
+}
+
 const MASTHEAD_BASE =
   "https://raw.githubusercontent.com/DSCO-Support/JournalMastheads/refs/heads/main/mastheads";
+const INFO_FILE = `${JSON_DIR}/journal-info.json`;
+const METRICS_FILE = `${JSON_DIR}/journal_metrics.json`;
+const RELATED_JOURNALS = `${JSON_DIR}/relatedJournals.json`;
 
 function updateEditorsHref() {
   const el = document.getElementById("viewEditorsMainSection");
@@ -135,7 +170,7 @@ function setImage(editorInfo, name, cfg) {
   if (!editorInfo[name].imgUrl) {
     imageEl.onerror = null;
     imageEl.src =
-      "https://pubs.acs.org/pb-assets/ux3/journal-about/avatar-1704309094807.svg";
+      BASE_URL + "/pb-assets/ux3/journal-about/avatar-1704309094807.svg";
   }
 }
 
