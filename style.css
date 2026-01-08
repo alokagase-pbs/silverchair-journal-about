@@ -279,6 +279,7 @@ p {
     max-height: 35vh;
     overflow-y: auto;
     border-radius: var(--rounded-md);
+    width: max-content;
 }
 
 .sc-select__menu li {
