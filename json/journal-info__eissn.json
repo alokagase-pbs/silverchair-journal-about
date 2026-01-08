@@ -28,7 +28,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/accounts",
-                "issn": "0001-4842",
                 "blurb": "Accounts of Chemical Research publishes short, concise and critical articles offering easy-to-read overviews of basic research and applications in all areas of chemistry.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -41,6 +40,7 @@
                     "CABI",
                     "Portico"
                 ],
+                "issn": "0001-4842",
                 "eissn": "2643-6728"
             },
             "aamick": {
@@ -65,7 +65,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsami",
-                "issn": "",
                 "blurb": "ACS Applied Materials & Interfaces is for chemists, engineers, physicists and biologists researching materials and interfacial processes for specific applications.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -76,6 +75,7 @@
                     "INSPEC",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2574-0970"
             },
             "aabmcb": {
@@ -100,7 +100,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsabm",
-                "issn": "",
                 "blurb": "ACS Applied Bio Materials is an interdisciplinary journal publishing research articles covering all aspects of biomaterials, biointerfaces, and applications.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -111,6 +110,7 @@
                     "INSPEC",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2637-6113"
             },
             "aaemcq": {
@@ -135,7 +135,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsappliedenergymaterials",
-                "issn": "",
                 "blurb": "An interdisciplinary journal publishing research articles on materials, engineering, chemistry, physics and biology relevant to energy applications.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -145,6 +144,7 @@
                     "INSPEC",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2771-9545"
             },
             "aanmf6": {
@@ -169,7 +169,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsappliednanomaterials",
-                "issn": "",
                 "blurb": "ACS Applied Nano Materials covers all aspects of engineering, chemistry, physics and biology relevant to applications of nanomaterials.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -178,6 +177,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2771-9855"
             },
             "aapmcd": {
@@ -202,7 +202,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsappliedpolymermaterials",
-                "issn": "",
                 "blurb": "ACS Applied Polymer Materials covers all aspects of engineering, chemistry, physics, and biology relevant to applications of polymers.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -212,6 +211,7 @@
                     "INSPEC",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2694-2437"
             },
             "aaembp": {
@@ -236,7 +236,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsappliedelectronicmaterials",
-                "issn": "",
                 "blurb": "ACS Applied Electronic Materials is an interdisciplinary journal covering all aspects of electronic materials and applications.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -246,6 +245,7 @@
                     "INSPEC",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2574-0962"
             },
             "aaemdr": {
@@ -270,13 +270,13 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsaenm",
-                "issn": "1944-8244",
                 "blurb": "ACS Applied Engineering Materials covers materials science applications at the intersection of engineering, physics, and chemistry.",
                 "type": "hybrid",
                 "indexAbstract": [
                     "CAS",
                     "Portico"
                 ],
+                "issn": "1944-8244",
                 "eissn": "1944-8252"
             },
             "aaoma6": {
@@ -301,7 +301,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsaom",
-                "issn": "",
                 "blurb": "ACS Applied Optical Materials reports chemistry, materials, engineering, and physics research in optical & photonic materials and applications.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -311,6 +310,7 @@
                     "Scopus",
                     "Web of Science E-SCI"
                 ],
+                "issn": "",
                 "eissn": "2637-6105"
             },
             "aastgj": {
@@ -335,7 +335,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsagscitech",
-                "issn": "",
                 "blurb": "ACS Agricultural Science & Technology reports high quality research across agricultural science, technology, and engineering.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -345,6 +344,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2576-6422"
             },
             "abmcb8": {
@@ -369,7 +369,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/biomedchemau",
-                "eissn": "2373-9878",
                 "blurb": "ACS Bio & Med Chem Au covers the chemical, physical, biological, mechanistic, and structural basis of biological function.",
                 "type": "oa",
                 "indexAbstract": [
@@ -380,7 +379,8 @@
                     "DOAJ",
                     "Portico"
                 ],
-                "issn": "2374-7943"
+                "issn": "2374-7943",
+                "eissn": "2373-9878"
             },
             "abseba": {
                 "title": "ACS Biomaterials Science & Engineering",
@@ -397,7 +397,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsbiomaterials",
-                "issn": "1554-8929",
                 "blurb": " ACS Biomaterials Science & Engineering covers biomaterials science, technology and engineering research and applications to biomedicine, bioengineering and clinical translation.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -407,6 +406,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "1554-8929",
                 "eissn": "2155-5435"
             },
             "accacs": {
@@ -424,7 +424,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acscatalysis",
-                "issn": "",
                 "blurb": "ACS Catalysis focuses on experimental and theoretical studies on molecules, macromolecules, and materials that are catalytic in nature.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -432,6 +431,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2374-7951"
             },
             "acscii": {
@@ -456,7 +456,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acscentralscience",
-                "issn": "",
                 "blurb": "ACS Central Science publishes the most compelling discoveries with exceptional impact in the physical and life sciences in which chemistry has a central role.",
                 "type": "central",
                 "indexAbstract": [
@@ -468,6 +467,7 @@
                     "Portico",
                     "OAJ"
                 ],
+                "issn": "",
                 "eissn": "1554-8937"
             },
             "acbcct": {
@@ -485,7 +485,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acschemicalbiology",
-                "issn": "2156-8952",
                 "blurb": "ACS Chemical Biology reports research on cellular processes using in vitro, cellular or whole organism studies at the chemical and biological interface.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -496,6 +495,7 @@
                     "INSPEC",
                     "Portico"
                 ],
+                "issn": "2156-8952",
                 "eissn": "1878-0504"
             },
             "achsc5": {
@@ -513,7 +513,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acschemhealthsafety",
-                "issn": "",
                 "blurb": "ACS Chemical Health & Safety reports on chemical safety, security, risk assessment and management, incident case studies and hazard warnings, and other influential safety topics.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -522,6 +521,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "1948-7193"
             },
             "acncdm": {
@@ -539,7 +539,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acschemneuro",
-                "issn": "",
                 "blurb": "ACS Chemical Neuroscience reports chemical, biological, biophysical, and bioengineering research on the nervous system and neurological disorders.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -552,6 +551,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2156-8944"
             },
             "acsccc": {
@@ -561,8 +561,8 @@
                     "Editor-in-Chief": ""
                 },
                 "vanityUrl": "https://pubs.acs.org/acscombsci",
-                "issn": "",
                 "blurb": "ACS Combinatorial Science published research describing the development and use of combinatorial, high-throughput, and related methods in chemistry, materials science, and biology.",
+                "issn": "",
                 "eissn": "2472-3452"
             },
             "aeacb3": {
@@ -587,7 +587,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/engineeringau",
-                "eissn": "2694-2518",
                 "blurb": "ACS Engineering Au reports chemical engineering, applied chemistry, and energy research applied to large-scale manufacturing operations, processes and products.",
                 "type": "oa",
                 "indexAbstract": [
@@ -596,7 +595,8 @@
                     "DOAJ",
                     "Portico"
                 ],
-                "issn": ""
+                "issn": "",
+                "eissn": "2694-2518"
             },
             "aeacc4": {
                 "title": "ACS Environmental Au",
@@ -620,7 +620,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/environau",
-                "eissn": "2837-1402",
                 "blurb": "ACS Environmental Au covers environmental science, technology and green chemistry including experimental and theoretical methods.",
                 "type": "oa",
                 "indexAbstract": [
@@ -631,7 +630,8 @@
                     "DOAJ",
                     "Portico"
                 ],
-                "issn": ""
+                "issn": "",
+                "eissn": "2837-1402"
             },
             "aeacd5": {
                 "title": "ACS ES&T Air",
@@ -648,10 +648,10 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/estair",
-                "issn": "",
                 "blurb": "ACS ES&T Air reports original research on outdoor and indoor air quality sciences, engineering, chemistry and physics, treatment, climate change, and human health and ecological impacts.",
                 "type": "hybrid",
                 "indexAbstract": [],
+                "issn": "",
                 "eissn": "2690-0645"
             },
             "aeecco": {
@@ -669,7 +669,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/estengg",
-                "issn": "",
                 "blurb": "ACS ES&T Engineering reports high-impact research in all areas of environmental technology and engineering.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -679,6 +678,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2690-0637"
             },
             "aeclc7": {
@@ -696,10 +696,10 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/electrochem",
-                "issn": "",
                 "blurb": "ACS Electrochemistry is an international journal for high-quality, cutting-edge original research in all areas of electrochemistry.",
                 "type": "hybrid",
                 "indexAbstract": [],
+                "issn": "",
                 "eissn": "2380-8195"
             },
             "aesccq": {
@@ -717,7 +717,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsearthchem",
-                "issn": "",
                 "blurb": "ACS Earth and Space Chemistry advances interdisciplinary application of chemistry to natural materials and processes in Earth's interior, surface, and atmosphere, and in space.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -726,6 +725,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2997-0571"
             },
             "aelccp": {
@@ -743,7 +743,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsenergyletters",
-                "issn": "",
                 "blurb": "ACS Energy Letters reports breakthrough findings on energy materials, storage and conversion, solar cells and fuels, supercapacitors, LEDs, photosynthesis and biofuels, and photovoltaics.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -754,6 +753,7 @@
                     "INSPEC",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2694-2488"
             },
             "aewcaa": {
@@ -771,7 +771,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/estwater",
-                "issn": "",
                 "blurb": "ACS ES&T Water reports research and policy spanning all aspects of water quality, chemistry, treatment, protection, and sustainable use/reuse and supply.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -781,6 +780,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2692-1944"
             },
             "afsthl": {
@@ -805,7 +805,6 @@
                     }
                 },
                 "vanityUrl": "http://pubs.acs.org/acsfoodscitech",
-                "issn": "",
                 "blurb": "ACS Food Science & Technology reports high quality research across food science, technology, engineering, and nutrition.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -815,6 +814,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2373-8227"
             },
             "aidcbc": {
@@ -832,7 +832,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsinfectious",
-                "issn": "1936-0851",
                 "blurb": "ACS Infectious Diseases highlights the role of chemistry in the multidisciplinary and collaborative field of infectious diseases.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -843,6 +842,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "1936-0851",
                 "eissn": "2161-1653"
             },
             "amacgu": {
@@ -867,7 +867,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/materialsau",
-                "eissn": "2639-4979",
                 "blurb": "ACS Materials Au publishes fundamental and applied materials science at the interface between materials and chemistry, engineering and biology.",
                 "type": "oa",
                 "indexAbstract": [
@@ -878,7 +877,8 @@
                     "DOAJ",
                     "Portico"
                 ],
-                "issn": ""
+                "issn": "",
+                "eissn": "2639-4979"
             },
             "amlcef": {
                 "title": "ACS Materials Letters",
@@ -902,7 +902,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/materialslett",
-                "issn": "",
                 "blurb": "ACS Materials Letters reports transformative research on the design, synthesis, structure, properties, performance, development and applications of emerging materials.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -911,6 +910,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2694-250X"
             },
             "amlccd": {
@@ -928,7 +928,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsmacrolett",
-                "issn": "",
                 "blurb": "ACS Macro Letters publishes urgent communications of polymer and biopolymer science.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -939,6 +938,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2694-2461"
             },
             "amachv": {
@@ -956,7 +956,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/measureau",
-                "eissn": "1948-5875",
                 "blurb": "ACS Measurement Science Au publishes measurement and analytical science from sampling and measurement to data analysis to improve chemical and biological measurement procedures.",
                 "type": "oa",
                 "indexAbstract": [
@@ -967,7 +966,8 @@
                     "DOAJ",
                     "Portico"
                 ],
-                "issn": ""
+                "issn": "",
+                "eissn": "1948-5875"
             },
             "amclct": {
                 "title": "ACS Medicinal Chemistry Letters",
@@ -984,7 +984,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsmedchemlett",
-                "issn": "",
                 "blurb": "ACS Medicinal Chemistry Letters reports new findings in drug discovery, compound design and optimization, biological evaluation, drug delivery, imaging agents, and pharmacology.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -994,6 +993,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "1936-086X"
             },
             "amrcda": {
@@ -1011,7 +1011,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/amr",
-                "issn": "",
                 "blurb": "Accounts of Materials Research publishes concise personal reviews and viewpoints describing recent developments in materials science and engineering.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1020,6 +1019,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2692-1952"
             },
             "ancac3": {
@@ -1037,7 +1037,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsnano",
-                "issn": "",
                 "blurb": "ACS Nano reports breakthrough studies on nanostructure synthesis, assembly and characterization, nanoscience theory, tools and methods, nanobiotechnology and nanofabrication.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1050,6 +1049,7 @@
                     "INSPEC",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2694-2496"
             },
             "anaccx": {
@@ -1074,7 +1074,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/nanoau",
-                "eissn": "2470-1343",
                 "blurb": "ACS Nanoscience Au reports nanoscience & nanotechnology research at the interfaces of chemistry, biology, materials science, physics, and engineering.",
                 "type": "oa",
                 "indexAbstract": [
@@ -1085,7 +1084,8 @@
                     "DOAJ",
                     "Portico"
                 ],
-                "issn": ""
+                "issn": "",
+                "eissn": "2470-1343"
             },
             "anmafm": {
                 "title": "ACS Nano Medicine",
@@ -1102,10 +1102,10 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsnanomed",
-                "issn": "",
                 "blurb": "ACS Nano Medicine publishes significant research breakthroughs in applying nanoscience and nanotechnology for clinical diagnosis and development of therapeutics.",
                 "type": "hybrid",
-                "indexAbstract": []
+                "indexAbstract": [],
+                "issn": ""
             },
             "ansadg": {
                 "title": "ACS Nutrition Science",
@@ -1129,10 +1129,10 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/ansadg",
-                "issn": "3067-6037",
                 "blurb": "ACS Nutrition Science publishes significant research breakthroughs in nutrition science, technology and engineering that contribute to human health.",
                 "type": "hybrid",
-                "indexAbstract": []
+                "indexAbstract": [],
+                "issn": "3067-6037"
             },
             "acsodf": {
                 "title": "ACS Omega",
@@ -1156,7 +1156,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsomega",
-                "issn": "0003-2700",
                 "blurb": "ACS Omega is an open access, broad-scope journal focused on original chemical insight, sound scientific principles, and robust experimentation rather than immediate significance.",
                 "type": "oa",
                 "indexAbstract": [
@@ -1169,6 +1168,7 @@
                     "Portico",
                     "OAJ"
                 ],
+                "issn": "0003-2700",
                 "eissn": "2694-247X"
             },
             "aoiab5": {
@@ -1193,7 +1193,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/orginorgau",
-                "eissn": "2575-9108",
                 "blurb": "ACS Organic & Inorganic Au covers experimental and theoretical studies on organic, inorganic, catalytic, organometallic & natural product chemistry, and crystallography.",
                 "type": "oa",
                 "indexAbstract": [
@@ -1204,7 +1203,8 @@
                     "DOAJ",
                     "Portico"
                 ],
-                "issn": ""
+                "issn": "",
+                "eissn": "2575-9108"
             },
             "aptsfn": {
                 "title": "ACS Pharmacology & Translational Science",
@@ -1221,8 +1221,8 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/ptsci",
-                "issn": "0006-2960",
                 "blurb": "ACS Pharmacology & Translational Science reports advances in molecular and biological science, from basic and preclinical studies to clinical trials.",
+                "issn": "0006-2960",
                 "eissn": "2330-4022"
             },
             "apchd5": {
@@ -1240,7 +1240,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acsphotonics",
-                "issn": "1043-1802",
                 "blurb": "ACS Photonics reports interdisciplinary physics, chemical, and engineering research in photonics science and technology.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1251,6 +1250,7 @@
                     "INSPEC",
                     "Portico"
                 ],
+                "issn": "1043-1802",
                 "eissn": "2694-2445"
             },
             "apcach": {
@@ -1275,7 +1275,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/physchemau",
-                "eissn": "2694-2453",
                 "blurb": "ACS Physical Chemistry Au reports experimental, theoretical & computational physical chemistry and chemical physics across molecules, matter, clusters, energy, materials and catalysis.",
                 "type": "oa",
                 "indexAbstract": [
@@ -1286,7 +1285,8 @@
                     "DOAJ",
                     "Portico"
                 ],
-                "issn": "1525-7797"
+                "issn": "1525-7797",
+                "eissn": "2694-2453"
             },
             "apaccd": {
                 "title": "ACS Polymers Au",
@@ -1310,7 +1310,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/polymerau",
-                "eissn": "2379-3694",
                 "blurb": "ACS Polymers Au publishes polymer, macromolecular and soft matter science covering synthesis, properties, self-assembly, supramolecular chemistry, biomaterials, and sustainability.",
                 "type": "oa",
                 "indexAbstract": [
@@ -1321,7 +1320,8 @@
                     "Portico",
                     "Scopus"
                 ],
-                "issn": "8756-7938"
+                "issn": "8756-7938",
+                "eissn": "2379-3694"
             },
             "ascefj": {
                 "title": "ACS Sensors",
@@ -1338,7 +1338,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acssensors",
-                "issn": "",
                 "blurb": "ACS Sensors publishes sensor science that yields substantial advances in the detection of chemical or biological species or processes.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1349,6 +1348,7 @@
                     "INSPEC",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2168-0485"
             },
             "ascecg": {
@@ -1366,7 +1366,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acssce",
-                "issn": "0009-2347",
                 "blurb": "ACS Sustainable Chemistry & Engineering advances green chemistry and engineering to address grand challenges in sustainable energy, materials, and chemical manufacturing.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1375,6 +1374,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "0009-2347",
                 "eissn": "2837-1445"
             },
             "asrmcd": {
@@ -1399,10 +1399,10 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acssrm",
-                "issn": "1074-9098",
                 "blurb": "ACS Sustainable Resource Management reports sustainable management of natural and waste resources towards circular net-zero chemical economy supporting the UN Sustainable Development Goals.",
                 "type": "hybrid",
                 "indexAbstract": [],
+                "issn": "1074-9098",
                 "eissn": "2161-5063"
             },
             "asbcd6": {
@@ -1420,7 +1420,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/acssynthbio",
-                "issn": "This is the eissn in the DB.",
                 "blurb": "ACS Synthetic Biology is the premier publication forum for research in synthetic biology.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1431,6 +1430,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "This is the eissn in the DB.",
                 "eissn": "1520-6882"
             },
             "ancham": {
@@ -1448,7 +1448,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/ac",
-                "issn": "",
                 "blurb": "Analytical Chemistry publishes compelling research articles advancing chemical measurement science from significant fundamentals to innovative applications.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1463,6 +1462,7 @@
                     "CABI",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "2994-0974"
             },
             "apwdam": {
@@ -1480,9 +1480,9 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/artificialphotosynthesis",
-                "issn": "0893-228X",
                 "blurb": "Artificial Photosynthesis reports advances in understanding, mimicking, and utilizing the conversion of sunlight into chemical energy.",
                 "type": "oa",
+                "issn": "0893-228X",
                 "eissn": "1520-4995"
             },
             "bichaw": {
@@ -1500,7 +1500,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/biochemistry",
-                "issn": "0009-2665",
                 "blurb": "Biochemistry publishes exceptional, rigorous, high-impact research across all of biological chemistry.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1513,6 +1512,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "0009-2665",
                 "eissn": "1520-4812"
             },
             "bcches": {
@@ -1530,7 +1530,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/bc",
-                "issn": "0897-4756",
                 "blurb": "Bioconjugate Chemistry covers bioconjugate science, including preparation, properties and applications of biomolecular conjugates.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1543,6 +1542,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "0897-4756",
                 "eissn": "1526-4602"
             },
             "bomaf6": {
@@ -1560,7 +1560,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/biomac",
-                "issn": "1528-7483",
                 "blurb": "Biomacromolecules publishes cutting-edge research articles at the interface of polymer science and biology.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1572,6 +1571,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "1528-7483",
                 "eissn": "1520-6033"
             },
             "bipret": {
@@ -1582,8 +1582,8 @@
                 },
                 "vanityUrl": "",
                 "blurb": "",
-                "eissn": "2474-7408",
-                "issn": "0887-0624"
+                "issn": "0887-0624",
+                "eissn": "2474-7408"
             },
             "cenear": {
                 "editor": {
@@ -1593,8 +1593,8 @@
                 },
                 "vanityUrl": "",
                 "blurb": "",
-                "eissn": "Missing from DB.",
-                "issn": "0536-1079"
+                "issn": "0536-1079",
+                "eissn": "Missing from DB."
             },
             "crtoec": {
                 "title": "Chemical Research in Toxicology",
@@ -1611,7 +1611,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/crt",
-                "issn": "0096-4484",
                 "blurb": "Chemical Research in Toxicology reports ground-breaking research on the chemical and molecular basis of toxicology for intelligent solutions to human and environmental health and safety.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1624,6 +1623,7 @@
                     "CABI",
                     "Portico"
                 ],
+                "issn": "0096-4484",
                 "eissn": "1879-131X"
             },
             "chreay": {
@@ -1641,7 +1641,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/cr",
-                "issn": "0095-9146",
                 "blurb": "Chemical Reviews publishes comprehensive, authoritative, critical reviews of important advances in organic, inorganic, physical, analytical, theoretical, and biological chemistry.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1656,6 +1655,7 @@
                     "CABI",
                     "Portico"
                 ],
+                "issn": "0095-9146",
                 "eissn": "This is the print issn in the DB and matches the journal above."
             },
             "cbehb5": {
@@ -1673,7 +1673,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/ChemBioEng",
-                "issn": "0013-936X",
                 "blurb": "Chem & Bio Engineering is a peer-reviewed, open-access journal that publishes significant advances in all aspects of chemical and biological engineering.",
                 "indexAbstract": [
                     "Chemical Abstracts Service (CAS)",
@@ -1683,6 +1682,7 @@
                     "Web of Science ESCI",
                     "PubMed Central"
                 ],
+                "issn": "0013-936X",
                 "eissn": "2832-3637"
             },
             "cbihbp": {
@@ -1700,7 +1700,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/ChemBioImaging",
-                "eissn": "2157-4936",
                 "blurb": "Chemical & Biomedical Imaging publishes cutting-edge, open access papers on all aspects of chemical and biomedical imaging.",
                 "type": "oa",
                 "indexAbstract": [
@@ -1711,7 +1710,8 @@
                     "Web of Science ESCI",
                     "PubMed Central"
                 ],
-                "issn": ""
+                "issn": "",
+                "eissn": "2157-4936"
             },
             "cmatex": {
                 "title": "Chemistry of Materials",
@@ -1728,7 +1728,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/cm",
-                "issn": "0196-4313",
                 "blurb": "Chemistry of Materials reports fundamental research at the interface of chemistry, chemical engineering, and materials science.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1739,6 +1738,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "0196-4313",
                 "eissn": "1520-5010"
             },
             "cgdefu": {
@@ -1756,7 +1756,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/crystal",
-                "issn": "Missing from DB.",
                 "blurb": "Crystal Growth & Design shares new scientific & engineering knowledge of crystal growth, crystal engineering, and application of crystalline materials.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1767,6 +1766,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "Missing from DB.",
                 "eissn": "1520-6890"
             },
             "enfuem": {
@@ -1784,7 +1784,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/ef",
-                "issn": "0196-4305",
                 "blurb": "Energy & Fuels reports advances in batteries and energy storage, fuel cells, solar energy, light conversion, bioenergy, fossil fuels, carbon capture, carbon-free fuels, and more.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1794,6 +1793,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "0196-4305",
                 "eissn": "1520-5002"
             },
             "ehnea2": {
@@ -1811,7 +1811,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/EnvHealth",
-                "issn": "Missing from DB.",
                 "blurb": "Environment & Health, an open access journal, explores relationships between the environment and the health of individuals and communities.",
                 "type": "oa",
                 "indexAbstract": [
@@ -1822,6 +1821,7 @@
                     "Web of Science ESCI",
                     "PubMed Central"
                 ],
+                "issn": "Missing from DB.",
                 "eissn": "1528-7505"
             },
             "esthag": {
@@ -1839,7 +1839,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/est",
-                "issn": "0196-4321",
                 "blurb": "Environmental Science & Technology reports impactful, groundbreaking, world-class research across a diverse range of environmentally relevant topics.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1852,6 +1851,7 @@
                     "CABI",
                     "Portico"
                 ],
+                "issn": "0196-4321",
                 "eissn": "1520-5029"
             },
             "estlcu": {
@@ -1869,7 +1869,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/estlett",
-                "issn": "Missing from DB.",
                 "blurb": "Environmental Science & Technology Letters shares timely, urgent and high-quality communications on pure and applied environmental science and technology.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1879,6 +1878,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "Missing from DB.",
                 "eissn": "2833-8278"
             },
             "iechad": {
@@ -1889,8 +1889,8 @@
                 },
                 "vanityUrl": "",
                 "blurb": "",
-                "eissn": "2328-8930",
-                "issn": "0097-6423"
+                "issn": "0097-6423",
+                "eissn": "2328-8930"
             },
             "iecred": {
                 "title": "Industrial & Engineering Chemistry Research",
@@ -1907,7 +1907,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/iecr",
-                "issn": "0021-9584",
                 "blurb": "Industrial & Engineering Chemistry Research reports experimental, computational, or theoretical research on applied chemistry, and chemical and biomolecular engineering.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1918,6 +1917,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "0021-9584",
                 "eissn": "1541-4833"
             },
             "inocaj": {
@@ -1935,7 +1935,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/ic",
-                "issn": "Showing up as eISSN for Journal of Chemical Health & Safety",
                 "blurb": "Inorganic Chemistry reports experimental and theoretical studies on coordination chemistry, main-group chemistry, catalysis, inorganic materials, and bioinorganic chemistry.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -1947,6 +1946,7 @@
                     "Proquest",
                     "Portico"
                 ],
+                "issn": "Showing up as eISSN for Journal of Chemical Health & Safety",
                 "eissn": "1541-5716"
             },
             "jaaucr": {
@@ -1964,7 +1964,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jacsau",
-                "issn": "0095-2338",
                 "blurb": "JACS Au, an open access journal, reports research across analytical, physical, inorganic, organic, medicinal, environmental, catalytic, and theoretical chemistry.",
                 "type": "oa",
                 "indexAbstract": [
@@ -1976,6 +1975,7 @@
                     "Web of Science ESCI",
                     "OAJ"
                 ],
+                "issn": "0095-2338",
                 "eissn": "Missing from DB."
             },
             "jacsat": {
@@ -1994,7 +1994,6 @@
                 },
                 "vanityUrl": "https://pubs.acs.org/jacs",
                 "tagline": "The Journal of the American Chemical Society (JACS), founded in 1879, is the flagship journal of the American Chemical Society",
-                "issn": "0743-7463",
                 "blurb": "The flagship journal of the American Chemical Society, JACS publishes significant, highly cited articles with broad interest across all chemical science.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2009,6 +2008,7 @@
                     "OVID",
                     "Portico"
                 ],
+                "issn": "0743-7463",
                 "eissn": "1520-5142"
             },
             "jafcau": {
@@ -2026,7 +2026,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jafc",
-                "issn": "1549-9596",
                 "blurb": "Journal of Agricultural and Food Chemistry publishes cutting-edge studies and reviews on the chemistry and biochemistry of agriculture and food.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2038,6 +2037,7 @@
                     "CABI",
                     "Portico"
                 ],
+                "issn": "1549-9596",
                 "eissn": "1541-4841"
             },
             "jamsef": {
@@ -2055,7 +2055,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jasms",
-                "issn": "0024-9297",
                 "partnerLink": "/page/jamsef/asms-acs-partnership",
                 "blurb": "Journal of the American Society for Mass Spectrometry covers mass spectrometry research, and scientific inquiry in which mass spectrometry plays a role.",
                 "type": "hybrid",
@@ -2074,6 +2073,7 @@
                         "statement": "© American Society for Mass Spectrometry. Published by American Chemical Society. All rights reserved."
                     }
                 ],
+                "issn": "0024-9297",
                 "eissn": "1549-960X"
             },
             "jamsef0": {
@@ -2084,8 +2084,8 @@
                         "statement": "© American Society for Mass Spectrometry. Published by American Chemical Society. All rights reserved."
                     }
                 ],
-                "eissn": "1520-4774",
-                "issn": "1530-6984"
+                "issn": "1530-6984",
+                "eissn": "1520-4774"
             },
             "jamsef1": {
                 "copyright": [
@@ -2095,8 +2095,8 @@
                         "statement": "© American Society for Mass Spectrometry. Published by American Chemical Society. All rights reserved."
                     }
                 ],
-                "eissn": "1549-9626",
-                "issn": "1543-8384"
+                "issn": "1543-8384",
+                "eissn": "1549-9626"
             },
             "jceaax": {
                 "title": "Journal of Chemical & Engineering Data",
@@ -2113,7 +2113,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jced",
-                "issn": "1549-9618",
                 "blurb": "Journal of Chemical & Engineering Data reports relevant, comprehensive, and robust thermophysical properties and phase equilibria for well-defined chemical systems obtained from experiment or computation.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2125,6 +2124,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "1549-9618",
                 "eissn": "Missing from DB."
             },
             "jceda8": {
@@ -2142,7 +2142,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jce",
-                "issn": "0095-9014",
                 "blurb": "Journal of Chemical Education advances chemistry teaching and learning, and chemistry education research addressing laboratory experiments, curricula, and pedagogies.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2159,6 +2158,7 @@
                         "statement": "© American Chemical Society and Division of Chemical Education, Inc."
                     }
                 ],
+                "issn": "0095-9014",
                 "eissn": "2157-4936"
             },
             "jcisd8": {
@@ -2176,7 +2176,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jcim",
-                "issn": "0022-2623",
                 "blurb": "Journal of Chemical Information and Modeling reports cutting-edge new methodologies and applications in chemical informatics and molecular modeling.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2186,6 +2185,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "0022-2623",
                 "eissn": "2691-3704"
             },
             "jctcce": {
@@ -2203,7 +2203,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jctc",
-                "issn": "See above. This is the record in the DB.",
                 "blurb": "Journal of Chemical Theory and Computation reports new theories, methods, and important applications in quantum electronic structure, molecular dynamics, and statistical mechanics.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2212,6 +2211,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "See above. This is the record in the DB.",
                 "eissn": "1520-5118"
             },
             "jmcmar": {
@@ -2229,7 +2229,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jmc",
-                "issn": "1044-0305",
                 "blurb": "Journal of Medicinal Chemistry reports research relationships between molecular structure and biological activity or mode of action in drug discovery and development.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2242,6 +2241,7 @@
                     "CABI",
                     "Portico"
                 ],
+                "issn": "1044-0305",
                 "eissn": "1878-0504"
             },
             "jnprdf": {
@@ -2259,7 +2259,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jnp",
-                "issn": "",
                 "blurb": "Journal of Natural Products reports research on the chemistry or biochemistry of naturally occurring compounds or the biology of their living systems and environments.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2278,6 +2277,7 @@
                         "statement": "© American Chemical Society and American Society of Pharmacognosy"
                     }
                 ],
+                "issn": "",
                 "eissn": "Showing as eISSN for ACS Chemical Health & Safety"
             },
             "joceah": {
@@ -2295,7 +2295,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/joc",
-                "issn": "0092-7325",
                 "blurb": "The Journal of Organic Chemistry reports novel synthetic methods and mechanisms in organic, natural product and medicinal chemistry, biochemistry and chemical biology.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2310,6 +2309,7 @@
                     "OVID",
                     "Portico"
                 ],
+                "issn": "0092-7325",
                 "eissn": "1520-5835"
             },
             "jpcafh": {
@@ -2334,7 +2334,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jpca",
-                "issn": "1932-7447",
                 "blurb": "The Journal of Physical Chemistry A reports experimental, theoretical, and computational research on the physical chemistry of molecules, clusters, and aerosols.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2346,6 +2345,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "1932-7447",
                 "eissn": "Missing from DB."
             },
             "jpcbfk": {
@@ -2370,7 +2370,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jpcb",
-                "issn": null,
                 "blurb": "The Journal of Physical Chemistry B reports experimental, theoretical and computational research articles in biophysics, biomaterials, liquids, and soft matter.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2382,6 +2381,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": null,
                 "eissn": "1523-7052"
             },
             "jpccck": {
@@ -2406,7 +2406,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jpcc",
-                "issn": null,
                 "blurb": "The Journal of Physical Chemistry C reports experimental, theoretical and computational research in energy, materials, and catalysis.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2415,6 +2414,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": null,
                 "eissn": "1520-586X"
             },
             "jpclcd": {
@@ -2432,7 +2432,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jpcl",
-                "issn": null,
                 "blurb": "The Journal of Physical Chemistry Letters rapidly disseminates high-quality communications at the forefront of physical chemistry.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2444,6 +2443,7 @@
                     "Nature Index",
                     "Portico"
                 ],
+                "issn": null,
                 "eissn": "1520-6041"
             },
             "jprobs": {
@@ -2461,7 +2461,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/jpr",
-                "issn": "",
                 "blurb": "Journal of Proteome Research reports on global protein analysis and function, including genomics, spatio-temporal proteomics, metabonomics and metabolomics, and clinical proteomics.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2472,6 +2471,7 @@
                     "CAS",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": ""
             },
             "langd5": {
@@ -2489,7 +2489,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/langmuir",
-                "issn": "0097-6415",
                 "blurb": "Langmuir highlights the science and application of systems and materials in which the interface dominates structure and function.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2502,6 +2501,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "0097-6415",
                 "eissn": "1943-2968"
             },
             "mamobx": {
@@ -2519,7 +2519,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/macromolecules",
-                "issn": "1523-7060",
                 "blurb": "Macromolecules publishes research articles at the cutting-edge of polymer science.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2532,6 +2531,7 @@
                     "OVID",
                     "Portico"
                 ],
+                "issn": "1523-7060",
                 "eissn": "1520-4804"
             },
             "mpohbp": {
@@ -2549,7 +2549,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/mp",
-                "issn": "1083-6160",
                 "blurb": "Molecular Pharmaceutics publishes findings on the molecular mechanistic understanding of drug delivery and drug delivery systems.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2564,6 +2563,7 @@
                     "OVID",
                     "Portico"
                 ],
+                "issn": "1083-6160",
                 "eissn": "In DB, but same as value below."
             },
             "nalefd": {
@@ -2587,7 +2587,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/nanolett",
-                "issn": "0276-7333",
                 "blurb": "Nano Letters is the global home for communications in nanoscience and nanotechnology.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2600,6 +2599,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "0276-7333",
                 "eissn": "1520-4804"
             },
             "orlef7": {
@@ -2617,7 +2617,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/orglett",
-                "issn": "",
                 "blurb": "Organic Letters rapidly publishes short reports on creative, innovative organic synthesis, from catalysis to natural products to functional materials.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2630,6 +2629,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "",
                 "eissn": "1520-6025"
             },
             "oprdfk": {
@@ -2647,7 +2647,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/oprd",
-                "issn": "0091-1968",
                 "blurb": "Organic Process Research & Development reports research on safe, environmentally benign and economical synthesis and manufacture of organic compounds at industrial scale.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2657,6 +2656,7 @@
                     "EBSCOHost",
                     "Portico"
                 ],
+                "issn": "0091-1968",
                 "eissn": "1535-3907"
             },
             "orgnd7": {
@@ -2674,7 +2674,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/organometallics",
-                "issn": "Missing from DB.",
                 "blurb": "Organometallics reports research in organic and inorganic chemistry on the synthesis, structure, reactivity and applications of novel organometallic compounds.",
                 "type": "hybrid",
                 "indexAbstract": [
@@ -2686,6 +2685,7 @@
                     "CABI",
                     "Portico"
                 ],
+                "issn": "Missing from DB.",
                 "eissn": "1520-5126"
             },
             "pcrhej": {
@@ -2703,7 +2703,6 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/PrecisionChem",
-                "issn": "0092-7023",
                 "blurb": "Precision Chemistry reports fundamental, applied and interdisciplinary research towards precision calculation, design, synthesis, manipulation, measurement and manufacturing.",
                 "type": "oa",
                 "indexAbstract": [
@@ -2714,6 +2713,7 @@
                     "Sherpa Romeo",
                     "PubMed Central"
                 ],
+                "issn": "0092-7023",
                 "eissn": "1044-0305"
             },
             "psabes": {
@@ -2731,10 +2731,10 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/PhotonSci",
-                "issn": "2998-8799",
                 "blurb": "Photon Science publishes cutting-edge photon-based scientific research and technical innovations.",
                 "type": "oa",
-                "indexAbstract": []
+                "indexAbstract": [],
+                "issn": "2998-8799"
             },
             "pstoco": {
                 "title": "Polymer Science & Technology",
@@ -2751,10 +2751,10 @@
                     }
                 },
                 "vanityUrl": "https://pubs.acs.org/PolySciTech",
-                "issn": "0022-3263",
                 "blurb": " Polymer Science & Technology, an open-access journal, reports cutting-edge polymer and related interdisciplinary research linked to the pressing needs of human society.",
                 "type": "oa",
                 "indexAbstract": [],
+                "issn": "0022-3263",
                 "eissn": "1879-1123"
             }
         }
