@@ -489,8 +489,8 @@
         },
         "vanityUrl": "https://pubs.acs.org/acscombsci",
         "blurb": "ACS Combinatorial Science published research describing the development and use of combinatorial, high-throughput, and related methods in chemistry, materials science, and biology.",
-        "issn": "",
-        "eissn": ""
+        "issn": "2156-8952",
+        "eissn": "2156-8944"
       },
       "aeacb3": {
         "title": "ACS Engineering Au",
@@ -1390,8 +1390,8 @@
         },
         "vanityUrl": "",
         "blurb": "",
-        "issn": "",
-        "eissn": ""
+        "issn": "8756-7938",
+        "eissn": "1520-6033"
       },
       "cenear": {
         "editor": {
@@ -1399,8 +1399,8 @@
         },
         "vanityUrl": "",
         "blurb": "",
-        "issn": "",
-        "eissn": ""
+        "issn": "0009-2347",
+        "eissn": "2157-4936"
       },
       "crtoec": {
         "title": "Chemical Research in Toxicology",
@@ -1673,8 +1673,8 @@
         },
         "vanityUrl": "",
         "blurb": "",
-        "issn": "",
-        "eissn": ""
+        "issn": "0019-7866",
+        "eissn": "1541-5724"
       },
       "iecred": {
         "title": "Industrial & Engineering Chemistry Research",
@@ -1699,8 +1699,8 @@
           "EBSCOHost",
           "Portico"
         ],
-        "issn": "",
-        "eissn": ""
+        "issn": "0888-5885",
+        "eissn": "1520-5045"
       },
       "inocaj": {
         "title": "Inorganic Chemistry",
@@ -2464,7 +2464,7 @@
         "type": "oa",
         "indexAbstract": [],
         "issn": "",
-        "eissn": ""
+        "eissn": "2997-3279"
       }
     }
   }
