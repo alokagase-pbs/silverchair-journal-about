@@ -1848,6 +1848,24 @@
         "issn": "1044-0305",
         "eissn": "1879-1123"
       },
+       "jamsef0": {
+        "copyright": [
+          {
+            "start": "1940",
+            "end": "1996",
+            "statement": "© American Society for Mass Spectrometry. Published by American Chemical Society. All rights reserved."
+          }
+        ]
+      },
+      "jamsef1": {
+        "copyright": [
+          {
+            "start": "1940",
+            "end": "1996",
+            "statement": "© American Society for Mass Spectrometry. Published by American Chemical Society. All rights reserved."
+          }
+        ]
+      },
       "jceaax": {
         "title": "Journal of Chemical & Engineering Data",
         "sort": "J",
