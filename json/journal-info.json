@@ -17,9 +17,7 @@
         "title": "Accounts of Chemical Research",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Christopher J. Chang"
-          ]
+          "Editor-in-Chief": ["Christopher J. Chang"]
         },
         "editorInfo": {
           "Christopher J. Chang": {
@@ -28,7 +26,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/accounts",
-        "issn": "1520-4898",
         "blurb": "Accounts of Chemical Research publishes short, concise and critical articles offering easy-to-read overviews of basic research and applications in all areas of chemistry.",
         "type": "hybrid",
         "indexAbstract": [
@@ -40,18 +37,16 @@
           "EBSCOHost",
           "CABI",
           "Portico"
-        ]
+        ],
+        "issn": "0001-4842",
+        "eissn": "1520-4898"
       },
       "aamick": {
         "title": "ACS Applied Materials & Interfaces",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Xing Yi Ling"
-          ],
-          "Deputy Editor": [
-            "Peter Müller-Buschbaum"
-          ]
+          "Editor-in-Chief": ["Xing Yi Ling"],
+          "Deputy Editor": ["Peter Müller-Buschbaum"]
         },
         "editorInfo": {
           "Xing Yi Ling": {
@@ -64,7 +59,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsami",
-        "issn": "1944-8252",
         "blurb": "ACS Applied Materials & Interfaces is for chemists, engineers, physicists and biologists researching materials and interfacial processes for specific applications.",
         "type": "hybrid",
         "indexAbstract": [
@@ -74,18 +68,16 @@
           "CAS",
           "INSPEC",
           "Portico"
-        ]
+        ],
+        "issn": "1944-8244",
+        "eissn": "1944-8252"
       },
       "aabmcb": {
         "title": "ACS Applied Bio Materials",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Xing Yi Ling"
-          ],
-          "Deputy Editor": [
-            "Shu Wang"
-          ]
+          "Editor-in-Chief": ["Xing Yi Ling"],
+          "Deputy Editor": ["Shu Wang"]
         },
         "editorInfo": {
           "Xing Yi Ling": {
@@ -98,7 +90,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsabm",
-        "issn": "2576-6422",
         "blurb": "ACS Applied Bio Materials is an interdisciplinary journal publishing research articles covering all aspects of biomaterials, biointerfaces, and applications.",
         "type": "hybrid",
         "indexAbstract": [
@@ -108,18 +99,16 @@
           "CAS",
           "INSPEC",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2576-6422"
       },
       "aaemcq": {
         "title": "ACS Applied Energy Materials",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Xing Yi Ling"
-          ],
-          "Deputy Editor": [
-            "Yiying Wu"
-          ]
+          "Editor-in-Chief": ["Xing Yi Ling"],
+          "Deputy Editor": ["Yiying Wu"]
         },
         "editorInfo": {
           "Xing Yi Ling": {
@@ -132,7 +121,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsappliedenergymaterials",
-        "issn": "2574-0962",
         "blurb": "An interdisciplinary journal publishing research articles on materials, engineering, chemistry, physics and biology relevant to energy applications.",
         "type": "hybrid",
         "indexAbstract": [
@@ -141,18 +129,16 @@
           "CAS",
           "INSPEC",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2574-0962"
       },
       "aanmf6": {
         "title": "ACS Applied Nano Materials",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Xing Yi Ling"
-          ],
-          "Deputy Editor": [
-            "T. Randall Lee"
-          ]
+          "Editor-in-Chief": ["Xing Yi Ling"],
+          "Deputy Editor": ["T. Randall Lee"]
         },
         "editorInfo": {
           "Xing Yi Ling": {
@@ -165,26 +151,18 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsappliednanomaterials",
-        "issn": "2574-0970",
         "blurb": "ACS Applied Nano Materials covers all aspects of engineering, chemistry, physics and biology relevant to applications of nanomaterials.",
         "type": "hybrid",
-        "indexAbstract": [
-          "Web of Science SCIE",
-          "Scopus",
-          "CAS",
-          "Portico"
-        ]
+        "indexAbstract": ["Web of Science SCIE", "Scopus", "CAS", "Portico"],
+        "issn": "",
+        "eissn": "2574-0970"
       },
       "aapmcd": {
         "title": "ACS Applied Polymer Materials",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Xing Yi Ling"
-          ],
-          "Deputy Editor": [
-            "Jodie Lutkenhaus"
-          ]
+          "Editor-in-Chief": ["Xing Yi Ling"],
+          "Deputy Editor": ["Jodie Lutkenhaus"]
         },
         "editorInfo": {
           "Xing Yi Ling": {
@@ -197,7 +175,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsappliedpolymermaterials",
-        "issn": "2637-6105",
         "blurb": "ACS Applied Polymer Materials covers all aspects of engineering, chemistry, physics, and biology relevant to applications of polymers.",
         "type": "hybrid",
         "indexAbstract": [
@@ -206,18 +183,16 @@
           "CAS",
           "INSPEC",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2637-6105"
       },
       "aaembp": {
         "title": "ACS Applied Electronic Materials",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Xing Yi Ling"
-          ],
-          "Deputy Editor": [
-            "Hyun Jae Kim"
-          ]
+          "Editor-in-Chief": ["Xing Yi Ling"],
+          "Deputy Editor": ["Hyun Jae Kim"]
         },
         "editorInfo": {
           "Xing Yi Ling": {
@@ -230,7 +205,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsappliedelectronicmaterials",
-        "issn": "2637-6113",
         "blurb": "ACS Applied Electronic Materials is an interdisciplinary journal covering all aspects of electronic materials and applications.",
         "type": "hybrid",
         "indexAbstract": [
@@ -239,18 +213,16 @@
           "CAS",
           "INSPEC",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2637-6113"
       },
       "aaemdr": {
         "title": "ACS Applied Engineering Materials",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Xing Yi Ling"
-          ],
-          "Deputy Editor": [
-            "Jessica D. Schiffman"
-          ]
+          "Editor-in-Chief": ["Xing Yi Ling"],
+          "Deputy Editor": ["Jessica D. Schiffman"]
         },
         "editorInfo": {
           "Xing Yi Ling": {
@@ -263,24 +235,18 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsaenm",
-        "issn": "2771-9545",
         "blurb": "ACS Applied Engineering Materials covers materials science applications at the intersection of engineering, physics, and chemistry.",
         "type": "hybrid",
-        "indexAbstract": [
-          "CAS",
-          "Portico"
-        ]
+        "indexAbstract": ["CAS", "Portico"],
+        "issn": "",
+        "eissn": "2771-9545"
       },
       "aaoma6": {
         "title": "ACS Applied Optical Materials",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Xing Yi Ling"
-          ],
-          "Deputy Editor": [
-            "Elena Galoppini"
-          ]
+          "Editor-in-Chief": ["Xing Yi Ling"],
+          "Deputy Editor": ["Elena Galoppini"]
         },
         "editorInfo": {
           "Xing Yi Ling": {
@@ -293,7 +259,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsaom",
-        "issn": "2771-9855",
         "blurb": "ACS Applied Optical Materials reports chemistry, materials, engineering, and physics research in optical & photonic materials and applications.",
         "type": "hybrid",
         "indexAbstract": [
@@ -302,18 +267,16 @@
           "Portico",
           "Scopus",
           "Web of Science E-SCI"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2771-9855"
       },
       "aastgj": {
         "title": "ACS Agricultural Science & Technology",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Thomas F. Hofmann"
-          ],
-          "Deputy Editor": [
-            "Laura L. McConnell"
-          ]
+          "Editor-in-Chief": ["Thomas F. Hofmann"],
+          "Deputy Editor": ["Laura L. McConnell"]
         },
         "editorInfo": {
           "Thomas F. Hofmann": {
@@ -326,7 +289,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsagscitech",
-        "issn": "2692-1952",
         "blurb": "ACS Agricultural Science & Technology reports high quality research across agricultural science, technology, and engineering.",
         "type": "hybrid",
         "indexAbstract": [
@@ -335,18 +297,16 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2692-1952"
       },
       "abmcb8": {
         "title": "ACS Bio & Med Chem Au",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Shelley D. Minteer"
-          ],
-          "Deputy Editor": [
-            "Squire Booker"
-          ]
+          "Editor-in-Chief": ["Shelley D. Minteer"],
+          "Deputy Editor": ["Squire Booker"]
         },
         "editorInfo": {
           "Shelley D. Minteer": {
@@ -359,7 +319,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/biomedchemau",
-        "eissn": "2694-2437",
         "blurb": "ACS Bio & Med Chem Au covers the chemical, physical, biological, mechanistic, and structural basis of biological function.",
         "type": "oa",
         "indexAbstract": [
@@ -369,15 +328,15 @@
           "Web of Science ESCI",
           "DOAJ",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2694-2437"
       },
       "abseba": {
         "title": "ACS Biomaterials Science & Engineering",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "David L. Kaplan"
-          ]
+          "Editor-in-Chief": ["David L. Kaplan"]
         },
         "editorInfo": {
           "David L. Kaplan": {
@@ -386,7 +345,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsbiomaterials",
-        "issn": "2373-9878",
         "blurb": " ACS Biomaterials Science & Engineering covers biomaterials science, technology and engineering research and applications to biomedicine, bioengineering and clinical translation.",
         "type": "hybrid",
         "indexAbstract": [
@@ -395,15 +353,15 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2373-9878"
       },
       "accacs": {
         "title": "ACS Catalysis",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Cathleen Crudden"
-          ]
+          "Editor-in-Chief": ["Cathleen Crudden"]
         },
         "editorInfo": {
           "Cathleen Crudden": {
@@ -412,25 +370,18 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acscatalysis",
-        "issn": "2155-5435",
         "blurb": "ACS Catalysis focuses on experimental and theoretical studies on molecules, macromolecules, and materials that are catalytic in nature.",
         "type": "hybrid",
-        "indexAbstract": [
-          "Web of Science SCIE",
-          "CAS",
-          "Portico"
-        ]
+        "indexAbstract": ["Web of Science SCIE", "CAS", "Portico"],
+        "issn": "",
+        "eissn": "2155-5435"
       },
       "acscii": {
         "title": "ACS Central Science",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Carolyn R. Bertozzi"
-          ],
-          "Deputy Editor": [
-            "Kirk S. Schanze"
-          ]
+          "Editor-in-Chief": ["Carolyn R. Bertozzi"],
+          "Deputy Editor": ["Kirk S. Schanze"]
         },
         "editorInfo": {
           "Carolyn R. Bertozzi": {
@@ -443,7 +394,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acscentralscience",
-        "issn": "2374-7951",
         "blurb": "ACS Central Science publishes the most compelling discoveries with exceptional impact in the physical and life sciences in which chemistry has a central role.",
         "type": "central",
         "indexAbstract": [
@@ -454,15 +404,15 @@
           "CAS",
           "Portico",
           "OAJ"
-        ]
+        ],
+        "issn": "2374-7943",
+        "eissn": "2374-7951"
       },
       "acbcct": {
         "title": "ACS Chemical Biology",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Chuan He"
-          ]
+          "Editor-in-Chief": ["Chuan He"]
         },
         "editorInfo": {
           "Chuan He": {
@@ -471,7 +421,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acschemicalbiology",
-        "issn": "1554-8937",
         "blurb": "ACS Chemical Biology reports research on cellular processes using in vitro, cellular or whole organism studies at the chemical and biological interface.",
         "type": "hybrid",
         "indexAbstract": [
@@ -481,15 +430,15 @@
           "CAS",
           "INSPEC",
           "Portico"
-        ]
+        ],
+        "issn": "1554-8929",
+        "eissn": "1554-8937"
       },
       "achsc5": {
         "title": "ACS Chemical Health & Safety",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Mary Beth Mulcahy"
-          ]
+          "Editor-in-Chief": ["Mary Beth Mulcahy"]
         },
         "editorInfo": {
           "Mary Beth Mulcahy": {
@@ -498,23 +447,17 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acschemhealthsafety",
-        "issn": "",
         "blurb": "ACS Chemical Health & Safety reports on chemical safety, security, risk assessment and management, incident case studies and hazard warnings, and other influential safety topics.",
         "type": "hybrid",
-        "indexAbstract": [
-          "Web of Science ESCI",
-          "Scopus",
-          "CAS",
-          "Portico"
-        ]
+        "indexAbstract": ["Web of Science ESCI", "Scopus", "CAS", "Portico"],
+        "issn": "",
+        "eissn": "1878-0504"
       },
       "acncdm": {
         "title": "ACS Chemical Neuroscience",
         "sort": "A",
         "editor": {
-          "Interim Editor-in-Chief": [
-            "Michael Kassiou"
-          ]
+          "Interim Editor-in-Chief": ["Michael Kassiou"]
         },
         "editorInfo": {
           "Michael Kassiou": {
@@ -523,7 +466,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acschemneuro",
-        "issn": "1948-7193",
         "blurb": "ACS Chemical Neuroscience reports chemical, biological, biophysical, and bioengineering research on the nervous system and neurological disorders.",
         "type": "hybrid",
         "indexAbstract": [
@@ -535,7 +477,9 @@
           "Proquest",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "1948-7193"
       },
       "acsccc": {
         "title": "ACS Combinatorial Science",
@@ -544,19 +488,16 @@
           "Editor-in-Chief": ""
         },
         "vanityUrl": "https://pubs.acs.org/acscombsci",
-        "issn": "2156-8944",
-        "blurb": "ACS Combinatorial Science published research describing the development and use of combinatorial, high-throughput, and related methods in chemistry, materials science, and biology."
+        "blurb": "ACS Combinatorial Science published research describing the development and use of combinatorial, high-throughput, and related methods in chemistry, materials science, and biology.",
+        "issn": "",
+        "eissn": ""
       },
       "aeacb3": {
         "title": "ACS Engineering Au",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Shelley D. Minteer"
-          ],
-          "Deputy Editor": [
-            "Joris Thybaut"
-          ]
+          "Editor-in-Chief": ["Shelley D. Minteer"],
+          "Deputy Editor": ["Joris Thybaut"]
         },
         "editorInfo": {
           "Shelley D. Minteer": {
@@ -569,26 +510,18 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/engineeringau",
-        "eissn": "2694-2488",
         "blurb": "ACS Engineering Au reports chemical engineering, applied chemistry, and energy research applied to large-scale manufacturing operations, processes and products.",
         "type": "oa",
-        "indexAbstract": [
-          "Web of Science ESCI",
-          "CAS",
-          "DOAJ",
-          "Portico"
-        ]
+        "indexAbstract": ["Web of Science ESCI", "CAS", "DOAJ", "Portico"],
+        "issn": "",
+        "eissn": "2694-2488"
       },
       "aeacc4": {
         "title": "ACS Environmental Au",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Shelley D. Minteer"
-          ],
-          "Deputy Editor": [
-            "Xiang-Dong Li"
-          ]
+          "Editor-in-Chief": ["Shelley D. Minteer"],
+          "Deputy Editor": ["Xiang-Dong Li"]
         },
         "editorInfo": {
           "Shelley D. Minteer": {
@@ -601,7 +534,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/environau",
-        "eissn": "2694-2518",
         "blurb": "ACS Environmental Au covers environmental science, technology and green chemistry including experimental and theoretical methods.",
         "type": "oa",
         "indexAbstract": [
@@ -611,15 +543,15 @@
           "CAS",
           "DOAJ",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2694-2518"
       },
       "aeacd5": {
         "title": "ACS ES&T Air",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Nga Lee (Sally) Ng"
-          ]
+          "Editor-in-Chief": ["Nga Lee (Sally) Ng"]
         },
         "editorInfo": {
           "Nga Lee (Sally) Ng": {
@@ -628,18 +560,17 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/estair",
-        "issn": "2837-1402",
         "blurb": "ACS ES&T Air reports original research on outdoor and indoor air quality sciences, engineering, chemistry and physics, treatment, climate change, and human health and ecological impacts.",
         "type": "hybrid",
-        "indexAbstract": []
+        "indexAbstract": [],
+        "issn": "",
+        "eissn": "2837-1402"
       },
       "aeecco": {
         "title": "ACS ES&T Engineering",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Wonyong Choi"
-          ]
+          "Editor-in-Chief": ["Wonyong Choi"]
         },
         "editorInfo": {
           "Wonyong Choi": {
@@ -648,7 +579,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/estengg",
-        "issn": "2690-0645",
         "blurb": "ACS ES&T Engineering reports high-impact research in all areas of environmental technology and engineering.",
         "type": "hybrid",
         "indexAbstract": [
@@ -657,15 +587,15 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2690-0645"
       },
       "aeclc7": {
         "title": "ACS Electrochemistry",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Patrick Unwin"
-          ]
+          "Editor-in-Chief": ["Patrick Unwin"]
         },
         "editorInfo": {
           "Patrick Unwin": {
@@ -674,18 +604,17 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/electrochem",
-        "issn": "2997-0571",
         "blurb": "ACS Electrochemistry is an international journal for high-quality, cutting-edge original research in all areas of electrochemistry.",
         "type": "hybrid",
-        "indexAbstract": []
+        "indexAbstract": [],
+        "issn": "",
+        "eissn": "2997-0571"
       },
       "aesccq": {
         "title": "ACS Earth and Space Chemistry",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Patricia Forbes"
-          ]
+          "Editor-in-Chief": ["Patricia Forbes"]
         },
         "editorInfo": {
           "Patricia Forbes": {
@@ -694,23 +623,17 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsearthchem",
-        "issn": "2472-3452",
         "blurb": "ACS Earth and Space Chemistry advances interdisciplinary application of chemistry to natural materials and processes in Earth's interior, surface, and atmosphere, and in space.",
         "type": "hybrid",
-        "indexAbstract": [
-          "Web of Science SCIE",
-          "Scopus",
-          "CAS",
-          "Portico"
-        ]
+        "indexAbstract": ["Web of Science SCIE", "Scopus", "CAS", "Portico"],
+        "issn": "",
+        "eissn": "2472-3452"
       },
       "aelccp": {
         "title": "ACS Energy Letters",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Prashant V. Kamat"
-          ]
+          "Editor-in-Chief": ["Prashant V. Kamat"]
         },
         "editorInfo": {
           "Prashant V. Kamat": {
@@ -719,7 +642,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsenergyletters",
-        "issn": "2380-8195",
         "blurb": "ACS Energy Letters reports breakthrough findings on energy materials, storage and conversion, solar cells and fuels, supercapacitors, LEDs, photosynthesis and biofuels, and photovoltaics.",
         "type": "hybrid",
         "indexAbstract": [
@@ -729,15 +651,15 @@
           "CAS",
           "INSPEC",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2380-8195"
       },
       "aewcaa": {
         "title": "ACS ES&T Water",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Shane Snyder"
-          ]
+          "Editor-in-Chief": ["Shane Snyder"]
         },
         "editorInfo": {
           "Shane Snyder": {
@@ -746,7 +668,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/estwater",
-        "issn": "2690-0637",
         "blurb": "ACS ES&T Water reports research and policy spanning all aspects of water quality, chemistry, treatment, protection, and sustainable use/reuse and supply.",
         "type": "hybrid",
         "indexAbstract": [
@@ -755,18 +676,16 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2690-0637"
       },
       "afsthl": {
         "title": "ACS Food Science & Technology",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Thomas F. Hofmann"
-          ],
-          "Deputy Editor": [
-            "Coralia Osorio Roa"
-          ]
+          "Editor-in-Chief": ["Thomas F. Hofmann"],
+          "Deputy Editor": ["Coralia Osorio Roa"]
         },
         "editorInfo": {
           "Thomas F. Hofmann": {
@@ -779,7 +698,6 @@
           }
         },
         "vanityUrl": "http://pubs.acs.org/acsfoodscitech",
-        "issn": "2692-1944",
         "blurb": "ACS Food Science & Technology reports high quality research across food science, technology, engineering, and nutrition.",
         "type": "hybrid",
         "indexAbstract": [
@@ -788,15 +706,15 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2692-1944"
       },
       "aidcbc": {
         "title": "ACS Infectious Diseases",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Jayanta Haldar"
-          ]
+          "Editor-in-Chief": ["Jayanta Haldar"]
         },
         "editorInfo": {
           "Jayanta Haldar": {
@@ -805,7 +723,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsinfectious",
-        "issn": "2373-8227",
         "blurb": "ACS Infectious Diseases highlights the role of chemistry in the multidisciplinary and collaborative field of infectious diseases.",
         "type": "hybrid",
         "indexAbstract": [
@@ -815,18 +732,16 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2373-8227"
       },
       "amacgu": {
         "title": "ACS Materials Au",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Shelley D. Minteer"
-          ],
-          "Deputy Editor": [
-            "Stephanie Brock"
-          ]
+          "Editor-in-Chief": ["Shelley D. Minteer"],
+          "Deputy Editor": ["Stephanie Brock"]
         },
         "editorInfo": {
           "Shelley D. Minteer": {
@@ -839,7 +754,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/materialsau",
-        "eissn": "2694-2461",
         "blurb": "ACS Materials Au publishes fundamental and applied materials science at the interface between materials and chemistry, engineering and biology.",
         "type": "oa",
         "indexAbstract": [
@@ -849,18 +763,16 @@
           "CAS",
           "DOAJ",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2694-2461"
       },
       "amlcef": {
         "title": "ACS Materials Letters",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Sara E. Skrabalak"
-          ],
-          "Deputy Editor": [
-            "Hong-Cai (Joe) Zhou"
-          ]
+          "Editor-in-Chief": ["Sara E. Skrabalak"],
+          "Deputy Editor": ["Hong-Cai (Joe) Zhou"]
         },
         "editorInfo": {
           "Sara E. Skrabalak": {
@@ -873,23 +785,17 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/materialslett",
-        "issn": "2639-4979",
         "blurb": "ACS Materials Letters reports transformative research on the design, synthesis, structure, properties, performance, development and applications of emerging materials.",
         "type": "hybrid",
-        "indexAbstract": [
-          "Web of Science SCIE",
-          "Scopus",
-          "CAS",
-          "Portico"
-        ]
+        "indexAbstract": ["Web of Science SCIE", "Scopus", "CAS", "Portico"],
+        "issn": "",
+        "eissn": "2639-4979"
       },
       "amlccd": {
         "title": "ACS Macro Letters",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Stuart J. Rowan"
-          ]
+          "Editor-in-Chief": ["Stuart J. Rowan"]
         },
         "editorInfo": {
           "Stuart J. Rowan": {
@@ -898,7 +804,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsmacrolett",
-        "issn": "2161-1653",
         "blurb": "ACS Macro Letters publishes urgent communications of polymer and biopolymer science.",
         "type": "hybrid",
         "indexAbstract": [
@@ -908,15 +813,15 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2161-1653"
       },
       "amachv": {
         "title": "ACS Measurement Science Au",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief/Deputy Editor": [
-            "Shelley D. Minteer"
-          ]
+          "Editor-in-Chief/Deputy Editor": ["Shelley D. Minteer"]
         },
         "editorInfo": {
           "Shelley D. Minteer": {
@@ -925,7 +830,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/measureau",
-        "eissn": "2694-250X",
         "blurb": "ACS Measurement Science Au publishes measurement and analytical science from sampling and measurement to data analysis to improve chemical and biological measurement procedures.",
         "type": "oa",
         "indexAbstract": [
@@ -935,15 +839,15 @@
           "CAS",
           "DOAJ",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2694-250X"
       },
       "amclct": {
         "title": "ACS Medicinal Chemistry Letters",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Kelly Chibale"
-          ]
+          "Editor-in-Chief": ["Kelly Chibale"]
         },
         "editorInfo": {
           "Kelly Chibale": {
@@ -952,7 +856,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsmedchemlett",
-        "issn": "1948-5875",
         "blurb": "ACS Medicinal Chemistry Letters reports new findings in drug discovery, compound design and optimization, biological evaluation, drug delivery, imaging agents, and pharmacology.",
         "type": "hybrid",
         "indexAbstract": [
@@ -961,15 +864,15 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "1948-5875"
       },
       "amrcda": {
         "title": "Accounts of Materials Research",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Jiaxing Huang"
-          ]
+          "Editor-in-Chief": ["Jiaxing Huang"]
         },
         "editorInfo": {
           "Jiaxing Huang": {
@@ -978,23 +881,17 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/amr",
-        "issn": "2643-6728",
         "blurb": "Accounts of Materials Research publishes concise personal reviews and viewpoints describing recent developments in materials science and engineering.",
         "type": "hybrid",
-        "indexAbstract": [
-          "Web of Science ESCI",
-          "Scopus",
-          "CAS",
-          "Portico"
-        ]
+        "indexAbstract": ["Web of Science ESCI", "Scopus", "CAS", "Portico"],
+        "issn": "",
+        "eissn": "2643-6728"
       },
       "ancac3": {
         "title": "ACS Nano",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Xiaodong Chen"
-          ]
+          "Editor-in-Chief": ["Xiaodong Chen"]
         },
         "editorInfo": {
           "Xiaodong Chen": {
@@ -1003,7 +900,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsnano",
-        "issn": "1936-086X",
         "blurb": "ACS Nano reports breakthrough studies on nanostructure synthesis, assembly and characterization, nanoscience theory, tools and methods, nanobiotechnology and nanofabrication.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1015,18 +911,16 @@
           "Nature Index",
           "INSPEC",
           "Portico"
-        ]
+        ],
+        "issn": "1936-0851",
+        "eissn": "1936-086X"
       },
       "anaccx": {
         "title": "ACS Nanoscience Au",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Shelley D. Minteer"
-          ],
-          "Deputy Editor": [
-            "Yadong Yin"
-          ]
+          "Editor-in-Chief": ["Shelley D. Minteer"],
+          "Deputy Editor": ["Yadong Yin"]
         },
         "editorInfo": {
           "Shelley D. Minteer": {
@@ -1039,7 +933,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/nanoau",
-        "eissn": "2694-2496",
         "blurb": "ACS Nanoscience Au reports nanoscience & nanotechnology research at the interfaces of chemistry, biology, materials science, physics, and engineering.",
         "type": "oa",
         "indexAbstract": [
@@ -1049,38 +942,35 @@
           "CAS",
           "DOAJ",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2694-2496"
       },
       "anmafm": {
         "title": "ACS Nano Medicine",
         "sort": "A",
         "editor": {
-          "": [
-            ""
-          ]
+          "Interim Editor-in-Chief": ["Dipanjan Pan"]
         },
         "editorInfo": {
-          "": {
-            "imgUrl": "",
+          "Dipanjan Pan": {
+            "imgUrl": "/pb-assets/images/anmafm/dipanjan-pan.jpg",
             "profileUrl": ""
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsnanomed",
-        "issn": "",
         "blurb": "ACS Nano Medicine publishes significant research breakthroughs in applying nanoscience and nanotechnology for clinical diagnosis and development of therapeutics.",
         "type": "hybrid",
-        "indexAbstract": []
+        "indexAbstract": [],
+        "issn": "",
+        "eissn": "3067-5928"
       },
       "ansadg": {
         "title": "ACS Nutrition Science",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Thomas F. Hofmann"
-          ],
-          "Deputy Editor": [
-            "Jaume Amengual"
-          ]
+          "Editor-in-Chief": ["Thomas F. Hofmann"],
+          "Deputy Editor": ["Jaume Amengual"]
         },
         "editorInfo": {
           "Thomas F. Hofmann": {
@@ -1093,21 +983,18 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/ansadg",
-        "issn": "3067-6037",
         "blurb": "ACS Nutrition Science publishes significant research breakthroughs in nutrition science, technology and engineering that contribute to human health.",
         "type": "hybrid",
-        "indexAbstract": []
+        "indexAbstract": [],
+        "issn": "",
+        "eissn": "3067-6037"
       },
       "acsodf": {
         "title": "ACS Omega",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Krishna N. Ganesh"
-          ],
-          "Deputy Editor": [
-            "Sarbajit Banerjee"
-          ]
+          "Editor-in-Chief": ["Krishna N. Ganesh"],
+          "Deputy Editor": ["Sarbajit Banerjee"]
         },
         "editorInfo": {
           "Krishna N. Ganesh": {
@@ -1120,7 +1007,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsomega",
-        "issn": "2470-1343",
         "blurb": "ACS Omega is an open access, broad-scope journal focused on original chemical insight, sound scientific principles, and robust experimentation rather than immediate significance.",
         "type": "oa",
         "indexAbstract": [
@@ -1132,18 +1018,16 @@
           "DOAJ",
           "Portico",
           "OAJ"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2470-1343"
       },
       "aoiab5": {
         "title": "ACS Organic & Inorganic Au",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Shelley D. Minteer"
-          ],
-          "Deputy Editor": [
-            "Géraldine Masson"
-          ]
+          "Editor-in-Chief": ["Shelley D. Minteer"],
+          "Deputy Editor": ["Géraldine Masson"]
         },
         "editorInfo": {
           "Shelley D. Minteer": {
@@ -1156,7 +1040,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/orginorgau",
-        "eissn": "2694-247X",
         "blurb": "ACS Organic & Inorganic Au covers experimental and theoretical studies on organic, inorganic, catalytic, organometallic & natural product chemistry, and crystallography.",
         "type": "oa",
         "indexAbstract": [
@@ -1166,15 +1049,15 @@
           "CAS",
           "DOAJ",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2694-247X"
       },
       "aptsfn": {
         "title": "ACS Pharmacology & Translational Science",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Christa E. Müller"
-          ]
+          "Editor-in-Chief": ["Christa E. Müller"]
         },
         "editorInfo": {
           "Christa E. Müller": {
@@ -1183,16 +1066,15 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/ptsci",
-        "issn": "2575-9108",
-        "blurb": "ACS Pharmacology & Translational Science reports advances in molecular and biological science, from basic and preclinical studies to clinical trials."
+        "blurb": "ACS Pharmacology & Translational Science reports advances in molecular and biological science, from basic and preclinical studies to clinical trials.",
+        "issn": "",
+        "eissn": "2575-9108"
       },
       "apchd5": {
         "title": "ACS Photonics",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Romain Quidant"
-          ]
+          "Editor-in-Chief": ["Romain Quidant"]
         },
         "editorInfo": {
           "Romain Quidant": {
@@ -1201,7 +1083,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acsphotonics",
-        "issn": "2330-4022",
         "blurb": "ACS Photonics reports interdisciplinary physics, chemical, and engineering research in photonics science and technology.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1211,18 +1092,16 @@
           "CAS",
           "INSPEC",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2330-4022"
       },
       "apcach": {
         "title": "ACS Physical Chemistry Au",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Shelley D. Minteer"
-          ],
-          "Deputy Editor": [
-            "Gemma Solomon"
-          ]
+          "Editor-in-Chief": ["Shelley D. Minteer"],
+          "Deputy Editor": ["Gemma Solomon"]
         },
         "editorInfo": {
           "Shelley D. Minteer": {
@@ -1235,7 +1114,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/physchemau",
-        "eissn": "2694-2445",
         "blurb": "ACS Physical Chemistry Au reports experimental, theoretical & computational physical chemistry and chemical physics across molecules, matter, clusters, energy, materials and catalysis.",
         "type": "oa",
         "indexAbstract": [
@@ -1245,18 +1123,16 @@
           "CAS",
           "DOAJ",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2694-2445"
       },
       "apaccd": {
         "title": "ACS Polymers Au",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Shelley D. Minteer"
-          ],
-          "Deputy Editor": [
-            "Sébastien Perrier"
-          ]
+          "Editor-in-Chief": ["Shelley D. Minteer"],
+          "Deputy Editor": ["Sébastien Perrier"]
         },
         "editorInfo": {
           "Shelley D. Minteer": {
@@ -1269,7 +1145,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/polymerau",
-        "eissn": "2694-2453",
         "blurb": "ACS Polymers Au publishes polymer, macromolecular and soft matter science covering synthesis, properties, self-assembly, supramolecular chemistry, biomaterials, and sustainability.",
         "type": "oa",
         "indexAbstract": [
@@ -1279,15 +1154,15 @@
           "DOAJ",
           "Portico",
           "Scopus"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2694-2453"
       },
       "ascefj": {
         "title": "ACS Sensors",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "J. Justin Gooding"
-          ]
+          "Editor-in-Chief": ["J. Justin Gooding"]
         },
         "editorInfo": {
           "J. Justin Gooding": {
@@ -1296,7 +1171,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acssensors",
-        "issn": "2379-3694",
         "blurb": "ACS Sensors publishes sensor science that yields substantial advances in the detection of chemical or biological species or processes.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1306,15 +1180,15 @@
           "CAS",
           "INSPEC",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2379-3694"
       },
       "ascecg": {
         "title": "ACS Sustainable Chemistry & Engineering",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Peter Licence"
-          ]
+          "Editor-in-Chief": ["Peter Licence"]
         },
         "editorInfo": {
           "Peter Licence": {
@@ -1323,26 +1197,18 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acssce",
-        "issn": "2168-0485",
         "blurb": "ACS Sustainable Chemistry & Engineering advances green chemistry and engineering to address grand challenges in sustainable energy, materials, and chemical manufacturing.",
         "type": "hybrid",
-        "indexAbstract": [
-          "Web of Science SCIE",
-          "Scopus",
-          "CAS",
-          "Portico"
-        ]
+        "indexAbstract": ["Web of Science SCIE", "Scopus", "CAS", "Portico"],
+        "issn": "",
+        "eissn": "2168-0485"
       },
       "asrmcd": {
         "title": "ACS Sustainable Resource Management",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Peter Licence"
-          ],
-          "Deputy Editor": [
-            "Michael K.C. Tam"
-          ]
+          "Editor-in-Chief": ["Peter Licence"],
+          "Deputy Editor": ["Michael K.C. Tam"]
         },
         "editorInfo": {
           "Peter Licence": {
@@ -1355,18 +1221,17 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acssrm",
-        "issn": "2837-1445",
         "blurb": "ACS Sustainable Resource Management reports sustainable management of natural and waste resources towards circular net-zero chemical economy supporting the UN Sustainable Development Goals.",
         "type": "hybrid",
-        "indexAbstract": []
+        "indexAbstract": [],
+        "issn": "",
+        "eissn": "2837-1445"
       },
       "asbcd6": {
         "title": "ACS Synthetic Biology",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Huimin Zhao"
-          ]
+          "Editor-in-Chief": ["Huimin Zhao"]
         },
         "editorInfo": {
           "Huimin Zhao": {
@@ -1375,7 +1240,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/acssynthbio",
-        "issn": "2161-5063",
         "blurb": "ACS Synthetic Biology is the premier publication forum for research in synthetic biology.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1385,15 +1249,15 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2161-5063"
       },
       "ancham": {
         "title": "Analytical Chemistry",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Jonathan V. Sweedler"
-          ]
+          "Editor-in-Chief": ["Jonathan V. Sweedler"]
         },
         "editorInfo": {
           "Jonathan V. Sweedler": {
@@ -1402,7 +1266,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/ac",
-        "issn": "1520-6882",
         "blurb": "Analytical Chemistry publishes compelling research articles advancing chemical measurement science from significant fundamentals to innovative applications.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1416,15 +1279,15 @@
           "EBSCOHost",
           "CABI",
           "Portico"
-        ]
+        ],
+        "issn": "0003-2700",
+        "eissn": "1520-6882"
       },
       "apwdam": {
         "title": "Artificial Photosynthesis",
         "sort": "A",
         "editor": {
-          "Editor-in-Chief": [
-            "Can Li"
-          ]
+          "Editor-in-Chief": ["Can Li"]
         },
         "editorInfo": {
           "Can Li": {
@@ -1433,17 +1296,16 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/artificialphotosynthesis",
-        "issn": "2994-0974",
         "blurb": "Artificial Photosynthesis reports advances in understanding, mimicking, and utilizing the conversion of sunlight into chemical energy.",
-        "type": "oa"
+        "type": "oa",
+        "issn": "",
+        "eissn": "2994-0974"
       },
       "bichaw": {
         "title": "Biochemistry",
         "sort": "B",
         "editor": {
-          "Editor-in-Chief": [
-            "Alanna Schepartz"
-          ]
+          "Editor-in-Chief": ["Alanna Schepartz"]
         },
         "editorInfo": {
           "Alanna Schepartz": {
@@ -1452,7 +1314,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/biochemistry",
-        "issn": "1520-4995",
         "blurb": "Biochemistry publishes exceptional, rigorous, high-impact research across all of biological chemistry.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1464,15 +1325,15 @@
           "Proquest",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "0006-2960",
+        "eissn": "1520-4995"
       },
       "bcches": {
         "title": "Bioconjugate Chemistry",
         "sort": "B",
         "editor": {
-          "Editor-in-Chief": [
-            "Theresa M. Reineke"
-          ]
+          "Editor-in-Chief": ["Theresa M. Reineke"]
         },
         "editorInfo": {
           "Theresa M. Reineke": {
@@ -1481,7 +1342,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/bc",
-        "issn": "1520-4812",
         "blurb": "Bioconjugate Chemistry covers bioconjugate science, including preparation, properties and applications of biomolecular conjugates.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1493,15 +1353,15 @@
           "Proquest",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "1043-1802",
+        "eissn": "1520-4812"
       },
       "bomaf6": {
         "title": "Biomacromolecules",
         "sort": "B",
         "editor": {
-          "Editor-in-Chief": [
-            "Sébastien Lecommandoux"
-          ]
+          "Editor-in-Chief": ["Sébastien Lecommandoux"]
         },
         "editorInfo": {
           "Sébastien Lecommandoux": {
@@ -1510,7 +1370,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/biomac",
-        "issn": "1526-4602",
         "blurb": "Biomacromolecules publishes cutting-edge research articles at the interface of polymer science and biology.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1521,33 +1380,33 @@
           "CAS",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "1525-7797",
+        "eissn": "1526-4602"
       },
       "bipret": {
         "editor": {
-          "Editor-in-Chief": [
-            ""
-          ]
+          "Editor-in-Chief": [""]
         },
         "vanityUrl": "",
-        "blurb": ""
+        "blurb": "",
+        "issn": "",
+        "eissn": ""
       },
       "cenear": {
         "editor": {
-          "Editor-in-Chief": [
-            ""
-          ]
+          "Editor-in-Chief": [""]
         },
         "vanityUrl": "",
-        "blurb": ""
+        "blurb": "",
+        "issn": "",
+        "eissn": ""
       },
       "crtoec": {
         "title": "Chemical Research in Toxicology",
         "sort": "C",
         "editor": {
-          "Editor-in-Chief": [
-            "Shana J. Sturla"
-          ]
+          "Editor-in-Chief": ["Shana J. Sturla"]
         },
         "editorInfo": {
           "Shana J. Sturla": {
@@ -1556,7 +1415,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/crt",
-        "issn": "1520-5010",
         "blurb": "Chemical Research in Toxicology reports ground-breaking research on the chemical and molecular basis of toxicology for intelligent solutions to human and environmental health and safety.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1568,15 +1426,15 @@
           "EBSCOHost",
           "CABI",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": ""
       },
       "chreay": {
         "title": "Chemical Reviews",
         "sort": "C",
         "editor": {
-          "Editor-in-Chief": [
-            "Sharon Hammes-Schiffer"
-          ]
+          "Editor-in-Chief": ["Sharon Hammes-Schiffer"]
         },
         "editorInfo": {
           "Sharon Hammes-Schiffer": {
@@ -1585,7 +1443,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/cr",
-        "issn": "1520-6890",
         "blurb": "Chemical Reviews publishes comprehensive, authoritative, critical reviews of important advances in organic, inorganic, physical, analytical, theoretical, and biological chemistry.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1599,15 +1456,15 @@
           "EBSCOHost",
           "CABI",
           "Portico"
-        ]
+        ],
+        "issn": "0009-2665",
+        "eissn": "1520-6890"
       },
       "cbehb5": {
         "title": "Chem & Bio Engineering",
         "sort": "C",
         "editor": {
-          "Editor-in-Chief": [
-            "Qilong Ren"
-          ]
+          "Editor-in-Chief": ["Qilong Ren"]
         },
         "editorInfo": {
           "Qilong Ren": {
@@ -1616,7 +1473,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/ChemBioEng",
-        "issn": "2836-967X",
         "blurb": "Chem & Bio Engineering is a peer-reviewed, open-access journal that publishes significant advances in all aspects of chemical and biological engineering.",
         "indexAbstract": [
           "Chemical Abstracts Service (CAS)",
@@ -1625,15 +1481,15 @@
           "Scopus",
           "Web of Science ESCI",
           "PubMed Central"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2836-967X"
       },
       "cbihbp": {
         "title": "Chemical & Biomedical Imaging",
         "sort": "C",
         "editor": {
-          "Editor-in-Chief": [
-            "Zijian Guo"
-          ]
+          "Editor-in-Chief": ["Zijian Guo"]
         },
         "editorInfo": {
           "Zijian Guo": {
@@ -1642,7 +1498,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/ChemBioImaging",
-        "eissn": "2832-3637",
         "blurb": "Chemical & Biomedical Imaging publishes cutting-edge, open access papers on all aspects of chemical and biomedical imaging.",
         "type": "oa",
         "indexAbstract": [
@@ -1652,15 +1507,15 @@
           "Scopus",
           "Web of Science ESCI",
           "PubMed Central"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2832-3637"
       },
       "cmatex": {
         "title": "Chemistry of Materials",
         "sort": "C",
         "editor": {
-          "Editor-in-Chief": [
-            "Sara E. Skrabalak"
-          ]
+          "Editor-in-Chief": ["Sara E. Skrabalak"]
         },
         "editorInfo": {
           "Sara E. Skrabalak": {
@@ -1669,7 +1524,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/cm",
-        "issn": "1520-5002",
         "blurb": "Chemistry of Materials reports fundamental research at the interface of chemistry, chemical engineering, and materials science.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1679,15 +1533,15 @@
           "INSPEC",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "0897-4756",
+        "eissn": "1520-5002"
       },
       "cgdefu": {
         "title": "Crystal Growth & Design",
         "sort": "C",
         "editor": {
-          "Editor-in-Chief": [
-            "Jonathan W. Steed"
-          ]
+          "Editor-in-Chief": ["Jonathan W. Steed"]
         },
         "editorInfo": {
           "Jonathan W. Steed": {
@@ -1696,7 +1550,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/crystal",
-        "issn": "1528-7505",
         "blurb": "Crystal Growth & Design shares new scientific & engineering knowledge of crystal growth, crystal engineering, and application of crystalline materials.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1706,15 +1559,15 @@
           "CAS",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "1528-7483",
+        "eissn": "1528-7505"
       },
       "enfuem": {
         "title": "Energy & Fuels",
         "sort": "E",
         "editor": {
-          "Editor-in-Chief": [
-            "Hongwei Wu"
-          ]
+          "Editor-in-Chief": ["Hongwei Wu"]
         },
         "editorInfo": {
           "Hongwei Wu": {
@@ -1723,7 +1576,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/ef",
-        "issn": "1520-5029",
         "blurb": "Energy & Fuels reports advances in batteries and energy storage, fuel cells, solar energy, light conversion, bioenergy, fossil fuels, carbon capture, carbon-free fuels, and more.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1732,15 +1584,15 @@
           "CAS",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "0887-0624",
+        "eissn": "1520-5029"
       },
       "ehnea2": {
         "title": "Environment & Health",
         "sort": "E",
         "editor": {
-          "Editor-in-Chief": [
-            "Guibin Jiang"
-          ]
+          "Editor-in-Chief": ["Guibin Jiang"]
         },
         "editorInfo": {
           "Guibin Jiang": {
@@ -1749,7 +1601,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/EnvHealth",
-        "issn": "2833-8278",
         "blurb": "Environment & Health, an open access journal, explores relationships between the environment and the health of individuals and communities.",
         "type": "oa",
         "indexAbstract": [
@@ -1759,15 +1610,15 @@
           "DOAJ",
           "Web of Science ESCI",
           "PubMed Central"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2833-8278"
       },
       "esthag": {
         "title": "Environmental Science & Technology",
         "sort": "E",
         "editor": {
-          "Editor-in-Chief": [
-            "Julie B. Zimmerman"
-          ]
+          "Editor-in-Chief": ["Julie B. Zimmerman"]
         },
         "editorInfo": {
           "Julie B. Zimmerman": {
@@ -1776,7 +1627,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/est",
-        "issn": "1520-5851",
         "blurb": "Environmental Science & Technology reports impactful, groundbreaking, world-class research across a diverse range of environmentally relevant topics.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1788,15 +1638,15 @@
           "EBSCOHost",
           "CABI",
           "Portico"
-        ]
+        ],
+        "issn": "0013-936X",
+        "eissn": "1520-5851"
       },
       "estlcu": {
         "title": "Environmental Science & Technology Letters",
         "sort": "E",
         "editor": {
-          "Editor-in-Chief": [
-            "Bryan W. Brooks"
-          ]
+          "Editor-in-Chief": ["Bryan W. Brooks"]
         },
         "editorInfo": {
           "Bryan W. Brooks": {
@@ -1805,7 +1655,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/estlett",
-        "issn": "2328-8930",
         "blurb": "Environmental Science & Technology Letters shares timely, urgent and high-quality communications on pure and applied environmental science and technology.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1814,24 +1663,24 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2328-8930"
       },
       "iechad": {
         "editor": {
-          "Editor-in-Chief": [
-            ""
-          ]
+          "Editor-in-Chief": [""]
         },
         "vanityUrl": "",
-        "blurb": ""
+        "blurb": "",
+        "issn": "",
+        "eissn": ""
       },
       "iecred": {
         "title": "Industrial & Engineering Chemistry Research",
         "sort": "I",
         "editor": {
-          "Editor-in-Chief": [
-            "Michael Baldea"
-          ]
+          "Editor-in-Chief": ["Michael Baldea"]
         },
         "editorInfo": {
           "Michael Baldea": {
@@ -1840,7 +1689,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/iecr",
-        "issn": "1541-5724",
         "blurb": "Industrial & Engineering Chemistry Research reports experimental, computational, or theoretical research on applied chemistry, and chemical and biomolecular engineering.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1850,15 +1698,15 @@
           "Proquest",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": ""
       },
       "inocaj": {
         "title": "Inorganic Chemistry",
         "sort": "I",
         "editor": {
-          "Editor-in-Chief": [
-            "Stefanie Dehnen"
-          ]
+          "Editor-in-Chief": ["Stefanie Dehnen"]
         },
         "editorInfo": {
           "Stefanie Dehnen": {
@@ -1867,7 +1715,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/ic",
-        "issn": "1520-510X",
         "blurb": "Inorganic Chemistry reports experimental and theoretical studies on coordination chemistry, main-group chemistry, catalysis, inorganic materials, and bioinorganic chemistry.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1878,15 +1725,15 @@
           "Nature Index",
           "Proquest",
           "Portico"
-        ]
+        ],
+        "issn": "0020-1669",
+        "eissn": "1520-510X"
       },
       "jaaucr": {
         "title": "JACS Au",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Christopher W. Jones"
-          ]
+          "Editor-in-Chief": ["Christopher W. Jones"]
         },
         "editorInfo": {
           "Christopher W. Jones": {
@@ -1895,7 +1742,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jacsau",
-        "issn": "2691-3704",
         "blurb": "JACS Au, an open access journal, reports research across analytical, physical, inorganic, organic, medicinal, environmental, catalytic, and theoretical chemistry.",
         "type": "oa",
         "indexAbstract": [
@@ -1906,15 +1752,15 @@
           "Portico",
           "Web of Science ESCI",
           "OAJ"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2691-3704"
       },
       "jacsat": {
         "title": "Journal of the American Chemical Society",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Erick Carreira"
-          ]
+          "Editor-in-Chief": ["Erick Carreira"]
         },
         "editorInfo": {
           "Erick M. Carreira": {
@@ -1924,7 +1770,6 @@
         },
         "vanityUrl": "https://pubs.acs.org/jacs",
         "tagline": "The Journal of the American Chemical Society (JACS), founded in 1879, is the flagship journal of the American Chemical Society",
-        "issn": "1520-5126",
         "blurb": "The flagship journal of the American Chemical Society, JACS publishes significant, highly cited articles with broad interest across all chemical science.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1938,15 +1783,15 @@
           "EBSCOHost",
           "OVID",
           "Portico"
-        ]
+        ],
+        "issn": "0002-7863",
+        "eissn": "1520-5126"
       },
       "jafcau": {
         "title": "Journal of Agricultural and Food Chemistry",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Thomas F. Hofmann"
-          ]
+          "Editor-in-Chief": ["Thomas F. Hofmann"]
         },
         "editorInfo": {
           "Thomas F. Hofmann": {
@@ -1955,7 +1800,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jafc",
-        "issn": "1520-5118",
         "blurb": "Journal of Agricultural and Food Chemistry publishes cutting-edge studies and reviews on the chemistry and biochemistry of agriculture and food.",
         "type": "hybrid",
         "indexAbstract": [
@@ -1966,15 +1810,15 @@
           "Proquest",
           "CABI",
           "Portico"
-        ]
+        ],
+        "issn": "0021-8561",
+        "eissn": "1520-5118"
       },
       "jamsef": {
         "title": "Journal of the American Society for Mass Spectrometry",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Jennifer Brodbelt"
-          ]
+          "Editor-in-Chief": ["Jennifer Brodbelt"]
         },
         "editorInfo": {
           "Jennifer Brodbelt": {
@@ -1983,7 +1827,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jasms",
-        "issn": "1044-0305",
         "partnerLink": "/page/jamsef/asms-acs-partnership",
         "blurb": "Journal of the American Society for Mass Spectrometry covers mass spectrometry research, and scientific inquiry in which mass spectrometry plays a role.",
         "type": "hybrid",
@@ -2001,33 +1844,15 @@
             "end": "1996",
             "statement": "© American Society for Mass Spectrometry. Published by American Chemical Society. All rights reserved."
           }
-        ]
-      },
-      "jamsef0": {
-        "copyright": [
-          {
-            "start": "1940",
-            "end": "1996",
-            "statement": "© American Society for Mass Spectrometry. Published by American Chemical Society. All rights reserved."
-          }
-        ]
-      },
-      "jamsef1": {
-        "copyright": [
-          {
-            "start": "1940",
-            "end": "1996",
-            "statement": "© American Society for Mass Spectrometry. Published by American Chemical Society. All rights reserved."
-          }
-        ]
+        ],
+        "issn": "1044-0305",
+        "eissn": "1879-1123"
       },
       "jceaax": {
         "title": "Journal of Chemical & Engineering Data",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "J. Ilja Siepmann"
-          ]
+          "Editor-in-Chief": ["J. Ilja Siepmann"]
         },
         "editorInfo": {
           "J. Ilja Siepmann": {
@@ -2036,7 +1861,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jced",
-        "issn": "1520-5134",
         "blurb": "Journal of Chemical & Engineering Data reports relevant, comprehensive, and robust thermophysical properties and phase equilibria for well-defined chemical systems obtained from experiment or computation.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2047,15 +1871,15 @@
           "Proquest",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "0021-9568",
+        "eissn": "1520-5134"
       },
       "jceda8": {
         "title": "Journal of Chemical Education",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Thomas A. Holme"
-          ]
+          "Editor-in-Chief": ["Thomas A. Holme"]
         },
         "editorInfo": {
           "Thomas A. Holme": {
@@ -2064,7 +1888,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jce",
-        "issn": "1938-1328",
         "blurb": "Journal of Chemical Education advances chemistry teaching and learning, and chemistry education research addressing laboratory experiments, curricula, and pedagogies.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2080,15 +1903,15 @@
             "end": "1996",
             "statement": "© American Chemical Society and Division of Chemical Education, Inc."
           }
-        ]
+        ],
+        "issn": "0021-9584",
+        "eissn": "1938-1328"
       },
       "jcisd8": {
         "title": "Journal of Chemical Information and Modeling",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Kenneth M. Merz, Jr."
-          ]
+          "Editor-in-Chief": ["Kenneth M. Merz, Jr."]
         },
         "editorInfo": {
           "Kenneth M. Merz, Jr.": {
@@ -2097,7 +1920,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jcim",
-        "issn": "1549-960X",
         "blurb": "Journal of Chemical Information and Modeling reports cutting-edge new methodologies and applications in chemical informatics and molecular modeling.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2106,15 +1928,15 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "1549-9596",
+        "eissn": "1549-960X"
       },
       "jctcce": {
         "title": "Journal of Chemical Theory and Computation",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Laura Gagliardi"
-          ]
+          "Editor-in-Chief": ["Laura Gagliardi"]
         },
         "editorInfo": {
           "Laura Gagliardi": {
@@ -2123,23 +1945,17 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jctc",
-        "issn": "1549-9626",
         "blurb": "Journal of Chemical Theory and Computation reports new theories, methods, and important applications in quantum electronic structure, molecular dynamics, and statistical mechanics.",
         "type": "hybrid",
-        "indexAbstract": [
-          "Web of Science SCIE",
-          "Scopus",
-          "CAS",
-          "Portico"
-        ]
+        "indexAbstract": ["Web of Science SCIE", "Scopus", "CAS", "Portico"],
+        "issn": "1549-9618",
+        "eissn": "1549-9626"
       },
       "jmcmar": {
         "title": "Journal of Medicinal Chemistry",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Craig W. Lindsley"
-          ]
+          "Editor-in-Chief": ["Craig W. Lindsley"]
         },
         "editorInfo": {
           "Craig W. Lindsley": {
@@ -2148,7 +1964,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jmc",
-        "issn": "1520-4804",
         "blurb": "Journal of Medicinal Chemistry reports research relationships between molecular structure and biological activity or mode of action in drug discovery and development.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2160,15 +1975,15 @@
           "EBSCOHost",
           "CABI",
           "Portico"
-        ]
+        ],
+        "issn": "0022-2623",
+        "eissn": "1520-4804"
       },
       "jnprdf": {
         "title": "Journal of Natural Products",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Bradley S. Moore"
-          ]
+          "Editor-in-Chief": ["Bradley S. Moore"]
         },
         "editorInfo": {
           "Bradley S. Moore": {
@@ -2177,7 +1992,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jnp",
-        "issn": "1520-6025",
         "blurb": "Journal of Natural Products reports research on the chemistry or biochemistry of naturally occurring compounds or the biology of their living systems and environments.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2195,15 +2009,15 @@
             "end": "1996",
             "statement": "© American Chemical Society and American Society of Pharmacognosy"
           }
-        ]
+        ],
+        "issn": "0163-3864",
+        "eissn": "1520-6025"
       },
       "joceah": {
         "title": "The Journal of Organic Chemistry",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Scott J. Miller"
-          ]
+          "Editor-in-Chief": ["Scott J. Miller"]
         },
         "editorInfo": {
           "Scott J. Miller": {
@@ -2212,7 +2026,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/joc",
-        "issn": "1520-6904",
         "blurb": "The Journal of Organic Chemistry reports novel synthetic methods and mechanisms in organic, natural product and medicinal chemistry, biochemistry and chemical biology.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2226,18 +2039,16 @@
           "CABI",
           "OVID",
           "Portico"
-        ]
+        ],
+        "issn": "0022-3263",
+        "eissn": "1520-6904"
       },
       "jpcafh": {
         "title": "The Journal of Physical Chemistry A",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Joan-Emma Shea"
-          ],
-          "Deputy Editor": [
-            "T. Daniel Crawford"
-          ]
+          "Editor-in-Chief": ["Joan-Emma Shea"],
+          "Deputy Editor": ["T. Daniel Crawford"]
         },
         "editorInfo": {
           "Joan-Emma Shea": {
@@ -2250,7 +2061,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jpca",
-        "issn": "1520-5215",
         "blurb": "The Journal of Physical Chemistry A reports experimental, theoretical, and computational research on the physical chemistry of molecules, clusters, and aerosols.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2261,18 +2071,16 @@
           "CAS",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "1089-5639",
+        "eissn": "1520-5215"
       },
       "jpcbfk": {
         "title": "The Journal of Physical Chemistry B",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Joan-Emma Shea"
-          ],
-          "Deputy Editor": [
-            "Barbara Kirchner"
-          ]
+          "Editor-in-Chief": ["Joan-Emma Shea"],
+          "Deputy Editor": ["Barbara Kirchner"]
         },
         "editorInfo": {
           "Joan-Emma Shea": {
@@ -2285,7 +2093,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jpcb",
-        "issn": "1520-5207",
         "blurb": "The Journal of Physical Chemistry B reports experimental, theoretical and computational research articles in biophysics, biomaterials, liquids, and soft matter.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2296,18 +2103,16 @@
           "CAS",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "1520-6106",
+        "eissn": "1520-5207"
       },
       "jpccck": {
         "title": "The Journal of Physical Chemistry C",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Joan-Emma Shea"
-          ],
-          "Deputy Editor": [
-            "Gregory Hartland"
-          ]
+          "Editor-in-Chief": ["Joan-Emma Shea"],
+          "Deputy Editor": ["Gregory Hartland"]
         },
         "editorInfo": {
           "Joan-Emma Shea": {
@@ -2320,23 +2125,17 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jpcc",
-        "issn": "1932-7455",
         "blurb": "The Journal of Physical Chemistry C reports experimental, theoretical and computational research in energy, materials, and catalysis.",
         "type": "hybrid",
-        "indexAbstract": [
-          "Web of Science SCIE",
-          "Scopus",
-          "CAS",
-          "Portico"
-        ]
+        "indexAbstract": ["Web of Science SCIE", "Scopus", "CAS", "Portico"],
+        "issn": "1932-7447",
+        "eissn": "1932-7455"
       },
       "jpclcd": {
         "title": "The Journal of Physical Chemistry Letters",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "Gregory D. Scholes"
-          ]
+          "Editor-in-Chief": ["Gregory D. Scholes"]
         },
         "editorInfo": {
           "Gregory D. Scholes": {
@@ -2345,7 +2144,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jpcl",
-        "issn": "1948-7185",
         "blurb": "The Journal of Physical Chemistry Letters rapidly disseminates high-quality communications at the forefront of physical chemistry.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2356,15 +2154,15 @@
           "CAS",
           "Nature Index",
           "Portico"
-        ]
+        ],
+        "issn": "",
+        "eissn": "1948-7185"
       },
       "jprobs": {
         "title": "Journal of Proteome Research",
         "sort": "J",
         "editor": {
-          "Editor-in-Chief": [
-            "John R. Yates, III"
-          ]
+          "Editor-in-Chief": ["John R. Yates, III"]
         },
         "editorInfo": {
           "John R. Yates, III": {
@@ -2373,7 +2171,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/jpr",
-        "issn": "1535-3907",
         "blurb": "Journal of Proteome Research reports on global protein analysis and function, including genomics, spatio-temporal proteomics, metabonomics and metabolomics, and clinical proteomics.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2383,15 +2180,15 @@
           "Scopus",
           "CAS",
           "Portico"
-        ]
+        ],
+        "issn": "1535-3893",
+        "eissn": "1535-3907"
       },
       "langd5": {
         "title": "Langmuir",
         "sort": "L",
         "editor": {
-          "Editor-in-Chief": [
-            "Gilbert C. Walker"
-          ]
+          "Editor-in-Chief": ["Gilbert C. Walker"]
         },
         "editorInfo": {
           "Gilbert C. Walker": {
@@ -2400,7 +2197,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/langmuir",
-        "issn": "1520-5827",
         "blurb": "Langmuir highlights the science and application of systems and materials in which the interface dominates structure and function.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2412,15 +2208,15 @@
           "INSPEC",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "0743-7463",
+        "eissn": "1520-5827"
       },
       "mamobx": {
         "title": "Macromolecules",
         "sort": "M",
         "editor": {
-          "Editor-in-Chief": [
-            "Marc A. Hillmyer"
-          ]
+          "Editor-in-Chief": ["Marc A. Hillmyer"]
         },
         "editorInfo": {
           "Marc A. Hillmyer": {
@@ -2429,7 +2225,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/macromolecules",
-        "issn": "1520-5835",
         "blurb": "Macromolecules publishes research articles at the cutting-edge of polymer science.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2441,15 +2236,15 @@
           "CABI",
           "OVID",
           "Portico"
-        ]
+        ],
+        "issn": "0024-9297",
+        "eissn": "1520-5835"
       },
       "mpohbp": {
         "title": "Molecular Pharmaceutics",
         "sort": "M",
         "editor": {
-          "Editor-in-Chief": [
-            "Lynne S. Taylor"
-          ]
+          "Editor-in-Chief": ["Lynne S. Taylor"]
         },
         "editorInfo": {
           "Lynne S. Taylor": {
@@ -2458,7 +2253,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/mp",
-        "issn": "1543-8392",
         "blurb": "Molecular Pharmaceutics publishes findings on the molecular mechanistic understanding of drug delivery and drug delivery systems.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2472,15 +2266,15 @@
           "CABI",
           "OVID",
           "Portico"
-        ]
+        ],
+        "issn": "1543-8384",
+        "eissn": "1543-8392"
       },
       "nalefd": {
         "title": "Nano Letters",
         "sort": "N",
         "editor": {
-          "Editor-in-Chief": [
-            "Teri W. Odom"
-          ]
+          "Editor-in-Chief": ["Teri W. Odom"]
         },
         "image": {
           "Editor-in-Chief": {
@@ -2495,7 +2289,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/nanolett",
-        "issn": "1530-6992",
         "blurb": "Nano Letters is the global home for communications in nanoscience and nanotechnology.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2507,15 +2300,15 @@
           "INSPEC",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "1530-6984",
+        "eissn": "1530-6992"
       },
       "orlef7": {
         "title": "Organic Letters",
         "sort": "O",
         "editor": {
-          "Editor-in-Chief": [
-            "Marisa C. Kozlowski"
-          ]
+          "Editor-in-Chief": ["Marisa C. Kozlowski"]
         },
         "editorInfo": {
           "Marisa C. Kozlowski": {
@@ -2524,7 +2317,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/orglett",
-        "issn": "1523-7052",
         "blurb": "Organic Letters rapidly publishes short reports on creative, innovative organic synthesis, from catalysis to natural products to functional materials.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2536,15 +2328,15 @@
           "Nature Index",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "1523-7060",
+        "eissn": "1523-7052"
       },
       "oprdfk": {
         "title": "Organic Process Research & Development",
         "sort": "O",
         "editor": {
-          "Editor-in-Chief": [
-            "Margaret M. Faul"
-          ]
+          "Editor-in-Chief": ["Margaret M. Faul"]
         },
         "editorInfo": {
           "Margaret M. Faul": {
@@ -2553,7 +2345,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/oprd",
-        "issn": "1520-586X",
         "blurb": "Organic Process Research & Development reports research on safe, environmentally benign and economical synthesis and manufacture of organic compounds at industrial scale.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2562,15 +2353,15 @@
           "CAS",
           "EBSCOHost",
           "Portico"
-        ]
+        ],
+        "issn": "1083-6160",
+        "eissn": "1520-586X"
       },
       "orgnd7": {
         "title": "Organometallics",
         "sort": "O",
         "editor": {
-          "Editor-in-Chief": [
-            "Paul J. Chirik"
-          ]
+          "Editor-in-Chief": ["Paul J. Chirik"]
         },
         "editorInfo": {
           "Paul J. Chirik": {
@@ -2579,7 +2370,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/organometallics",
-        "issn": "1520-6041",
         "blurb": "Organometallics reports research in organic and inorganic chemistry on the synthesis, structure, reactivity and applications of novel organometallic compounds.",
         "type": "hybrid",
         "indexAbstract": [
@@ -2590,15 +2380,15 @@
           "EBSCOHost",
           "CABI",
           "Portico"
-        ]
+        ],
+        "issn": "0276-7333",
+        "eissn": "1520-6041"
       },
       "pcrhej": {
         "title": "Precision Chemistry",
         "sort": "P",
         "editor": {
-          "Editor-in-Chief": [
-            "Jinlong Yang"
-          ]
+          "Editor-in-Chief": ["Jinlong Yang"]
         },
         "editorInfo": {
           "Jinlong Yang": {
@@ -2607,7 +2397,6 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/PrecisionChem",
-        "issn": "2771-9316",
         "blurb": "Precision Chemistry reports fundamental, applied and interdisciplinary research towards precision calculation, design, synthesis, manipulation, measurement and manufacturing.",
         "type": "oa",
         "indexAbstract": [
@@ -2617,15 +2406,15 @@
           "DOAJ",
           "Sherpa Romeo",
           "PubMed Central"
-        ]
+        ],
+        "issn": "",
+        "eissn": "2771-9316"
       },
       "psabes": {
         "title": "Photon Science",
         "sort": "P",
         "editor": {
-          "Editor-in-Chief": [
-            "Wanli Yang"
-          ]
+          "Editor-in-Chief": ["Wanli Yang"]
         },
         "editorInfo": {
           "Wanli Yang": {
@@ -2634,18 +2423,17 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/PhotonSci",
-        "issn": "2998-8799",
         "blurb": "Photon Science publishes cutting-edge photon-based scientific research and technical innovations.",
         "type": "oa",
-        "indexAbstract": []
+        "indexAbstract": [],
+        "issn": "",
+        "eissn": "2998-8799"
       },
       "pstoco": {
         "title": "Polymer Science & Technology",
         "sort": "P",
         "editor": {
-          "Editor-in-Chief": [
-            "Xuesi Chen"
-          ]
+          "Editor-in-Chief": ["Xuesi Chen"]
         },
         "editorInfo": {
           "Xuesi Chen": {
@@ -2654,10 +2442,11 @@
           }
         },
         "vanityUrl": "https://pubs.acs.org/PolySciTech",
-        "issn": "2997-3279",
         "blurb": " Polymer Science & Technology, an open-access journal, reports cutting-edge polymer and related interdisciplinary research linked to the pressing needs of human society.",
         "type": "oa",
-        "indexAbstract": []
+        "indexAbstract": [],
+        "issn": "",
+        "eissn": ""
       }
     }
   }
