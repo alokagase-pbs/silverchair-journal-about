@@ -82,7 +82,7 @@ async function fetchJSON(url) {
   }
 }
 
-function setText(id, value = "—") {
+function setText(id, value = "") {
   const el = document.getElementById(id);
   if (el) el.textContent = value;
 }
