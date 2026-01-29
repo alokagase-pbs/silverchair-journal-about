@@ -1,0 +1,209 @@
+{
+    "agriculture-food-chemistry": {
+        "relatedJournals": [
+            {
+                "coden": ["aastgj", "afsthl", "jafcau"]
+            }
+        ],
+        "subject_name": "Agriculture and Food Chemistry",
+        "subject_link": "/agriculture-food-chemistry"
+    },
+    "analytical-chemistry": {
+        "relatedJournals": [
+            {
+                "coden": [
+                    "achre4",
+                    "aaembp",
+                    "amachv",
+                    "ascefj",
+                    "ancham",
+                    "cbihbp",
+                    "chreay",
+                    "jprobs",
+                    "jamsef"
+                ]
+            }
+        ],
+        "subject_name": "Analytical Chemistry",
+        "subject_link": "/analytical-chemistry"
+    },
+    "biological-chemistry-and-chemical-biology": {
+        "relatedJournals": [
+            {
+                "coden": []
+            }
+        ],
+        "subject_name": "Biological Chemistry and Chemical Biology",
+        "subject_link": ""
+    },
+    "chemistry-education": {
+        "relatedJournals": [
+            {
+                "coden": []
+            }
+        ],
+        "subject_name": "Chemistry Education",
+        "subject_link": "/chemistry-education"
+    },
+    "chemical-engineering-industrial-chemistry": {
+        "relatedJournals": [
+            {
+                "coden": [
+                    "aaemdr",
+                    "achsc5",
+                    "aeacb3",
+                    "iecred",
+                    "jceaax",
+                    "langd5"
+                ]
+            }
+        ],
+        "subject_name": "Chemical Engineering and Industrial Chemistry",
+        "subject_link": "/chemical-engineering-industrial-chemistry"
+    },
+    "environmental-and-sustainable-chemistry": {
+        "relatedJournals": [
+            {
+                "coden": [
+                    "aesccq",
+                    "aeacc4",
+                    "aeacd5",
+                    "aeecco",
+                    "aewcaa",
+                    "ascecg",
+                    "asrmcd",
+                    "apwdam",
+                    "crtoec",
+                    "ehnea2",
+                    "esthag",
+                    "estlcu"
+                ]
+            }
+        ],
+        "subject_name": "Environmental and Sustainable chemistry",
+        "subject_link": ""
+    },
+    "energy": {
+        "relatedJournals": [
+            {
+                "coden": ["aaemcq", "aelccp", "enfuem"]
+            }
+        ],
+        "subject_name": "Energy",
+        "subject_link": "/energy"
+    },
+    "inorganic-chemistry": {
+        "relatedJournals": [
+            {
+                "coden": ["aoiab5", "cgdefu", "inocaj", "orgnd7"]
+            }
+        ],
+        "subject_name": "Inorganic Chemistry",
+        "subject_link": "/inorganic-chemistry"
+    },
+    "materials-science": {
+        "relatedJournals": [
+            {
+                "coden": [
+                    "amrcda",
+                    "aaembp",
+                    "aaemdr",
+                    "aamick",
+                    "aaoma6",
+                    "abseba",
+                    "amacgu",
+                    "amlcef",
+                    "cmatex",
+                    "cgdefu",
+                    "langd5"
+                ]
+            }
+        ],
+        "subject_name": "Materials Science",
+        "subject_link": "/materials-science"
+    },
+    "medicinal-chemistry": {
+        "relatedJournals": [
+            {
+                "coden": [
+                    "aidcbc",
+                    "amclct",
+                    "aptsfn",
+                    "crtoec",
+                    "jmcmar",
+                    "mpohbp"
+                ]
+            }
+        ],
+        "subject_name": "Medicinal Chemistry",
+        "subject_link": "/medicinal-chemistry"
+    },
+    "multidisciplinary": {
+        "relatedJournals": [
+            {
+                "coden": []
+            }
+        ],
+        "subject_name": "Multidisciplinary",
+        "subject_link": "/multidisciplinary"
+    },
+    "nanoscience": {
+        "relatedJournals": [
+            {
+                "coden": [
+                    "aanmf6",
+                    "ancac3",
+                    "anaccx",
+                    "cmatex",
+                    "langd5",
+                    "nalefd"
+                ]
+            }
+        ],
+        "subject_name": "Nanoscience",
+        "subject_link": "/nanoscience"
+    },
+    "organic-chemistry": {
+        "relatedJournals": [
+            {
+                "coden": [""]
+            }
+        ],
+        "subject_name": "Organic Chemistry",
+        "subject_link": ""
+    },
+    "physical-chemistry": {
+        "relatedJournals": [
+            {
+                "coden": [
+                    "apchd5",
+                    "apcach",
+                    "jpcafh",
+                    "jpcbfk",
+                    "jpccck",
+                    "jpclcd"
+                ]
+            }
+        ],
+        "subject_name": "Physical Chemistry",
+        "subject_link": "/physical-chemistry"
+    },
+    "polymer-science-and-macromolecular-chemistry": {
+        "relatedJournals": [
+            {
+                "coden": [""]
+            }
+        ],
+        "subject_name": "Polymer Science and Macromolecular Chemistry",
+        "subject_link": ""
+    },
+    "theoretical-computational-chemistry": {
+        "relatedJournals": [
+            {
+                "coden": ["jceaax", "jcisd8", "jctcce"]
+            }
+        ],
+        "subject_name": "Theoretical and Computational Chemistry",
+        "subject_link": "/theoretical-computational-chemistry"
+    }
+}

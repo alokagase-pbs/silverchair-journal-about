@@ -1,0 +1,95 @@
+{
+    "data": [
+        {
+            "Journal Name": "The Journal of the American Society for Mass Spectrometry",
+            "Masthead Category": "Board of Directors",
+            "Title": "President",
+            "First Name": "Joseph A.",
+            "Last Name": "Loo",
+            "Institution Name": "University of California Los Angeles",
+            "Country": "United States",
+            "Email": "jloo@chem.ucla.edu",
+            "Website": "https://loolab.chem.ucla.edu"
+        },
+        {
+            "Journal Name": "The Journal of the American Society for Mass Spectrometry",
+            "Masthead Category": "Board of Directors",
+            "Title": "Vice President for Programs",
+            "First Name": "Carlito",
+            "Last Name": "Lebrilla",
+            "Institution Name": "University of California Davis",
+            "Country": "United States",
+            "Email": "cblebrilla@ucdavis.edu",
+            "Website": "https://lebrilla.faculty.ucdavis.edu/"
+        },
+        {
+            "Journal Name": "The Journal of the American Society for Mass Spectrometry",
+            "Masthead Category": "Board of Directors",
+            "Title": "Vice President for Arrangements",
+            "First Name": "Roy",
+            "Last Name": "Martin",
+            "Institution Name": "Waters Corporation",
+            "Country": "United States"
+        },
+        {
+            "Journal Name": "The Journal of the American Society for Mass Spectrometry",
+            "Masthead Category": "Board of Directors",
+            "Title": "Past President",
+            "First Name": "Julia",
+            "Last Name": "Laskin",
+            "Institution Name": "Purdue University",
+            "Country": "United States",
+            "Email": "jlaskin@purdue.edu",
+            "Website": "https://www.chem.purdue.edu/jlaskin/"
+        },
+        {
+            "Journal Name": "The Journal of the American Society for Mass Spectrometry",
+            "Masthead Category": "Board of Directors",
+            "Title": "Secretary",
+            "First Name": "Si",
+            "Last Name": "Wu",
+            "Institution Name": "University of Alabama",
+            "Country": "United States"
+        },
+        {
+            "Journal Name": "The Journal of the American Society for Mass Spectrometry",
+            "Masthead Category": "Board of Directors",
+            "Title": "Treasurer",
+            "First Name": "Heather",
+            "Last Name": "Desaire",
+            "Institution Name": "University of Kansas",
+            "Country": "United States",
+            "Email": "hdesaire@ku.edu"
+        },
+        {
+            "Journal Name": "The Journal of the American Society for Mass Spectrometry",
+            "Masthead Category": "Board of Directors",
+            "Title": "Member-at-Large for Education",
+            "First Name": "Elyssia",
+            "Last Name": "Gallagher",
+            "Institution Name": "Baylor University",
+            "Country": "United States",
+            "Email": "elyssia_gallagher@baylor.edu",
+            "Website": "https://www.gallagherlab.com/"
+        },
+        {
+            "Journal Name": "The Journal of the American Society for Mass Spectrometry",
+            "Masthead Category": "Board of Directors",
+            "Title": "Member-at-Large for Membership",
+            "First Name": "G. Asher",
+            "Last Name": "Newsome",
+            "Institution Name": "Smithsonian Institution",
+            "Country": "United States",
+            "Email": "newsomeg@si.edu"
+        },
+        {
+            "Journal Name": "The Journal of the American Society for Mass Spectrometry",
+            "Masthead Category": "Board of Directors",
+            "Title": "Member-at-Large for Publications",
+            "First Name": "Brian H.",
+            "Last Name": "Clowers",
+            "Institution Name": "Washington State University",
+            "Country": "United States"
+        }
+    ]
+}

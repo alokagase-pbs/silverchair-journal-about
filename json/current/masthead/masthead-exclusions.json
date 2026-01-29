@@ -1,0 +1,30 @@
+{
+    "pstoco": {
+        "currentIssue": true,
+        "new": true
+    },
+    "aastgj": {
+        "currentIssue": true,
+        "allExceptEAB": true
+    },
+    "acscii": {
+        "currentIssue": true,
+        "allExceptEAB": true
+    },
+    "aelccp": {
+        "currentIssue": true,
+        "allExceptEAB": true
+    },
+    "afsthl": {
+        "currentIssue": true,
+        "allExceptEAB": true
+    },
+    "ansadg": {
+        "currentIssue": true,
+        "new": true
+    },
+    "psabes": {
+        "currentIssue": true,
+        "new": true
+    }
+}

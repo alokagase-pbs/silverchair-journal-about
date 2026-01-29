@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACS Agricultural Science & Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="fonts.googleapis.com" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+        :root {
+            --font-size-8: 0.5rem;
+            --font-size-12: 0.75rem;
+            --font-size-13: 0.8125rem;
+            --font-size-14: 0.875rem;
+            --font-size-15: 0.9375rem;
+            --font-size-16: 1rem;
+            --font-size-20: 1.25rem;
+            --font-size-22: 1.375rem;
+            --font-size-24: 1.5rem;
+            --font-size-32: 2rem;
+            --font-size-64: 4rem;
+
+            --font-weight-400: 400;
+            --font-weight-500: 500;
+            --font-weight-600: 600;
+            --font-weight-700: 700;
+
+            --main-section-bg-color: #081B33;
+            --font-color: #464748;
+            --font-color-dark: #333333;
+            --font-color-light: #5C5C5C;
+            --link-color: #3361B8;
+            --color-primary-blue-500: #003AAD;
+            --color-primary-blue-50: #E5EBF7;
+            --color-white: #ffffff;
+            --color-yellow: #FDC82F;
+            --color-yellow-hover: #FFAD00;
+            --color-yellow-border: #f8c94d;
+
+            --spacing-xs: 0.25rem;
+            --spacing-sm: 0.5rem;
+            --spacing-md: 1rem;
+            --spacing-lg: 1.5rem;
+            --spacing-xl: 2rem;
+            --spacing-2xl: 2.5rem;
+
+            --rounded-sm: 4px;
+            --rounded-md: 8px;
+
+            --transition-default: 300ms ease-out;
+
+            --container-max-width: 1300px;
+            --content-max-width: 1150px;
+        }
+
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--font-color);
+        }
+
+        p {
+            overflow-wrap: break-word;
+        }
+
+        .column {
+            float: none;
+            max-width: var(--container-max-width);
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+
+        .container {
+            max-width: var(--content-max-width);
+            margin: 0 auto;
+            padding: var(--spacing-2xl) var(--spacing-lg);
+        }
+
+        .sc-header__wrapper {
+            padding: var(--spacing-md) 8rem var(--spacing-md) 7rem;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            background-color: var(--color-white);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .sc-header__title {
+            font-size: var(--font-size-24);
+            font-weight: var(--font-weight-600);
+            width: 100%;
+            color: var(--font-color-dark);
+        }
+
+        .sc-custom-wrapper-header {
+            width: 100%;
+        }
+
+        .sc-custom-wrapper-mdw {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            gap: var(--spacing-md);
+            align-items: flex-start;
+        }
+
+        .sc-mdw {
+            background: var(--main-section-bg-color);
+            color: var(--color-white);
+            margin: 0 auto;
+            padding: var(--spacing-lg) 8rem var(--spacing-lg) 7rem;
+        }
+
+        #viewEditorsInSideBar{
+            max-width: max-content;
+        }
+
+        #currentIssuePub{
+            max-width: max-content;
+        }
+
+        .sc-mdw__left {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-lg);
+            min-width: 0;
+            max-width: 75%;
+        }
+
+        .sc-mdw__blurb-value {
+            font-size: var(--font-size-16);
+            line-height: 1.5;
+            display: inline-block;
+            font-weight: var(--font-weight-400);
+        }
+
+        #viewEditorsMainSection {
+            text-decoration: underline;
+            color: inherit;
+            transition: opacity var(--transition-default);
+        }
+
+        #viewEditorsMainSection:hover {
+            opacity: 0.8;
+        }
+
+        .sc-editors__line {
+            margin: 0;
+            font-size: var(--font-size-16);
+            line-height: 1.8rem;
+            cursor: pointer;
+            max-width: max-content;
+            transition: opacity var(--transition-default);
+        }
+
+        .sc-editors__line:hover {
+            opacity: 0.8;
+        }
+
+        .sc-editors__link {
+            color: var(--color-white);
+            font-size: var(--font-size-16);
+            text-decoration: underline;
+            display: inline-block;
+            padding: 0;
+            transition: opacity var(--transition-default);
+        }
+
+        .sc-editors__link:hover {
+            opacity: 0.8;
+        }
+
+        .sc-editors__eic-label,
+        .sc-editors__de-label {
+            font-weight: var(--font-weight-600);
+        }
+
+        .sc-cta {
+            display: grid;
+            gap: var(--spacing-md);
+            align-items: center;
+            grid-template-columns: minmax(160px, 1fr) minmax(120px, 0.7fr) minmax(155px, 1fr);
+            max-width: 55%;
+        }
+
+        .sc-cta__submit-wrap {
+            min-width: max-content;
+        }
+
+        .sc-cta__submit {
+            background: var(--color-yellow);
+            border: none;
+            padding: 10px;
+            border-radius: var(--rounded-sm);
+            font-size: var(--font-size-16);
+            cursor: pointer;
+            font-weight: var(--font-weight-600);
+            white-space: nowrap;
+            color: var(--font-color-dark);
+            transition: background-color var(--transition-default);
+            height: 40px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sc-cta__submit:hover {
+            background: var(--color-yellow-hover);
+        }
+
+        .sc-cta__submit:focus {
+            outline: 2px solid var(--color-white);
+            outline-offset: 2px;
+        }
+
+        .sc-cta__alerts {
+            background: transparent;
+            border: 2px solid var(--color-yellow-border);
+            color: var(--color-yellow-border);
+            padding: 8px 18px;
+            border-radius: var(--rounded-sm);
+            cursor: pointer;
+            font-size: var(--font-size-15);
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            min-width: 100%;
+            transition: all var(--transition-default);
+        }
+
+        .sc-cta__alerts:hover,
+        .sc-related-journals:hover {
+            background: rgba(255, 250, 232, 0.20);
+        }
+
+        .sc-cta__alerts:focus {
+            outline: 2px solid var(--color-white);
+            outline-offset: 2px;
+        }
+
+        .sc-cta__alert-wrap {
+            display: inline-block;
+            text-decoration: none;
+            min-width: 100%;
+        }
+
+        .sc-cta__alerts img {
+            margin-right: 5px;
+        }
+
+        .sc-custom-select {
+            position: relative;
+            width: 100%;
+            height: 40px;
+        }
+
+        .sc-related-journals {
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            color: var(--color-yellow-border);
+            font-size: var(--font-size-16);
+            text-decoration: none;
+            margin-left: auto;
+            white-space: nowrap;
+            background-color: transparent;
+            padding: 8px 10px;
+            border: none;
+            height: 40px;
+            transition: all var(--transition-default);
+        }
+
+        .sc-select__menu {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 100%;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 999;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            max-height: 35vh;
+            overflow-y: auto;
+            border-radius: var(--rounded-md);
+            width: max-content;
+        }
+
+        .sc-select__menu li {
+            color: var(--font-color-dark);
+            padding: 12px 15px;
+            text-decoration: none;
+            display: block;
+            cursor: pointer;
+            transition: background-color var(--transition-default);
+        }
+
+        .sc-select__menu li a {
+            color: var(--font-color-dark);
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+        }
+
+        .sc-select__menu li:hover {
+            background-color: #e7e7e7;
+        }
+
+        .sc-custom-select.active .sc-select__menu {
+            display: block;
+        }
+
+        .sc-select__arrow {
+            margin-left: 4px;
+        }
+
+        .sc-foot {
+            background-color: var(--color-white);
+            padding: var(--spacing-lg) 8rem 0 7rem;
+        }
+
+        .sc-foot__title {
+            font-weight: var(--font-weight-600);
+            font-size: var(--font-size-24);
+            color: var(--font-color);
+        }
+
+        .sc-foot__header h1 {
+            font-size: var(--font-size-22);
+            font-weight: var(--font-weight-700);
+            margin: 0 0 18px;
+            color: var(--font-color-dark);
+        }
+
+        .sc-metrics__title {
+            font-size: var(--font-size-20);
+            font-weight: var(--font-weight-600);
+            color: var(--font-color);
+        }
+
+        .sc-metrics__item {
+            margin-top: var(--spacing-lg);
+            color: var(--font-color);
+        }
+
+        .sc-metrics__header {
+            display: grid;
+            justify-content: space-between;
+            margin-top: 12px;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .sc-metrics__grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            column-gap: 4%;
+        }
+
+        .sc-metrics__value {
+            font-size: var(--font-size-24);
+            font-weight: var(--font-weight-700);
+            color: var(--font-color-dark);
+        }
+
+        .sc-metrics__label {
+            font-size: var(--font-size-13);
+            color: var(--font-color);
+        }
+
+        .sc-metrics__cites-value,
+        .sc-metrics__impact-value,
+        .sc-metrics__citescore-value {
+            font-weight: var(--font-weight-400);
+        }
+
+        .sc-metrics__impact-label,
+        .sc-metrics__cites-label,
+        .sc-metrics__citescore-label {
+            font-weight: var(--font-weight-600);
+        }
+
+        .sc-metrics-note {
+            margin-top: 10px;
+            font-size: var(--font-size-12);
+            color: var(--font-color-light);
+        }
+
+        .sc-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 28px;
+            margin-top: 20px;
+        }
+
+        aside {
+            padding-left: 15px;
+        }
+
+        .sc-side__card h3 {
+            font-size: var(--font-size-20);
+            margin-top: 0;
+            color: var(--font-color-dark);
+        }
+
+        .sc-side__card h4 {
+            font-size: var(--font-size-16);
+            font-weight: var(--font-weight-400);
+            color: var(--font-color-dark);
+        }
+
+        .sc-side__card ul {
+            padding-left: 20px;
+        }
+
+        .sc-side__current-link {
+            margin-top: 8px;
+            font-size: var(--font-size-16);
+            font-weight: var(--font-weight-400);
+            display: block;
+            color: var(--link-color);
+        }
+
+        .sc-side__editors-link {
+            font-size: var(--font-size-16);
+            font-weight: var(--font-weight-500);
+            display: block;
+            margin-top: 24px;
+            color: var(--link-color);
+        }
+
+        .btn,
+        .infoForAuthors {
+            margin-top: 10px;
+            padding: 8px 12px;
+            border-radius: var(--rounded-sm);
+            border: 2px solid var(--color-primary-blue-500);
+            color: var(--color-primary-blue-500);
+            background-color: var(--color-white);
+            text-decoration: none;
+            font-weight: var(--font-weight-600);
+            font-size: var(--font-size-16);
+            transition: all var(--transition-default);
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .infoForAuthors:hover {
+            background: var(--color-primary-blue-50);
+        }
+
+        .btn:focus,
+        .infoForAuthors:focus {
+            outline: 2px solid var(--color-primary-blue-500);
+            outline-offset: 2px;
+        }
+
+        .sc-foot-view-all-link,
+        .sc-foot-link {
+            color: var(--link-color) !important;
+            text-decoration: underline;
+            transition: opacity var(--transition-default);
+        }
+
+        .sc-foot-link {
+            font-size: var(--font-size-13);
+        }
+
+        .sc-foot-view-all-link:hover,
+        .sc-foot-link:hover {
+            opacity: 0.8;
+        }
+
+        .sc-editor__person {
+            display: flex;
+            column-gap: var(--spacing-md);
+            margin: 14px;
+            align-items: center;
+        }
+
+        .sc-editor__details {
+            display: grid;
+            row-gap: 4px;
+        }
+
+        .sc-editor__affil,
+        .sc-editor__country {
+            font-size: var(--font-size-16);
+            font-weight: var(--font-weight-500);
+            color: var(--font-color-dark);
+        }
+
+        .sc-editor__person img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .person-info {
+            flex: 1;
+        }
+
+        .sc-foot-editorName {
+            color: var(--link-color);
+            text-decoration: underline;
+            font-weight: var(--font-weight-600);
+            font-size: var(--font-size-16);
+        }
+
+        .sc-masthead {
+            margin-top: 40px;
+        }
+
+        .sc-masthead h5 {
+            font-size: var(--font-size-20);
+            font-weight: var(--font-weight-600);
+            color: var(--font-color-dark);
+            margin-bottom: 0;
+        }
+
+        .sc-masthead__meta {
+            font-size: var(--font-size-16);
+            font-weight: var(--font-weight-400);
+            color: var(--font-color-dark);
+            display: block;
+            margin-top: 8px;
+        }
+
+        .sc-foot-index {
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+
+        .sc-index__title {
+            font-size: var(--font-size-20);
+            font-weight: var(--font-weight-600);
+            color: var(--font-color-dark);
+        }
+
+        .sc-index__list {
+            margin-top: var(--spacing-md);
+        }
+
+        .sc-index__list li {
+            font-size: var(--font-size-16);
+            font-weight: var(--font-weight-400);
+            margin-top: 5px;
+            color: var(--font-color-dark);
+        }
+
+        .sc-aim {
+            padding-right: 10px;
+        }
+
+        .sc-aim__title {
+            font-size: var(--font-size-20);
+            font-weight: var(--font-weight-600);
+            color: var(--font-color-dark);
+        }
+
+        .sc-aim__desc {
+            display: block;
+            margin-top: 12px;
+            font-weight: var(--font-weight-400);
+            font-size: var(--font-size-16);
+            line-height: 1.25;
+            color: var(--font-color-dark);
+        }
+
+        .sc-aim__included-title,
+        .sc-aim__excluded-title {
+            display: block;
+            margin-top: 20px;
+            font-weight: var(--font-weight-400);
+            font-size: var(--font-size-16);
+            color: var(--font-color-dark);
+        }
+
+        .sc-aim__included-list,
+        .sc-aim__excluded-list {
+            padding-left: 24px;
+            margin-top: 20px;
+            color: var(--font-color-dark);
+        }
+
+        .sc-aim__included-list li,
+        .sc-aim__excluded-list li {
+            list-style-type: disc;
+            margin-top: 10px;
+            color: var(--font-color-dark);
+        }
+
+        .sc-aim__included-list li::marker,
+        .sc-aim__excluded-list li::marker {
+            font-size: var(--font-size-14);
+        }
+
+        .sc-authors__link {
+            margin: 10px 0;
+            display: inline-block;
+        }
+
+        .sc-foot-mobile-dimension {
+            text-align: end;
+        }
+
+        .related {
+            font-size: var(--font-size-14);
+            color: yellow;
+        }
+
+        .sc-reljournals {
+            margin-left: 0;
+            cursor: pointer;
+        }
+
+        .relatedElement option {
+            background-color: var(--main-section-bg-color);
+        }
+
+        .arrow_img {
+            color: var(--color-white);
+        }
+
+        #sc-metrics__label--days-first {
+            display: inline-block;
+            max-width: 90%;
+        }
+
+        @media (max-width: 1280px) {
+            .sc-metrics__grid {
+                column-gap: 0%;
+            }
+        }
+
+        @media (min-width: 551px) and (max-width: 767px) {
+            .sc-header__wrapper {
+                padding: var(--spacing-md) 4rem var(--spacing-md) 2rem;
+            }
+
+            .sc-mdw {
+                grid-template-columns: 60% 40%;
+                padding: var(--spacing-lg) var(--spacing-md) var(--spacing-lg) 2rem;
+            }
+
+            .sc-reljournals {
+                margin-left: 0;
+                grid-column: span 10;
+            }
+
+            .sc-cta {
+                grid-template-columns: 1fr 1fr;
+                row-gap: 10px;
+                column-gap: 4px;
+                max-width: 100%;
+            }
+
+            .sc-cta__alert-wrap {
+                margin-left: 10px;
+            }
+
+            .sc-related-journals {
+                text-align: left !important;
+            }
+
+            .sc-foot {
+                padding: var(--spacing-lg) var(--spacing-md) 0 2rem;
+            }
+
+            .sc-metrics__grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            .sc-foot-mobile-dimension {
+                text-align: end;
+            }
+
+            .sc-content {
+                grid-template-columns: 1fr;
+            }
+
+            .sc-foot-index {
+                margin-bottom: 15px;
+            }
+        }
+
+        @media (max-width: 550px) {
+            .column {
+                padding: 0 var(--spacing-md);
+            }
+
+            .sc-custom-wrapper-mdw {
+                grid-template-columns: 100%;
+            }
+
+            .sc-header__wrapper {
+                padding: var(--spacing-md) 4rem var(--spacing-md) 2rem;
+            }
+
+            .sc-mdw {
+                grid-template-columns: 1fr;
+                padding: var(--spacing-md) var(--spacing-lg) var(--spacing-lg) 2rem;
+            }
+
+            #sc-mdw__left {
+                max-width: 100%;
+            }
+
+            .sc-reljournals {
+                margin-left: 0;
+                margin-top: 6px;
+                text-align: center;
+            }
+
+            .sc-related-journals {
+                width: 100%;
+                text-align: center;
+            }
+
+            .sc-metrics__header {
+                justify-content: flex-start;
+                grid-template-columns: 1fr;
+                align-items: center;
+            }
+
+            .sc-foot-mobile-dimension {
+                margin-top: 10px;
+                text-align: start;
+            }
+
+            .sc-foot {
+                padding: var(--spacing-lg) var(--spacing-lg) 0 2rem;
+            }
+
+            .sc-metrics__grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .sc-content {
+                grid-template-columns: 1fr;
+            }
+
+            .sc-cta {
+                grid-template-columns: minmax(0, 1fr);
+                max-width: 100%;
+            }
+
+            .sc-cta__submit {
+                width: 100%;
+            }
+
+            .sc-cta__alerts {
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .sc-cta__alert-wrap {
+                margin-left: 0;
+                margin-top: 6px;
+                max-width: 100%;
+            }
+
+            .sc-foot-index {
+                margin-bottom: 15px;
+            }
+
+            .sc-mdw__right {
+                margin-top: 10px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+
+        *:focus-visible {
+            outline: 2px solid var(--link-color);
+            outline-offset: 2px;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section id="custom-page-silverchair" class="custom-page-silverchair">
+            <div class="sc-header sc-header__wrapper" id="sc-header-wrapper" aria-labelledby="sc-header-title">
+                <div class="sc-custom-wrapper-header column">
+                    <h1 class="sc-header__title" id="sc-header__title" aria-live="polite"></h1>
+                </div>
+            </div>
+
+            <section class="sc-mdw" id="sc-mdw" aria-label="Article metadata">
+                <div class="sc-custom-wrapper-mdw column">
+                    <div class="sc-mdw__left" id="sc-mdw__left" aria-label="Metadata details">
+                        <section class="sc-mdw__blurb" id="sc-mdw__blurb" aria-label="Journal blurb">
+                            <p class="sc-mdw__blurb-value" id="sc-mdw__blurb-value" aria-live="polite"></p>
+                        </section>
+                        <section class="sc-editors" id="sc-editors" aria-label="Editorial board">
+
+                            <p class="sc-editors__line">
+                                <span class="sc-editors__eic-label" id="sc-editors__eic-label">
+                                    Editor-in-Chief:
+                                </span>
+                                <span class="sc-editors__eic-value" id="sc-editors__eic-value"
+                                    aria-labelledby="sc-editors__eic-label" aria-live="polite">
+                                </span>
+                            </p>
+                            <p class="sc-editors__line">
+                                <span class="sc-editors__de-label" id="sc-editors__de-label">
+                                    Deputy Editor:
+                                </span>
+                                <span class="sc-editors__de-value" id="sc-editors__de-value"
+                                    aria-labelledby="sc-editors__de-label" aria-live="polite">
+                                </span>
+                            </p>
+                            <p class="sc-editors__line">
+                                <a class="sc-editors__link" id="sc-editors__link" tabindex="0"
+                                    aria-label="View Editors & Editorial Board">
+                                    View Editors &amp; Editorial Board
+                                </a>
+                            </p>
+                        </section>
+
+                        <section class="sc-metrics" id="sc-metrics" aria-label="Journal metrics">
+                            <p class="sc-editors__line sc-metrics__line">
+                                <strong class="sc-metrics__impact-label" id="sc-metrics__impact-label">
+                                    2 Year Impact Factor:
+                                </strong>
+
+
+                                <span class="sc-metrics__impact-value" id="sc-metrics__impact-value"
+                                    aria-labelledby="sc-metrics__impact-label" aria-live="polite">
+                                </span>
+                                &nbsp;&nbsp;&nbsp;
+
+                                <strong class="sc-metrics__cites-label" id="sc-metrics__cites-label">
+                                    Citations:
+                                </strong>
+                                <span class="sc-metrics__cites-value" id="sc-metrics__cites-value"
+                                    aria-labelledby="sc-metrics__cites-label" aria-live="polite">
+                                </span>
+                                &nbsp;&nbsp;&nbsp;
+                                <strong class="sc-metrics__citescore-label" id="sc-metrics__citescore-label">
+                                    CiteScore:
+                                </strong>
+                                <span class="sc-metrics__citescore-value" id="sc-metrics__citescore-value"
+                                    aria-labelledby="sc-metrics__citescore-label" aria-live="polite">
+                                </span>
+                            </p>
+
+                            <p class="sc-metrics__line sc-editors__line">
+                                <a href="/journal-metrics" class="sc-editors__link">
+                                    View All
+                                    <span class="sc-metrics__year" aria-live="polite"></span>
+                                    Journal Metrics
+                                </a>
+                            </p>
+                        </section>
+
+                        <div class="sc-cta" aria-label="Actions">
+                            <a class="sc-cta__submit-wrap" href="https://publish.acs.org/" target="_blank"
+                                rel="noopener">
+                                <button class="sc-cta__submit" type="button" aria-label="Submit manuscript">
+                                    Submit Manuscript
+                                </button>
+                            </a>
+
+                            <a rel="noopener" class="sc-cta__alert-wrap" href="https://preferences.acs.org/"
+                                target="_blank">
+                                <button class="sc-cta__alerts" type="button" aria-label="Get alerts">
+                                    <icon class="icon-alert-bell"></icon>
+                                    Get Alerts
+                                </button>
+                            </a>
+
+                            <div id="sc-reljournals" class="sc-reljournals" aria-label="Related journals">
+                                <div class="sc-custom-select" id="sc-custom-select" aria-expanded="false"
+                                    aria-haspopup="listbox" aria-controls="sc-select__menu"
+                                    aria-label="Related journals dropdown">
+                                    <button name="sc-related-journals" id="sc-related-journals"
+                                        class="sc-related-journals sc-select__toggle" aria-haspopup="listbox"
+                                        aria-expanded="false" aria-controls="sc-select__menu"
+                                        aria-label="Toggle related journals" aria-describedby="sc-select-value"
+                                        type="button">
+                                        <span class="sc-select__value" id="sc-select-value">
+                                            Related Journals
+                                        </span>
+                                        <span id="sc-select__arrow" class="sc-select__arrow" aria-hidden="true">
+                                            <!-- <img id="arrow_img" src="./assets/DownArrow.svg" alt="Arrow"
+                                                class="sc-select__arrow-img" /> -->
+                                            <span class="sc-select__arrow-img-wrapper">
+                                                <icon class="sc-select__arrow-img" id="sc-select__arrow-img"></icon>
+                                            </span>
+                                        </span>
+                                    </button>
+                                    <ul onclick="relatedJournalValueUpdate(event)" id="sc-select__menu"
+                                        class="sc-select__menu" aria-label="Related journals" tabindex="-1">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="sc-mdw__right">
+                        <section id="silverchair-widget-latest-issue-info">
+                            <h2>Silverchair Widget</h2>
+                            <p>Goes here</p>
+                        </section>
+                    </div> -->
+                </div>
+            </section>
+
+            <main class="sc-foot" id="sc-foot" role="main" tabindex="-1" aria-labelledby="sc-foot__about-title">
+                <div class="column sc-custom-wrapper-footer">
+                    <header class="sc-foot__header" aria-labelledby="sc-foot__about-title">
+                        <h1 class="sc-foot__title" id="sc-foot__title">About the Journal</h1>
+                    </header>
+
+                    <div class="sc-metrics__header" aria-labelledby="sc-metrics__title">
+                        <h4 class="sc-metrics__title" id="sc-metrics__title">Journal Metrics</h4>
+                        <a href="/journal-metrics"
+                            class="sc-foot-link sc-foot-view-all-link sc-foot-mobile-dimension">View
+                            Metrics for all Journals</a>
+                    </div>
+
+                    <section class="sc-foot-metrics" id="sc-foot-metrics" aria-labelledby="sc-metrics__title">
+                        <div class="sc-metrics__grid">
+                            <div class="sc-metrics__item">
+                                <div class="sc-metrics__value sc-metrics__value--cites" id="sc-metrics__value--cites"
+                                    aria-live="polite" aria-labelledby="sc-metrics__label--cites"></div>
+                                <div class="sc-metrics__label" id="sc-metrics__label--cites">Citations 2023</div>
+                            </div>
+
+                            <div class="sc-metrics__item">
+                                <div class="sc-metrics__value sc-metrics__value--two-if" id="sc-metrics__value--two-if"
+                                    aria-live="polite" aria-labelledby="sc-metrics__label--two-if"></div>
+                                <div class="sc-metrics__label" id="sc-metrics__label--two-if">2-Year Impact Factor</div>
+                            </div>
+
+                            <div class="sc-metrics__item">
+                                <div class="sc-metrics__value sc-metrics__value--five-if"
+                                    id="sc-metrics__value--five-if" aria-live="polite"
+                                    aria-labelledby="sc-metrics__label--five-if"></div>
+                                <div class="sc-metrics__label" id="sc-metrics__label--five-if">5-Year Impact Factor
+                                </div>
+                            </div>
+
+                            <div class="sc-metrics__item">
+                                <div class="sc-metrics__value sc-metrics__value--total-cites"
+                                    id="sc-metrics__value--total-cites" aria-live="polite"
+                                    aria-labelledby="sc-metrics__label--total-cites"></div>
+                                <div class="sc-metrics__label" id="sc-metrics__label--total-cites">Total Citations</div>
+                            </div>
+
+                            <div class="sc-metrics__item">
+                                <div class="sc-metrics__value sc-metrics__value--citescore"
+                                    id="sc-metrics__value--citescore" aria-live="polite"
+                                    aria-labelledby="sc-metrics__label--citescore"></div>
+                                <div class="sc-metrics__label" id="sc-metrics__label--citescore">CiteScore</div>
+                            </div>
+
+                            <div class="sc-metrics__item">
+                                <div class="sc-metrics__value sc-metrics__value--days-first"
+                                    id="sc-metrics__value--days-first" aria-live="polite"
+                                    aria-labelledby="sc-metrics__label--days-first"></div>
+                                <div class="sc-metrics__label" id="sc-metrics__label--days-first">Days to First Peer
+                                    Review
+                                    Decision*</div>
+                            </div>
+
+                            <div class="sc-metrics__item">
+                                <div class="sc-metrics__value sc-metrics__value--days-accept"
+                                    id="sc-metrics__value--days-accept" aria-live="polite"
+                                    aria-labelledby="sc-metrics__label--days-accept"></div>
+                                <div class="sc-metrics__label" id="sc-metrics__label--days-accept">Days to Accept*</div>
+                            </div>
+
+                            <div class="sc-metrics__item">
+                                <div class="sc-metrics__value sc-metrics__value--days-asap"
+                                    id="sc-metrics__value--days-asap" aria-live="polite"
+                                    aria-labelledby="sc-metrics__label--days-asap"></div>
+                                <div class="sc-metrics__label" id="sc-metrics__label--days-asap">Days from Accept to
+                                    ASAP*
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sc-metrics__note">
+                            Data as of <span class="sc-metrics__year" id="sc-metrics__year" aria-live="polite"></span> ·
+                            <br>
+                            <span class="sc-metrics__muted">*Median days</span>
+                        </div>
+                    </section>
+
+                    <div class="sc-content">
+                        <section class="sc-content__main" aria-labelledby="sc-aim__title">
+                            <div class="sc-aim" aria-labelledby="sc-aim__title">
+                                <h3 class="sc-aim__title" id="sc-aim__title">Aims &amp; Scope</h3>
+                                <p class="sc-aim__desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                    ever since the 1500s, when an unknown printer took a galley of type
+                                    and scrambled it to make a type specimen book.
+                                </p>
+
+                                <h4 class="sc-aim__included-title">Examples of topics that are in-scope:</h4>
+                                <ul class="sc-aim__included-list">
+                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    </li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content of a page when looking at its layout.</li>
+                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    </li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content of a page when looking at its layout.</li>
+                                </ul>
+
+                                <h4 class="sc-aim__excluded-title" id="sc-aim__excluded-title">Examples of topics that
+                                    are
+                                    NOT in-scope:</h4>
+                                <ul class="sc-aim__excluded-list" aria-labelledby="sc-aim__excluded-title">
+                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    </li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content of a page when looking at its layout.</li>
+                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    </li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content of a page when looking at its layout.</li>
+                                </ul>
+                            </div>
+
+                            <a class="sc-authors__link"
+                                href="https://researcher-resources.acs.org/publish/author_guideline editors-block-metadata__textlines?coden="
+                                aria-label="Information for Authors">
+                                Information for Authors
+                                </button>
+                            </a>
+                        </section>
+
+                        <aside class="sc-side" aria-label="Editorial and publication information">
+                            <div class="sc-side__card" aria-label="Editorial profiles">
+                                <div class="sc-editor__people">
+                                    <div id="sc-editor-foot__editorInChief-container" class="sc-editor__section"
+                                        aria-labelledby="sc-editor__eic-title">
+                                        <h3 id="sc-editor__eic-title" class="sc-editor__section-title">Editor-in-Chief
+                                        </h3>
+                                        <div class="sc-editor__person">
+                                            <img id="sc-editor__avatar__editorInChiefProfileIcon"
+                                                class="sc-editor__avatar"
+                                                aria-labelledby="sc-editor__editorInChief-name" alt="Profile" />
+                                            <div class="sc-editor__details">
+                                                <a id="sideSectionEditorName" href="#"
+                                                    class="sc-foot-link sc-foot-editorName"></a>
+                                                <h4 class="sc-editor__affil" id="chiefUnivName"></h4>
+                                                <h4 class="sc-editor__country" id="chiefCountry"></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="sideSectionDeputyEditorContainer" class="sc-editor__section"
+                                        aria-labelledby="sc-editor__de-title">
+                                        <h3 id="sc-editor__de-title" class="sc-editor__section-title">Deputy Editor</h3>
+                                        <div class="sc-editor__person">
+                                            <img id="deputyEditorProfileIcon" class="sc-editor__avatar"
+                                                aria-labelledby="sideSectionDeputyName" alt="profile" />
+                                            <div class="sc-editor__details">
+                                                <a id="sideSectionDeputyName" href="#"
+                                                    class="sc-foot-link sc-foot-editorName"></a>
+                                                <h4 class="sc-editor__affil" id="deputyUnivName"></h4>
+                                                <h4 class="sc-editor__country" id="deputyCountry"></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a id="viewEditorsInSideBar" class="sc-foot-link sc-side__editors-link" tabindex="0"
+                                    aria-label="View Editors and Editorial Board">
+                                    View Editors &amp; Editorial Board
+                                </a>
+
+                                <div class="sc-masthead" aria-labelledby="sc-masthead__title">
+                                    <h5 class="sc-masthead__title" id="sc-masthead__title">Masthead Information</h5>
+                                    <p class="sc-masthead__meta">
+                                        Print Edition ISSN: <span id="printEditionISSN" class="sc-masthead__print-issn"
+                                            aria-live="polite"></span>
+                                        <br />
+                                        Web Edition ISSN: <span id="webEditionISSN" class="sc-masthead__web-issn"
+                                            aria-live="polite"></span>
+                                    </p>
+                                </div>
+
+                                <a id="currentIssuePub" class="sc-foot-link sc-side__current-link" tabindex="0"
+                                    aria-label="Current Issue Publication Information">
+                                    Current Issue Publication Information
+                                </a>
+
+                                <div class="sc-foot-index" aria-labelledby="sc-index__title">
+                                    <h5 class="sc-index__title" id="sc-index__title">Indexed/Abstracted</h5>
+                                    <ul class="sc-index__list" id="indexedList" aria-labelledby="sc-index__title"></ul>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </main>
+    <script>
+        let JSON_DIR;
+        let ASSETS_DIR;
+        let route = "";
+        let environment = "local";
+
+        if (environment === "local") {
+            JSON_DIR = "../json/current";
+            ASSETS_DIR = "../assets";
+            route = "jamsef";
+        } else {
+            JSON_DIR = "/DocumentLibrary/json";
+            ASSETS_DIR = "/ImageLibrary/journal-editorial-board";
+            route = getRouteFromURL();
+        }
+
+        // Configuration
+        const CONFIG = {
+            MASTHEAD_BASE:
+                "https://raw.githubusercontent.com/DSCO-Support/JournalMastheads/refs/heads/main/mastheads",
+            ACS_BASE_URL: "https://pubs.acs.org",
+        };
+
+        const FILES = {
+            INFO_FILE: `${JSON_DIR}/journal-info.json`,
+            METRICS_FILE: `${JSON_DIR}/journal_metrics.json`,
+            RELATED_JOURNALS: `${JSON_DIR}/relatedJournals.json`,
+            AVATAR_IMG: `${ASSETS_DIR}/avatar.svg`
+        };
+
+        const EDITOR_CONFIG = {
+            "Editor-in-Chief": {
+                mainNameId: "sc-editors__eic-value",
+                sideContainerId: "editor-in-chief",
+                sideNameId: "sideSectionEditorName",
+                sideProfileImageId: "sc-editor__avatar__editorInChiefProfileIcon",
+                sideInstitutionName: "chiefUnivName",
+                sideCountryName: "chiefCountry",
+                visibilityContainerSelector: "#sc-editor-foot__editorInChief-container",
+            },
+            "Deputy Editor": {
+                mainNameId: "sc-editors__de-value",
+                sideContainerId: "deputy-editor",
+                sideNameId: "sideSectionDeputyName",
+                sideProfileImageId: "deputyEditorProfileIcon",
+                sideInstitutionName: "deputyUnivName",
+                sideCountryName: "deputyCountry",
+                visibilityContainerSelector: "#sideSectionDeputyEditorContainer",
+            },
+        };
+
+        // Cache management
+        let cache = {
+            indexes: null,
+            masthead: new Map(),
+        };
+
+        function getRouteFromURL() {
+            const pathSegments = window.location.pathname.split('/');
+            return pathSegments[1];
+        }
+
+        // Utility functions
+        function updateEditorsHref() {
+            if (!route) return;
+
+            const updatedRoute = route.replace(/^\/+|\/+$/g, "");
+            if (!updatedRoute) return;
+
+            const elements = [
+                { id: "sc-editors__link", href: `/${updatedRoute}/editors` },
+                { id: "viewEditorsInSideBar", href: `/${updatedRoute}/editors` },
+                { id: "currentIssuePub", href: `/toc/${updatedRoute}/current#Mastheads` },
+            ];
+
+            elements.forEach(({ id, href }) => {
+                const el = document.getElementById(id);
+                if (el) el.setAttribute("href", href);
+            });
+        }
+
+        async function fetchJSON(url) {
+            try {
+                const res = await fetch(url);
+                if (!res.ok) {
+                    throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+                }
+                return await res.json();
+            } catch (error) {
+                console.error(`Failed to fetch ${url}:`, error);
+                throw error;
+            }
+        }
+
+        function setText(id, value = "") {
+            const el = document.getElementById(id);
+            if (el) el.textContent = value;
+        }
+
+        function setHTML(id, html) {
+            const el = document.getElementById(id);
+            if (el) el.innerHTML = html;
+        }
+
+        function toggleVisibility(selector, show) {
+            const el = document.querySelector(selector);
+            if (el) el.style.display = show ? "" : "none";
+        }
+
+        function formatNumber(number) {
+            if (number == null || isNaN(number)) return "NaN";
+            return parseInt(number).toLocaleString("en-US");
+        }
+
+        function formatPercent(x) {
+            return typeof x === "number" ? `${Math.round(x * 100)}%` : "—";
+        }
+
+        function showOnly(sectionId) {
+            document.querySelectorAll(".page").forEach((sec) => {
+                sec.classList.toggle("active", sec.id === sectionId);
+            });
+        }
+
+        // Data extraction functions
+        function getJournalInfo(infoJson, code) {
+            return (
+                infoJson.journalInfo?.journal?.[code] ?? infoJson.journal?.[code] ?? null
+            );
+        }
+
+        function getJournalMetrics(metricsJson, code) {
+            return (
+                metricsJson.journal_metrics?.journal?.[code] ??
+                metricsJson.journal?.[code] ??
+                null
+            );
+        }
+
+        function getEditorInfo(info) {
+            return info?.editorInfo ?? info?.editor ?? null;
+        }
+
+        function extractPersonName(person) {
+            return (
+                person?.["Display Name"] ||
+                [person?.["First Name"], person?.["Last Name"]].filter(Boolean).join(" ") ||
+                person?.["Name"] ||
+                person?.name ||
+                ""
+            );
+        }
+
+        function buildAffiliation(person) {
+            const aff =
+                person?.["Affiliation"] ||
+                person?.["Institution"] ||
+                person?.["Organization"] ||
+                "";
+            const country = person?.["Country"] || person?.["Location"] || "";
+
+            return [aff, country].filter(Boolean).join("<br>");
+        }
+
+        // Data loading functions
+        async function loadIndexes() {
+            if (cache.indexes) return cache.indexes;
+
+            try {
+                const [infoIndex, metricsIndex, allJournalsArray] = await Promise.all([
+                    fetchJSON(FILES.INFO_FILE),
+                    fetchJSON(FILES.METRICS_FILE),
+                    fetchJSON(FILES.RELATED_JOURNALS),
+                ]);
+
+                cache.indexes = { infoIndex, metricsIndex, allJournalsArray };
+                return cache.indexes;
+            } catch (error) {
+                console.error("Failed to load indexes:", error);
+                throw error;
+            }
+        }
+
+        async function loadMasthead(code) {
+            if (cache.masthead.has(code)) {
+                return cache.masthead.get(code);
+            }
+
+            try {
+                const masthead = await fetchJSON(`${CONFIG.MASTHEAD_BASE}/${code}.json`);
+                const data = Array.isArray(masthead?.data) ? masthead.data : [];
+                cache.masthead.set(code, data);
+                return data;
+            } catch (error) {
+                console.error(`Failed to load masthead for ${code}:`, error);
+                cache.masthead.set(code, []);
+                return [];
+            }
+        }
+
+        // Editor management functions
+        function updateEditorInfo(person, editorInfo, role) {
+            const config = EDITOR_CONFIG[role];
+            if (!config) return;
+
+            const name = extractPersonName(person);
+
+            if (name) {
+                setText(config.mainNameId, name);
+                setText(config.sideNameId, name);
+                setEditorImage(editorInfo, name, config);
+            }
+
+            if (person) {
+                setWebsiteLink(config.sideNameId, person);
+                setText(config.sideInstitutionName, person["Institution Name"]);
+                setText(config.sideCountryName, person["Country"]);
+            }
+        }
+
+        function setWebsiteLink(id, person) {
+            const el = document.getElementById(id);
+            if (el instanceof HTMLAnchorElement && person.Website) {
+                el.href = person.Website;
+                el.target = "_blank";
+            }
+        }
+
+        function setEditorImage(editorInfo, name, config) {
+            const imageEl = document.getElementById(config.sideProfileImageId);
+            if (!imageEl) return;
+
+            const imgUrl = editorInfo?.[name]?.imgUrl;
+            imageEl.src = imgUrl
+                ? CONFIG.ACS_BASE_URL + imgUrl
+                : FILES.AVATAR_IMG;
+
+            imageEl.onerror = () => {
+                imageEl.onerror = null;
+                imageEl.src = FILES.AVATAR_IMG;
+            };
+        }
+
+        function adjustEditorVisibility(hasEditorInChief, hasDeputyEditor) {
+            const mainElements = [
+                { id: "sc-editors__eic-value", show: hasEditorInChief },
+                { id: "sc-editors__de-value", show: hasDeputyEditor },
+            ];
+
+            mainElements.forEach(({ id, show }) => {
+                const el = document.getElementById(id);
+                if (el?.parentElement) {
+                    el.parentElement.style.display = show ? "" : "none";
+                }
+            });
+
+            toggleVisibility(
+                "#sc-editor-foot__editorInChief-container",
+                hasEditorInChief
+            );
+            toggleVisibility("#sideSectionDeputyEditorContainer", hasDeputyEditor);
+        }
+
+        async function processEditors(code, editorInfo) {
+            try {
+                const masthead = await loadMasthead(code);
+
+                let hasEditorInChief = false;
+                let hasDeputyEditor = false;
+
+                masthead.forEach((person) => {
+                    const category = person?.["Masthead Category"];
+                    if (category === "Editor-in-Chief") {
+                        hasEditorInChief = true;
+                        updateEditorInfo(person, editorInfo, "Editor-in-Chief");
+                    } else if (category === "Deputy Editor") {
+                        hasDeputyEditor = true;
+                        updateEditorInfo(person, editorInfo, "Deputy Editor");
+                    }
+                });
+
+                adjustEditorVisibility(hasEditorInChief, hasDeputyEditor);
+            } catch (error) {
+                console.error("Error processing editors:", error);
+                // Fallback to editorInfo data
+                const hasEICInfo = !!(editorInfo?.["Editor-in-Chief"] ?? editorInfo?.eic);
+                const hasDEInfo = !!(editorInfo?.["Deputy Editor"] ?? editorInfo?.deputy);
+                adjustEditorVisibility(hasEICInfo, hasDEInfo);
+            }
+        }
+
+        // Journal rendering functions
+        function setBasicJournalInfo(info, metrics) {
+            setText("sc-header__title", metrics?.title);
+
+            if (info?.blurb && metrics?.title) {
+                setBlurbValue(metrics, info);
+            }
+
+            setText("printEditionISSN", info?.issn);
+            setText("webEditionISSN", info?.eissn);
+        }
+
+        function setMetricsInfo(metrics, metricsIndex) {
+            const metricsMap = {
+                "sc-metrics__impact-value": metrics?.impact2yr,
+                "sc-metrics__cites-value": formatNumber(metrics?.citations),
+                "sc-metrics__citescore-value": metrics?.citescore ?? "NaN",
+                "sc-metrics__value--cites": formatNumber(metrics?.citations),
+                "sc-metrics__value--two-if": metrics?.impact2yr ?? "NaN",
+                "sc-metrics__value--five-if": metrics?.impact5yr ?? "NaN",
+                "sc-metrics__value--citescore": metrics?.citescore ?? "NaN",
+                "sc-metrics__value--days-asap": metrics?.AcceptToASAP ?? "NaN",
+                "sc-metrics__value--total-cites": formatNumber(metrics?.citations),
+                "sc-metrics__value--days-first": metrics?.SubToFDwPR ?? "NaN",
+                "sc-metrics__value--days-accept": metrics?.SubToAccept ?? "NaN",
+            };
+
+            Object.entries(metricsMap).forEach(([id, value]) => {
+                setText(id, value);
+            });
+
+            // Set year for all metric year elements
+            document.querySelectorAll(".sc-metrics__year").forEach((el) => {
+                el.textContent = metricsIndex.journal_metrics?.year ?? "—";
+            });
+        }
+
+        function setBlurbValue(metrics, info) {
+            const el = document.getElementById("sc-mdw__blurb-value");
+            if (!el) return;
+
+            const tailValue = info.blurb.slice(metrics.title.length);
+            const emElement = document.createElement("em");
+            emElement.textContent = info.title;
+
+            el.textContent = "";
+            el.append(emElement, document.createTextNode(tailValue));
+        }
+
+        function setIndexedAbstractedData(info) {
+            const indexedList = document.getElementById("indexedList");
+            if (!indexedList || !info?.indexAbstract) return;
+
+            indexedList.innerHTML = "";
+            info.indexAbstract.forEach((abstract) => {
+                const listItem = document.createElement("li");
+                listItem.textContent = abstract;
+                indexedList.appendChild(listItem);
+            });
+        }
+
+        function findRelatedJournals(code, allJournalsArray) {
+            return allJournalsArray.relatedJournals?.find((journal) =>
+                journal.coden?.includes(code)
+            );
+        }
+
+        function setRelatedJournalOptions(relatedJournals, code) {
+            const select = document.getElementById("sc-select__menu");
+            if (!select || !relatedJournals?.journ_name) return;
+
+            select.innerHTML = "";
+
+            relatedJournals.journ_name.forEach((item) => {
+                if (item.includes(code)) return;
+
+                const [optionValue, coden] = item.split("|").map((s) => s.trim());
+
+                const listElement = document.createElement("li");
+                const anchorElement = document.createElement("a");
+
+                listElement.role = "option";
+                anchorElement.dataset.value = optionValue;
+                anchorElement.dataset.coden = coden;
+                anchorElement.textContent = optionValue;
+                anchorElement.href = "/" + coden;
+
+                listElement.append(anchorElement);
+                select.appendChild(listElement);
+            });
+        }
+
+        async function renderJournal(code, indexes) {
+            const { infoIndex, metricsIndex, allJournalsArray } = indexes;
+
+            const info = getJournalInfo(infoIndex, code);
+            const metrics = getJournalMetrics(metricsIndex, code);
+            const relatedJournals = findRelatedJournals(code, allJournalsArray);
+
+            if (!info && !metrics) {
+                throw new Error(`No data found for journal code: ${code}`);
+            }
+
+            // Set basic information
+            setBasicJournalInfo(info, metrics);
+            setMetricsInfo(metrics, metricsIndex);
+
+            // Handle related journals
+            if (relatedJournals) {
+                setRelatedJournalOptions(relatedJournals, code);
+            } else {
+                toggleVisibility("#sc-reljournals", false);
+            }
+
+            // Handle indexed/abstracted data
+            if (info) {
+                setIndexedAbstractedData(info);
+            }
+
+            // Handle editors
+            const editorInfo = getEditorInfo(info);
+            if (editorInfo) {
+                const fallbackEIC =
+                    editorInfo?.["Editor-in-Chief"]?.toString?.() ??
+                    (typeof editorInfo?.eic === "string" ? editorInfo.eic : "");
+                const fallbackDeputy =
+                    editorInfo?.["Deputy Editor"]?.toString?.() ??
+                    (typeof editorInfo?.deputy === "string" ? editorInfo.deputy : "");
+
+                setText("sc-editors__eic-value", fallbackEIC);
+                setText("sc-editors__de-value", fallbackDeputy);
+
+                await processEditors(code, editorInfo);
+            }
+        }
+
+        async function render(routeName) {
+            try {
+                const indexes = await loadIndexes();
+                console.log("Loaded indexes:", indexes);
+
+                const knownCodens = new Set([
+                    ...Object.keys(getJournalInfo(indexes.infoIndex, "") || {}),
+                    ...Object.keys(getJournalMetrics(indexes.metricsIndex, "") || {}),
+                ]);
+
+                // Get all available codes from both sources
+                const infoJournal =
+                    indexes.infoIndex.journalInfo?.journal ?? indexes.infoIndex.journal ?? {};
+                const metricsJournal =
+                    indexes.metricsIndex.journal_metrics?.journal ??
+                    indexes.metricsIndex.journal ??
+                    {};
+
+                const allKnownCodens = new Set([
+                    ...Object.keys(infoJournal),
+                    ...Object.keys(metricsJournal),
+                ]);
+
+                if (allKnownCodens.has(routeName)) {
+                    showOnly("journal");
+                    await renderJournal(routeName, indexes);
+                } else {
+                    console.warn(`Unknown route/coden: "${routeName}"`);
+                    document.getElementById("main").innerHTML = "<h1>404 Not Found</h1>";
+                }
+            } catch (error) {
+                console.error("Render error:", error);
+                document.getElementById("main").innerHTML =
+                    "<h1>Error loading journal data</h1>";
+            }
+        }
+
+        // Event handlers
+        function openInNewTab(event, url) {
+            event.preventDefault();
+            window.open(url + route, "_blank");
+        }
+
+        function redirectToCoden(event) {
+            const coden = event.target.options[event.target.selectedIndex]?.dataset.coden;
+            if (coden) {
+                window.location.href = "/" + coden;
+            }
+        }
+
+        function relatedJournalValueUpdate(event) {
+            const button = document.querySelector(".sc-related-journals");
+            if (button) {
+                button.textContent = event.target.textContent;
+                button.setAttribute("aria-expanded", "false");
+            }
+        }
+
+        function setupEventListeners() {
+            document.addEventListener("DOMContentLoaded", () => {
+                setupCustomSelects();
+            });
+        }
+
+        function setupCustomSelects() {
+            const customSelects = document.querySelectorAll(".sc-custom-select");
+
+            customSelects.forEach((selectWrapper) => {
+                const selectBtn = selectWrapper.querySelector(".sc-related-journals");
+                const arrowEl = document.getElementById("sc-select__arrow-img");
+
+                if (!selectBtn) return;
+
+                selectBtn.addEventListener("click", () => {
+                    const isActive = selectWrapper.classList.contains("active");
+                    selectWrapper.classList.toggle("active");
+
+                    if (arrowEl) {
+                        arrowEl.classList.toggle("icon-general_arrow-down", isActive);
+                        arrowEl.classList.toggle("icon-arrow-right", !isActive);
+                    }
+
+                    selectBtn.setAttribute("aria-expanded", (!isActive).toString());
+                });
+
+                window.addEventListener("click", (e) => {
+                    if (!selectWrapper.contains(e.target)) {
+                        selectWrapper.classList.remove("active");
+
+                        if (arrowEl) {
+                            arrowEl.classList.remove("icon-arrow-right");
+                            arrowEl.classList.add("icon-general_arrow-down");
+                        }
+
+                        selectBtn.setAttribute("aria-expanded", "false");
+                    }
+                });
+            });
+        }
+
+        function initializeCustomDropdowns() {
+            const customSelects =
+                document.querySelectorAll('.sc-custom-select');
+
+            customSelects.forEach((selectWrapper) => {
+                const selectBtn = selectWrapper.querySelector(
+                    '.sc-related-journals',
+                );
+                const arrowEl = document.getElementById(
+                    'sc-select__arrow-img',
+                );
+
+                if (!selectBtn || !arrowEl) return;
+
+                // Toggle dropdown visibility on button click
+                selectBtn.addEventListener('click', () => {
+                    selectWrapper.classList.toggle('active');
+
+                    if (selectWrapper.classList.contains('active')) {
+                        arrowEl.classList.remove('icon-general_arrow-down');
+                        arrowEl.classList.add('icon-arrow-right');
+                    } else {
+                        arrowEl.classList.remove('icon-arrow-right');
+                        arrowEl.classList.add('icon-general_arrow-down');
+                    }
+
+                    const expanded =
+                        selectBtn.getAttribute('aria-expanded') === 'true';
+                    selectBtn.setAttribute('aria-expanded', !expanded);
+                });
+
+                // Close dropdown when clicking outside
+                window.addEventListener('click', (e) => {
+                    if (!selectWrapper.contains(e.target)) {
+                        selectWrapper.classList.remove('active');
+                        arrowEl.classList.remove('icon-arrow-right');
+                        arrowEl.classList.add('icon-general_arrow-down');
+                        selectBtn.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            });
+        }
+
+        function runJournalAboutPageInit() {
+            updateEditorsHref();
+            setupEventListeners();
+            render(route);
+            initializeCustomDropdowns();
+        }
+
+
+        // Initialize the application
+        if (document.readyState === 'loading') {
+            document.addEventListener(
+                'DOMContentLoaded',
+                runJournalAboutPageInit,
+            );
+        } else {
+            runJournalAboutPageInit();
+        }
+
+    </script>
+</body>
+
+</html>

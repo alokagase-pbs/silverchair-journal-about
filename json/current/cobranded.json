@@ -1,0 +1,29 @@
+{
+	"copublished": [
+		{
+			"coden": "jnprdf",
+			"journ_name": {
+				"jtitle":"The American Society of Pharmacognosy",
+				"jlink":"http://www.pharmacognosy.us/",
+				"jlogo":"/pb-assets/images/jnprdf/asp-logo.gif"
+			}
+		},
+		{
+			"coden":"jceda8",
+			"journ_name": {
+				"jtitle":"The Division of Chemical Education, Inc. American Chemical Society",
+				"jlink":"http://www.divched.org/",
+				"jlogo":"/pb-assets/images/jceda8/ched-logo.gif"
+			}
+		},
+        {
+			"coden":"jamsef",
+			"journ_name": {
+				"jtitle":"American Society for Mass Spectrometry",
+				"jlink":"https://www.asms.org",
+				"jlogo":"/pb-assets/images/jamsef/asms-logo.gif"
+			}
+		}
+	]
+}
+

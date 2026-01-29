@@ -1,0 +1,574 @@
+{
+    "agriculture-food-chemistry": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001D_T001012_Agriculture_and_Food_Chemistry_Subject_Area_Page",
+            "src": "IC001_ST0001D_T001012_Agriculture_and_Food_Chemistry_Subject_Area_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "jafcau",
+                    "aastgj",
+                    "afsthl",
+                    "ansadg",
+                    "aeacc4",
+                    "acsodf",
+                    "apwdam",
+                    "chreay",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "acscii",
+                    "abmcb8"
+                ]
+            }
+        ],
+        "subject_name": "Agriculture and Food Chemistry",
+        "subject_link": "/agriculture-food-chemistry",
+        "blurb": "Agricultural and food chemistry is the study of how to cultivate plants and livestock, harnessing chemistry and biochemistry to develop and improve farming processes and products. It also underpins understanding of the raw substances and chemicals in our food, and how they are processed in the body. The field of agriculture and food chemistry also includes environmental considerations, from soil biology to water use and pollution.",
+        "axialTopic": "agriculture-and-food-chemistry"
+    },
+    "analytical-chemistry": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001R_T000891_Analytical_Subject_Area_Page",
+            "src": "IC001_ST0001R_T000891_Analytical_Subject_Area_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "ancham",
+                    "ascefj",
+                    "amachv",
+                    "jamsef",
+                    "cbihbp",
+                    "jprobs",
+                    "aeclc7",
+                    "jceda8",
+                    "acsodf",
+                    "chreay",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "acscii",
+                    "aesccq"
+                ]
+            }
+        ],
+        "subject_name": "Analytical Chemistry",
+        "subject_link": "/analytical-chemistry",
+        "blurb": "Engage with the scientific community and discover what ACS has to offer in the field of analytical chemistry. For the generalist, <cite>Analytical Chemistry</cite> is a peer-reviewed research journal devoted to new and original knowledge that will broaden readers' professional interests and keep them aware of the role of analytical chemistry in the scientific arena. This is complemented by specialist publications that cover analytical results in diverse fields such as optical materials, sensors, and engineering. Those with an interest may also enjoy <cite>ACS Measurement Science Au</cite> with its focus on experimental, computational, and theoretical research in all areas of chemical measurement science.",
+        "axialTopic": "analytical-chemistry"
+    },
+    "biological-chemistry-chemical-biology": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001R_T000542_BMC_Bio_Subject_Page",
+            "src": "IC001_ST0001R_T000542_BMC_Bio_Subject_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "bichaw",
+                    "acbcct",
+                    "abmcb8",
+                    "acncdm",
+                    "asbcd6",
+                    "bcches",
+                    "cbehb5",
+                    "cbihbp",
+                    "mpohbp",
+                    "jnprdf",
+                    "crtoec",
+                    "aabmcb",
+                    "abseba",
+                    "aidcbc",
+                    "accacs",
+                    "aptsfn",
+                    "amclct",
+                    "bomaf6",
+                    "jmcmar",
+                    "ansadg",
+                    "anmafm",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "acscii",
+                    "apwdam",
+                    "jcisd8",
+                    "acsodf",
+                    "jprobs",
+                    "jamsef",
+                    "mpohbp",
+                    "jpcbfk"
+                ]
+            }
+        ],
+        "subject_name": "Biological Chemistry and Chemical Biology",
+        "subject_link": "/biological-chemistry-chemical-biology",
+        "blurb": "Biochemistry is vital for the study of cells, disease, and medicine, as well as in diverse fields such as genetics and agriculture. Chemical biology spans the fields of chemistry and biology, applying core chemical techniques, analysis, and synthetic chemistry to the study and manipulation of biological systems, which may be used in cell biology and pharmacology.",
+        "axialTopic": "biology-and-biological-chemistry"
+    },
+    "chemical-engineering-industrial-chemistry": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001R_T001553_Chemical_Engineering_and_Industrial_Chemistry_Subject_Page",
+            "src": "IC001_ST0001R_T001553_Chemical_Engineering_and_Industrial_Chemistry_Subject_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "iecred",
+                    "aeacb3",
+                    "jceaax",
+                    "cbehb5",
+                    "aeecco",
+                    "ascecg",
+                    "abseba",
+                    "aaemdr",
+                    "achsc5",
+                    "accacs",
+                    "oprdfk",
+                    "langd5",
+                    "asrmcd",
+                    "asbcd6",
+                    "apwdam",
+                    "bcches",
+                    "cgdefu",
+                    "enfuem",
+                    "acsodf",
+                    "chreay",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "acscii"
+                ]
+            }
+        ],
+        "subject_name": "Chemical Engineering and Industrial Chemistry",
+        "subject_link": "/chemical-engineering-industrial-chemistry",
+        "blurb": "Join an international group of readers exploring cutting-edge chemical engineering and industrial chemistry in a selection of high-quality, peer-reviewed papers shared by ACS. This group of journals covers new discoveries and insights in applied engineering, biomaterials, safety, and energy and fuels - focusing on significant and fundamental advances in core areas, from thermodynamics and catalysis in <cite>I&EC Research</cite> to materials and applications in <cite>ACS Applied Engineering Materials</cite>. In addition, there are specialist publications on sustainable chemistry and environmental technology and engineering. These research contributions support effective decision-making within complex engineering and industrial systems.",
+        "axialTopic": "chemical-engineering-and-industrial-chemistry"
+    },
+    "environmental-and-sustainable-chemistry": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC000_ST0001C_T002019_aeacd5_Earth,_Space_and_Environmental_Chemistry_Subject_Page",
+            "src": "IC000_ST0001C_T002019_aeacd5_Earth,_Space_and_Environmental_Chemistry_Subject_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "esthag",
+                    "estlcu",
+                    "aeacc4",
+                    "ehnea2",
+                    "aeacd5",
+                    "aeecco",
+                    "aewcaa",
+                    "aesccq",
+                    "ascecg",
+                    "asrmcd",
+                    "crtoec",
+                    "aastgj",
+                    "jafcau",
+                    "apwdam",
+                    "acsodf",
+                    "chreay",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "acscii",
+                    "jpcafh",
+                    "jpclcd",
+                    "afsthl"
+                ]
+            }
+        ],
+        "subject_name": "Environmental and Sustainable Chemistry",
+        "subject_link": "/environmental-and-sustainable-chemistry",
+        "blurb": "Environmental chemistry is big news and goes further than our own climate and the human impact on it. Get the big picture with <cite>ACS Earth and Space Chemistry</cite> - providing quality inter-disciplinary research across analytical, experimental, and theoretical chemistry in order to answer novel questions about the chemistry of the universe, from earth-based atmospheric, marine, and geochemistry to planetary and astrochemistry findings. Or join the conversation at <cite>Environmental Science & Technology</cite> - a transformational and direction-setting forum for a multidisciplinary and diverse audience of scientists, policy makers, and the broad environmental community.",
+        "axialTopic": "earth-space-and-environmental-chemistry"
+    },
+    "energy": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001R_T001263_Energy_Subject_Area_Page",
+            "src": "IC001_ST0001R_T001263_Energy_Subject_Area_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "enfuem",
+                    "aelccp",
+                    "aeclc7",
+                    "apwdam",
+                    "aaemcq",
+                    "acsodf",
+                    "chreay",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "acscii",
+                    "aeacb3",
+                    "aeacc4",
+                    "aeecco",
+                    "apchd5",
+                    "apcach",
+                    "esthag",
+                    "estlcu",
+                    "psabes",
+                    "jpccck",
+                    "jpclcd",
+                    "acsodf"
+                ]
+            }
+        ],
+        "subject_name": "Energy",
+        "subject_link": "/energy",
+        "blurb": "Energy is defined as the capacity for doing work, and may exist in various forms, including potential, kinetic, thermal, electrical, and chemical. Energy cannot be created nor destroyed, but may be changed from one form to another according to the principles of the first law of thermodynamics. Energy chemistry is concerned with devising sustainable solutions for energy conversion and storage, and draws on complementary knowledge from the fields of engineering, physics, and biology. Key topics of research include new materials for thermoelectrics, photovoltaics, and photo-electrosynthesis cells.",
+        "axialTopic": "energy"
+    },
+    "inorganic-chemistry": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001R_T000545_Inorganic_Subject_Page",
+            "src": "IC001_ST0001R_T000545_Inorganic_Subject_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "inocaj",
+                    "orgnd7",
+                    "aoiab5",
+                    "accacs",
+                    "acsodf",
+                    "chreay",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "acscii",
+                    "aeclc7",
+                    "jceda8",
+                    "cbihbp"
+                ]
+            }
+        ],
+        "subject_name": "Inorganic Chemistry",
+        "subject_link": "/inorganic-chemistry",
+        "blurb": "Inorganic chemistry is concerned with the properties and behavior of inorganic metals, minerals, and organometallic compounds. The critical distinction from organic chemistry is that inorganic compounds do not contain carbon. But there can be overlap; for example, organometallic compounds usually contain a metal or metalloid bonded directly to carbon. Inorganic chemistry focuses on understanding these materials, and working out how they can be modified, separated, and used. Inorganic chemistry is a core discipline with utility across diverse applications.",
+        "axialTopic": "inorganic-chemistry"
+    },
+    "materials-science": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001R_T000821_Materials_Subject_Page",
+            "src": "IC001_ST0001R_T000821_Materials_Subject_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "cmatex",
+                    "amlcef",
+                    "amacgu",
+                    "aamick",
+                    "amrcda",
+                    "cgdefu",
+                    "langd5",
+                    "aaembp",
+                    "aaemcq",
+                    "aaemdr",
+                    "aaoma6",
+                    "aanmf6",
+                    "aapmcd",
+                    "aabmcb",
+                    "ancac3",
+                    "nalefd",
+                    "anaccx",
+                    "abseba",
+                    "acsodf",
+                    "chreay",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "aeclc7",
+                    "aelccp",
+                    "jpccck",
+                    "jpclcd",
+                    "ascefj"
+                ]
+            }
+        ],
+        "subject_name": "Materials Science",
+        "subject_link": "/materials-science",
+        "blurb": "Materials science is a varied, interdisciplinary field covering the design and discovery of new solid materials such as metals, polymers, semiconductors, and ceramics. The field explores the relationships between a material's structure, properties, and how it is made, enabling the development of new materials and advanced manufacturing processes. Materials science encompasses solid-state physics, metallurgy, and chemistry, and is vital for a diverse range of allied fields including nanotechnology, quantum computing, energy storage, nuclear energy, medical technologies, and drug delivery. It also plays a key role in engineering activities like electronics, aerospace, telecommunications, and information processing.",
+        "axialTopic": "materials-science"
+    },
+    "medicinal-chemistry": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001D_T001521_Medicinal_Subject_Area_Page",
+            "src": "IC001_ST0001D_T001521_Medicinal_Subject_Area_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "jmcmar",
+                    "amclct",
+                    "abmcb8",
+                    "aidcbc",
+                    "aptsfn",
+                    "mpohbp",
+                    "anmafm",
+                    "jnprdf",
+                    "cbihbp",
+                    "acbcct",
+                    "acncdm",
+                    "joceah",
+                    "orlef7",
+                    "crtoec",
+                    "acscii",
+                    "acsodf",
+                    "chreay",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "ehnea2",
+                    "jcisd8"
+                ]
+            }
+        ],
+        "subject_name": "Medicinal Chemistry",
+        "subject_link": "/medicinal-chemistry",
+        "blurb": "Trust ACS to bring you experimental and theoretical studies across a broad range of medicinal chemistry, including compound design and optimization, biological evaluation, molecular mechanistic understanding of drug delivery and drug delivery systems, imaging agents, and pharmacology and translational science of both small and large bioactive molecules.",
+        "axialTopic": "medicinal-chemistry"
+    },
+    "multidisciplinary": {
+        "trackingCode": {
+            "utm_source": "",
+            "utm_medium": "",
+            "utm_campaign": "",
+            "src": ""
+        },
+        "relatedJournals": [
+            {
+                "coden": []
+            }
+        ],
+        "subject_name": "Multidisciplinary",
+        "subject_link": "/multidisciplinary",
+        "blurb": "Trust ACS to bring you experimental and theoretical studies across a broad range of medicinal chemistry, including compound design and optimization, biological evaluation, molecular mechanistic understanding of drug delivery and drug delivery systems, imaging agents, and pharmacology and translational science of both small and large bioactive molecules."
+    },
+    "multidisciplinary-all-subjects": {
+        "trackingCode": {
+            "utm_source": "",
+            "utm_medium": "",
+            "utm_campaign": "",
+            "src": ""
+        },
+        "relatedJournals": [
+            {
+                "coden": []
+            }
+        ],
+        "subject_name": "Multidisciplinary All Subjects",
+        "subject_link": "/multidisciplinary-all-subjects"
+    },
+    "nanoscience": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001D_T001379_Nanoscience_Subject_Page",
+            "src": "IC001_ST0001D_T001379_Nanoscience_Subject_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "nalefd",
+                    "ancac3",
+                    "anaccx",
+                    "anmafm",
+                    "aanmf6",
+                    "acsodf",
+                    "chreay",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "acscii"
+                ]
+            }
+        ],
+        "subject_name": "Nanoscience",
+        "subject_link": "/nanoscience",
+        "blurb": "Nanomaterials may be tiny, but the field of nanoscience is growing. ACS is devoted to reports of original experimental and theoretical research in nanomaterials, with a number of specialist journals covering their application in materials, engineering, physics, bioscience, and chemistry. For example, <cite>ACS Nano</cite> and <cite>ACS Nanoscience Au</cite> publish comprehensive articles on the synthesis, assembly, characterization, theory, and simulation of nanostructures, plus nanofabrication and potential methods and tools for assembly. Join global experts in the field and get fresh perspectives on cutting-edge research and insights into new directions in the field.",
+        "axialTopic": "nanoscience"
+    },
+    "organic-chemistry": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001D_T001495_Organic_and_Organometallic_Chemistry_Page",
+            "src": "IC001_ST0001D_T001495_Organic_and_Organometallic_Chemistry_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "joceah",
+                    "orlef7",
+                    "orgnd7",
+                    "aoiab5",
+                    "oprdfk",
+                    "accacs",
+                    "jnprdf",
+                    "jceda8",
+                    "amlccd",
+                    "mamobx",
+                    "bomaf6",
+                    "apaccd",
+                    "pstoco",
+                    "aeclc7",
+                    "achre4",
+                    "pcrhej",
+                    "jacsat",
+                    "chreay",
+                    "jaaucr",
+                    "acscii",
+                    "acsodf"
+                ]
+            }
+        ],
+        "subject_name": "Organic Chemistry",
+        "subject_link": "/organic-chemistry",
+        "blurb": "Satisfy your curiosity about organic and organometallic chemistry, with a journey into the ACS portfolio. From the fundamentals in <cite>The Journal of Organic Chemistry</cite>, to specialist periodicals in the field including <cite>Organometallics and Organic Process Research & Development</cite>, you will stay at the forefront of world-leading experimental and theoretical research in both industry and academia. Wide-ranging coverage includes contributions to the life and materials sciences, plus compound and polymer discovery, and energy and fuels.",
+        "axialTopic": "organic-chemistry"
+    },
+    "physical-chemistry": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001D_T001072_Physical_Science_Subject_Page",
+            "src": "IC001_ST0001D_T001072_Physical_Science_Subject_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "jpcafh",
+                    "jpcbfk",
+                    "jpccck",
+                    "jpclcd",
+                    "apcach",
+                    "apchd5",
+                    "psabes",
+                    "langd5",
+                    "jacsat",
+                    "jceda8",
+                    "acsodf",
+                    "chreay",
+                    "jaaucr",
+                    "pcrhej",
+                    "achre4",
+                    "acscii",
+                    "aaembp",
+                    "aaoma6",
+                    "aeclc7",
+                    "apwdam",
+                    "jcisd8",
+                    "jctcce"
+                ]
+            }
+        ],
+        "subject_name": "Physical Chemistry",
+        "subject_link": "/physical-chemistry",
+        "blurb": "Physical chemistry is a branch of chemistry that applies the core techniques and theories of physics to the study of chemical systems in order to ask questions about how matter behaves at a molecular and atomic level, and how chemical reactions occur. It is concerned with the interactions and transformations of materials, and the principles that guide these processes. This includes concepts such as motion, energy, and thermodynamics, as well as quantum chemistry, mechanics, analytical dynamics, and chemical equilibria. Physical chemistry is a fundamental science with applications in diverse fields such as engineering, biomaterials, and molecular modeling.",
+        "axialTopic": "physical-chemistry"
+    },
+    "polymer-science-and-macromolecular-chemistry": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001R_T001302_PLY_Polymer_Subject_Page",
+            "src": "IC001_ST0001R_T001302_PLY_Polymer_Subject_Page"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "mamobx",
+                    "amlccd",
+                    "apaccd",
+                    "bomaf6",
+                    "pstoco",
+                    "aapmcd",
+                    "aabmcb",
+                    "accacs",
+                    "acsodf",
+                    "chreay",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "acscii"
+                ]
+            }
+        ],
+        "subject_name": "Polymer Science & Macromolecular Chemistry",
+        "subject_link": "/polymer-science-and-macromolecular-chemistry",
+        "blurb": "Explore the latest in polymer science across ACS Publications journals, with cutting-edge work addressing novel approaches to the synthesis of new and existing polymers, as well as research into the fundamental relationships between chemistry and function, and insights into mechanisms critical to polymer performance and application in a variety of cross-disciplinary areas. All this is available in journals such as <cite>Macromolecules</cite>, <cite>Biomacromolecules</cite>, <cite>ACS Macro Letters</cite>, <cite>ACS Polymers Au</cite>, and <cite>ACS Applied Polymer Materials</cite>, and complemented by additional publications in the field, including <cite>Precision Chemistry</cite> and <cite>Bioconjugate Chemistry</cite> - a leading forum for the dissemination of research at the interface of polymer science and biology.",
+        "axialTopic": "polymer-science"
+    },
+    "theoretical-computational-chemistry": {
+        "trackingCode": {
+            "utm_source": "pubsw",
+            "utm_medium": "web",
+            "utm_campaign": "IC001_ST0001D_T001608_Theoretical_Computational",
+            "src": "IC001_ST0001D_T001608_Theoretical_Computational"
+        },
+        "relatedJournals": [
+            {
+                "coden": [
+                    "jcisd8",
+                    "jctcce",
+                    "jpcafh",
+                    "jpcbfk",
+                    "jpccck",
+                    "jpclcd",
+                    "apcach",
+                    "jprobs",
+                    "jamsef",
+                    "acsodf",
+                    "chreay",
+                    "jaaucr",
+                    "jacsat",
+                    "pcrhej",
+                    "achre4",
+                    "acscii",
+                    "bichaw",
+                    "cgdefu"
+                ]
+            }
+        ],
+        "subject_name": "Theoretical and Computational Chemistry",
+        "subject_link": "/theoretical-computational-chemistry",
+        "blurb": "ACS journals showcase advances in theory, methodology, and data science, with the publication of innovative solutions to problems in chemistry and materials science. <br><br>Explore the field of theoretical and computational chemistry across a suite of specialist journals, with world-leading research disseminated in the <cite>Journal of Chemical Theory and Computation</cite> and <cite>Journal of Chemical Information and Modeling</cite>. <cite>The Journal of Physical Chemistry</cite> family also shares new computational tools or methods that are of broad interest to the chemistry community.",
+        "axialTopic": "theoretical-and-computational-chemistry"
+    }
+}

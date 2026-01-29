@@ -1,0 +1,20 @@
+{
+      "seriesInfo": {
+            "series": {
+                  "infocus": {
+                        "blurb":  "Supporting graduate students and scientists seeking to accelerate their fundamental understanding of emerging topics and techniques from across the sciences."
+      },
+				 "symposium": {
+                        "blurb":  "High-quality, peer-reviewed ebooks containing essential research overviews by the expert scientists spanning all disciplines and applications."
+      },
+
+				 "reagents": {
+                        "blurb":  "Specifications and Procedures for Reagents and Standard-Grade Reference Materials."
+      },
+				 "styleguide": {
+                        "blurb":  "Instruction and advice for students, researchers, educators, and librarians on all topics of scholarly communication."
+      }
+
+    }
+  }
+}
